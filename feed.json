@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "version": 1,
+    "feedName": "Claude Skills Daily",
+    "description": "Daily curated Claude AI skills news for small and medium businesses",
+    "siteUrl": "https://claudeskillsmarket.com",
+    "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
+    "lastUpdated": "2026-04-28T11:30:00-05:00",
+    "entryCount": 0
+  },
+  "entries": [],
+  "categories": {
+    "news": { "label": "Industry News", "icon": "📰", "entries": [] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [] },
+    "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
+  }
+}
