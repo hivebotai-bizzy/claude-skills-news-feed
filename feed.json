@@ -5,12 +5,34 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-04-28T11:35:00-05:00",
+    "lastUpdated": "2026-04-28T13:02:00-05:00",
     "entryCount": 6
   },
   "entries": [
     {
       "id": "2026-04-28-001",
+      "title": "Mark Cuban Shares 3 Prompts to Turn Claude Into an SMB Agent-Building Machine",
+      "url": "https://www.businessinsider.com/mark-cuban-future-proof-career-ai-2026-4",
+      "source": "Business Insider",
+      "sourceLabel": "Business Insider",
+      "category": "news",
+      "summary": "Cuban recommends Claude specifically for SMBs: ask it to teach agent creation for restaurants, real estate, and e-commerce; generate study guides for active learning; and correct/adapt to your skill level. Three prompts that turn any SMB owner into an AI agent builder — no technical background needed.",
+      "tags": ["mark-cuban", "smb", "agents", "prompting", "business-strategy"],
+      "featured": true
+    },
+    {
+      "id": "2026-04-28-002",
+      "title": "Claude Opus 4.7 Saved a 60-Person Company From Cyber-Annihilation",
+      "url": "https://tatsuikeda.substack.com/p/claude-opus-47-and-i-saved-a-60-person",
+      "source": "Tatsu Ikeda (Substack)",
+      "sourceLabel": "Tatsu's Newsletter",
+      "category": "vertical",
+      "summary": "A security consultant used Claude Opus 4.7 to reverse-engineer malware, trace a ClickFix campaign, run forensics, and produce a HIPAA risk assessment — all in one afternoon. Shows how SMBs without dedicated security teams can use Claude as a force multiplier for incident response.",
+      "tags": ["security", "case-study", "opus-4-7", "hipaa", "incident-response"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-28-003",
       "title": "Anthropic Launches Claude for Creative Work — Connectors for Blender, Adobe, Autodesk, Ableton, and More",
       "url": "https://www.anthropic.com/news/claude-for-creative-work",
       "source": "Anthropic",
@@ -18,10 +40,10 @@
       "category": "news",
       "summary": "Claude now integrates directly with Blender, Adobe Creative Cloud, Autodesk Fusion, Ableton, SketchUp, and Splice. SMBs in graphic design, video production, music, architecture, and product design can automate repetitive creative tasks and control these tools through natural language conversations.",
       "tags": ["creative-work", "integrations", "design", "3d-modeling", "anthropic"],
-      "featured": true
+      "featured": false
     },
     {
-      "id": "2026-04-28-002",
+      "id": "2026-04-28-004",
       "title": "15 Real-World Claude Cowork Use Cases That Actually Work — Plus Who Walked Away",
       "url": "https://buildtolaunch.substack.com/p/claude-cowork-use-cases-real-workflows",
       "source": "Build to Launch (Substack)",
@@ -32,18 +54,7 @@
       "featured": false
     },
     {
-      "id": "2026-04-28-003",
-      "title": "Claude MCP Connects to 9,000+ Apps via Zapier and monday.com — No Coding Required",
-      "url": "https://zapier.com/blog/best-ai-agents",
-      "source": "Zapier",
-      "sourceLabel": "Zapier Blog",
-      "category": "news",
-      "summary": "Native MCP support lets SMBs connect Claude to Zapier, monday.com, and Axonaut through OAuth for task creation, data reads, field updates, and cross-app automations. Set up in minutes — start with a basic Zap, then expand to agent-driven multi-step workflows.",
-      "tags": ["mcp", "integrations", "zapier", "automation", "no-code"],
-      "featured": false
-    },
-    {
-      "id": "2026-04-28-004",
+      "id": "2026-04-28-005",
       "title": "Memory for Claude Managed Agents Enters Public Beta — Persistent Context Across Sessions",
       "url": "https://releasebot.io/updates/anthropic",
       "source": "Anthropic API",
@@ -54,7 +65,7 @@
       "featured": false
     },
     {
-      "id": "2026-04-28-005",
+      "id": "2026-04-28-006",
       "title": "Virtual CFO Agent Helps SMB Manage Monthly Accounts, KPIs, and Variance Reports",
       "url": "https://www.dawgen.global/beyond-the-hype-what-ai-agents-actually-do-in-an-enterprise/",
       "source": "Dawgen Global",
@@ -63,23 +74,12 @@
       "summary": "A real case study of a Claude-powered Virtual CFO agent serving a small Caribbean enterprise — preparing monthly management accounts, reviewing trial balances, generating KPI dashboards, and producing variance commentary alongside a part-time accountant. Shows how SMBs can access sophisticated finance analysis without hiring a full-time CFO.",
       "tags": ["finance", "cfo", "accounting", "smb", "case-study"],
       "featured": false
-    },
-    {
-      "id": "2026-04-28-006",
-      "title": "Demand Surges for Claude Specialists on Upwork — Healthcare Prompt Engineer and Marketing Roles Open",
-      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-expert_~022048775221030144977/",
-      "source": "Upwork",
-      "sourceLabel": "Upwork",
-      "category": "job",
-      "summary": "Upwork listings show rising demand for Claude-specialized freelancers at $30-60/hr with roles in healthcare prompt engineering, enterprise implementation, and content marketing strategy. SMBs looking to hire Claude talent can tap this growing freelance pool for project-based AI work.",
-      "tags": ["jobs", "freelance", "upwork", "hiring", "prompt-engineering"],
-      "featured": false
     }
   ],
   "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 3] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [1] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [4] },
-    "job": { "label": "Job Postings", "icon": "💼", "entries": [5] }
+    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 4] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [3] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1, 5] },
+    "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
   }
 }
