@@ -5,14 +5,81 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-04-28T11:30:00-05:00",
-    "entryCount": 0
+    "lastUpdated": "2026-04-28T11:35:00-05:00",
+    "entryCount": 6
   },
-  "entries": [],
+  "entries": [
+    {
+      "id": "2026-04-28-001",
+      "title": "Anthropic Launches Claude for Creative Work — Connectors for Blender, Adobe, Autodesk, Ableton, and More",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Official",
+      "category": "news",
+      "summary": "Claude now integrates directly with Blender, Adobe Creative Cloud, Autodesk Fusion, Ableton, SketchUp, and Splice. SMBs in graphic design, video production, music, architecture, and product design can automate repetitive creative tasks and control these tools through natural language conversations.",
+      "tags": ["creative-work", "integrations", "design", "3d-modeling", "anthropic"],
+      "featured": true
+    },
+    {
+      "id": "2026-04-28-002",
+      "title": "15 Real-World Claude Cowork Use Cases That Actually Work — Plus Who Walked Away",
+      "url": "https://buildtolaunch.substack.com/p/claude-cowork-use-cases-real-workflows",
+      "source": "Build to Launch (Substack)",
+      "sourceLabel": "Build to Launch",
+      "category": "community",
+      "summary": "A practical breakdown from 17 creators on what Claude Cowork actually delivers for small teams: daily briefings, content pipelines, personal assistant workflows, and scheduled automations. Includes honest takes on where it fails and the better alternative most people haven't tried.",
+      "tags": ["claude-cowork", "workflows", "automation", "non-technical"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-28-003",
+      "title": "Claude MCP Connects to 9,000+ Apps via Zapier and monday.com — No Coding Required",
+      "url": "https://zapier.com/blog/best-ai-agents",
+      "source": "Zapier",
+      "sourceLabel": "Zapier Blog",
+      "category": "news",
+      "summary": "Native MCP support lets SMBs connect Claude to Zapier, monday.com, and Axonaut through OAuth for task creation, data reads, field updates, and cross-app automations. Set up in minutes — start with a basic Zap, then expand to agent-driven multi-step workflows.",
+      "tags": ["mcp", "integrations", "zapier", "automation", "no-code"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-28-004",
+      "title": "Memory for Claude Managed Agents Enters Public Beta — Persistent Context Across Sessions",
+      "url": "https://releasebot.io/updates/anthropic",
+      "source": "Anthropic API",
+      "sourceLabel": "Anthropic API Changelog",
+      "category": "news",
+      "summary": "Claude Managed Agents can now remember context between conversations using the managed-agents-2026-04-01 API. For SMBs, this means customer support agents, sales follow-up bots, and internal SOP assistants that don't need re-explanation every session.",
+      "tags": ["managed-agents", "memory", "api", "customer-support"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-28-005",
+      "title": "Virtual CFO Agent Helps SMB Manage Monthly Accounts, KPIs, and Variance Reports",
+      "url": "https://www.dawgen.global/beyond-the-hype-what-ai-agents-actually-do-in-an-enterprise/",
+      "source": "Dawgen Global",
+      "sourceLabel": "Dawgen Global",
+      "category": "vertical",
+      "summary": "A real case study of a Claude-powered Virtual CFO agent serving a small Caribbean enterprise — preparing monthly management accounts, reviewing trial balances, generating KPI dashboards, and producing variance commentary alongside a part-time accountant. Shows how SMBs can access sophisticated finance analysis without hiring a full-time CFO.",
+      "tags": ["finance", "cfo", "accounting", "smb", "case-study"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-28-006",
+      "title": "Demand Surges for Claude Specialists on Upwork — Healthcare Prompt Engineer and Marketing Roles Open",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-expert_~022048775221030144977/",
+      "source": "Upwork",
+      "sourceLabel": "Upwork",
+      "category": "job",
+      "summary": "Upwork listings show rising demand for Claude-specialized freelancers at $30-60/hr with roles in healthcare prompt engineering, enterprise implementation, and content marketing strategy. SMBs looking to hire Claude talent can tap this growing freelance pool for project-based AI work.",
+      "tags": ["jobs", "freelance", "upwork", "hiring", "prompt-engineering"],
+      "featured": false
+    }
+  ],
   "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [] },
-    "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
+    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 3] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [1] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [4] },
+    "job": { "label": "Job Postings", "icon": "💼", "entries": [5] }
   }
 }
