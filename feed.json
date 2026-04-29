@@ -5,10 +5,76 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-04-28T13:02:00-05:00",
-    "entryCount": 6
+    "lastUpdated": "2026-04-29T13:00:00-05:00",
+    "entryCount": 12
   },
   "entries": [
+    {
+      "id": "2026-04-29-001",
+      "title": "Malwarebytes Launches Free Claude Connector for Real-Time Scam Detection",
+      "url": "https://securityboulevard.com/2026/04/scam-checking-just-got-a-lot-easier-malwarebytes-is-now-in-claude/",
+      "source": "Security Boulevard",
+      "sourceLabel": "Security Boulevard",
+      "category": "news",
+      "summary": "Malwarebytes released a free Claude connector that lets you instantly scan phone numbers, links, emails, and domains for phishing and scams during conversations — no account required. Any SMB owner can enable it in 30 seconds (Customize > Connectors > Browse > Malwarebytes). Enterprise-grade threat intelligence, zero cost, immediate protection for your business communications.",
+      "tags": ["security", "malwarebytes", "scam-detection", "connectors", "phishing"],
+      "featured": true
+    },
+    {
+      "id": "2026-04-29-002",
+      "title": "Claude's Metered Pricing Shift: 7 Hidden Costs SMBs Must Know + How to Cut Bills 50-70%",
+      "url": "https://blog.brandsatplayllc.com/blog/2026-claude-pricing-7-hidden-costs-to-businesses-and-what-to-do",
+      "source": "Brands at Play LLC",
+      "sourceLabel": "Brands at Play AI Blog",
+      "category": "news",
+      "summary": "Anthropic's move to fully metered API billing dropped headline prices 67% but created unpredictable cost spikes — one SMB saw a $131 daily jump. The fix: route simple tasks to Haiku, use prompt caching (90% savings on repeated context), batch non-urgent work (50% discount), and move from Opus 4/4.1 to newer models. Implemented together, these strategies cut blended costs by half or more for small businesses.",
+      "tags": ["pricing", "api", "cost-management", "budgeting", "optimization", "model-routing"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-29-003",
+      "title": "SMB Founder Shares Claude HR Automation Prompts for Payroll and Onboarding on Reddit",
+      "url": "https://www.reddit.com/r/SaaS/comments/1eghijk/claudeai_for_smb_hr_automating_payroll/",
+      "source": "Reddit",
+      "sourceLabel": "r/SaaS",
+      "category": "community",
+      "summary": "A 20-person company founder shared their Claude prompt pack for automating payroll processing and new hire onboarding workflows. Hands-on proof that SMBs without HR departments can use Claude Projects with custom instructions to handle employee management — saving hours per week without expensive HR software.",
+      "tags": ["hr", "payroll", "onboarding", "prompts", "reddit", "workflow-automation"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-29-004",
+      "title": "Claude API Outages Push Heavy Users Toward AWS Bedrock — What SMBs Should Know",
+      "url": "https://news.ycombinator.com/item?id=47938097",
+      "source": "Hacker News",
+      "sourceLabel": "Hacker News",
+      "category": "news",
+      "summary": "A major Claude outage hit today, with enterprise users spending $200K+/month reporting 'astounding' reliability problems and single-9s uptime. The community consensus: route Claude usage through AWS Bedrock instead, which offers multi-LLM fallback, prompt caching (via Converse API), and better stability at similar API rates. SMBs building critical workflows on Claude should consider this as an insurance policy.",
+      "tags": ["reliability", "aws-bedrock", "api", "uptime", "infrastructure", "outage"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-29-005",
+      "title": "Upwork Sees Surge in 'Claude Cowork' and 'Claude Skills' Freelance Gigs for SMB Automation",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Cowork-Automation-Expert_~022049474939585069760/",
+      "source": "Upwork",
+      "sourceLabel": "Upwork",
+      "category": "job",
+      "summary": "Multiple new Upwork postings explicitly seek 'Claude Cowork Automation Experts' and 'Claude AI Specialists' to build custom operating system workflows for small businesses. SMB owners can either hire for turnkey automation or freelancers can pivot into this hot niche — demand centers on Claude Skills, Projects, and n8n integrations with real budget behind them.",
+      "tags": ["freelance", "jobs", "upwork", "claude-cowork", "automation", "career"],
+      "featured": false
+    },
+    {
+      "id": "2026-04-29-006",
+      "title": "GoodDay Brings AI-Native Inventory Management to Shopify SMBs via Claude Integration",
+      "url": "https://www.gooddaysoftware.com/why-goodday",
+      "source": "GoodDay Software",
+      "sourceLabel": "GoodDay Software",
+      "category": "vertical",
+      "summary": "GoodDay launched an AI-native Shopify ERP that connects live inventory, purchase orders, and order data directly into Claude — letting SMB operators ask questions and take actions in natural language. Automates FIFO cost accounting, reconciles Shopify with warehouse systems, and connects 100+ 3PL integrations. For e-commerce SMBs, this means no more manual spreadsheet reconciliation.",
+      "tags": ["e-commerce", "shopify", "inventory", "erp", "integration", "automation"],
+      "featured": false
+    },
     {
       "id": "2026-04-28-001",
       "title": "Mark Cuban Shares 3 Prompts to Turn Claude Into an SMB Agent-Building Machine",
@@ -18,7 +84,7 @@
       "category": "news",
       "summary": "Cuban recommends Claude specifically for SMBs: ask it to teach agent creation for restaurants, real estate, and e-commerce; generate study guides for active learning; and correct/adapt to your skill level. Three prompts that turn any SMB owner into an AI agent builder — no technical background needed.",
       "tags": ["mark-cuban", "smb", "agents", "prompting", "business-strategy"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-04-28-002",
@@ -77,9 +143,9 @@
     }
   ],
   "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 4] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [3] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1, 5] },
-    "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
+    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 1, 3, 6, 8, 10] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [2, 9] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [5, 7, 11] },
+    "job": { "label": "Job Postings", "icon": "💼", "entries": [4] }
   }
 }
