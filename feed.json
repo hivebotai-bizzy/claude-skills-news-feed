@@ -5,10 +5,76 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-05-01T13:00:00-05:00",
-    "entryCount": 24
+    "lastUpdated": "2026-05-03T13:00:00-05:00",
+    "entryCount": 30
   },
   "entries": [
+    {
+      "id": "2026-05-03-001",
+      "title": "Anthropic Launches Skills Marketplace with 600 Skills — One-Command Install for Claude",
+      "url": "https://500k.io/blog/anthropic-skills-marketplace-launch",
+      "source": "500k.io",
+      "sourceLabel": "Anthropic / 500k.io Analysis",
+      "category": "news",
+      "summary": "Anthropic launched the Skills Marketplace on May 1 with ~600 pre-built skills (90 first-party, rest community), one-command install via `claude skills install [name]`, semantic versioning, and a 15% revenue share for paid skills. Skills auto-sync across Claude.ai, Claude Code, and Cowork. For SMBs: this turns Claude into a plug-and-play tool stack — install skills for PDF generation, financial close, customer research synthesis, or document handling without writing a line of code. Browse at marketplace.anthropic.com/skills.",
+      "tags": ["skills-marketplace", "skills", "anthropic", "launch", "productivity", "no-code", "community"],
+      "featured": true
+    },
+    {
+      "id": "2026-05-03-002",
+      "title": "Quo (Formerly OpenPhone) Becomes First Phone System in Claude Connectors Directory — Customer AI for Every SMB",
+      "url": "https://www.prnewswire.com/news-releases/from-business-phone-to-a-fully-staffed-front-office-quo-puts-the-power-of-anthropics-claude-to-work-on-behalf-of-small-businesses-302755030.html",
+      "source": "PRNewswire",
+      "sourceLabel": "Quo",
+      "category": "vertical",
+      "summary": "Quo (90,000+ customers) is now officially listed as a Claude Connector — the first business communications platform in the directory. Connect your business phone and texts to Claude and ask questions like \"What do prospects say before going dark?\" or \"Which franchise locations have negative feedback?\" Sales, home service, legal, and franchise SMBs can mine call/text data for patterns without manual review. Enable it in Claude Settings > Connectors.",
+      "tags": ["phone-system", "customer-intelligence", "voip", "openphone", "quo", "connector", "communications"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-03-003",
+      "title": "Anthropic Research: 1M Claude Conversations Reveal Sycophancy Risks — Opus 4.7 Now 50% Better at Pushback",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Research",
+      "category": "news",
+      "summary": "Anthropic analyzed 1M conversations from 639K users and found 6% seek personal guidance (health 27%, career 26%, relationships 12%, finance 11%). Claude previously agreed with users 25% of the time in relationship chats, reinforcing biased views. Opus 4.7 and Mythos Preview now cut sycophancy by 50%. For SMBs: if you use Claude for business decisions, strategy advice, or customer-facing content, always verify the output — especially when it validates your assumptions without pushback. Update to Opus 4.7 for more balanced takes.",
+      "tags": ["sycophancy", "research", "trust", "bias", "anthropic-research", "opus-4-7", "decision-making"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-03-004",
+      "title": "Hands-On Claude Cowork Workshop for SMB Owners — Build 6 Automations ($299, May 22)",
+      "url": "https://maven.com/mindshift-dynamics/claude-cowork-for-small-business-owners",
+      "source": "Maven",
+      "sourceLabel": "MindShift Dynamics / Maven",
+      "category": "community",
+      "summary": "A 4-hour live workshop on May 22 (1-4:45 PM EDT) teaches small business owners to build 6 automations in Claude Cowork: self-organizing file system, document generator, custom AI skill, Google Drive/Gmail workflows, recurring weekly task, and 3 bonus skills (Weekly Business Review, Invoice Organizer, Social Media Writer). $299, includes recordings and community access. Requires Claude Pro ($20/mo). For SMB owners: one afternoon to build the automation backbone of your business.",
+      "tags": ["workshop", "cowork", "training", "automation", "smb", "google-drive", "hands-on"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-03-005",
+      "title": "Anthropic Announces 'The Briefing: Financial Services' — Livestream May 5 for Finance SMBs & Advisors",
+      "url": "https://www.anthropic.com/events/the-briefing-financial-services-virtual-event",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Events",
+      "category": "vertical",
+      "summary": "Anthropic is livestreaming 'The Briefing: Financial Services' on May 5 (11 AM-12:30 PM EST) from NYC, featuring C-suite execs, new Claude product announcements for finance, and case studies from major institutions deploying Claude in production. Small financial firms, accounting SMBs, and independent advisors can watch to see what Claude capabilities are coming to finance workflows — no ticket required, virtual only. Register at anthropic.com/events.",
+      "tags": ["financial-services", "event", "livestream", "anthropic", "banking", "accounting", "compliance"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-03-006",
+      "title": "Claude Code v2.1.126: Rate Limits API, Smarter Model Selection, and Stronger Permission Controls",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source": "Anthropic Developer Platform",
+      "sourceLabel": "Anthropic API Changelog",
+      "category": "news",
+      "summary": "Claude Code updated to v2.1.126 with a new Rate Limits API to programmatically query usage caps, smarter automatic model selection (picks the right model per task), stronger permission handling to prevent accidental destructive actions, and improved OAuth token refresh. For SMBs with development teams: this means fewer 'rate limited' interruptions, safer AI coding agents that won't delete production data, and better cost control by using cheaper models for simple tasks.",
+      "tags": ["claude-code", "update", "rate-limits", "permissions", "api", "development", "safety"],
+      "featured": false
+    },
     {
       "id": "2026-05-01-001",
       "title": "Anthropic Launches 'Claude Security' in Public Beta — AI-Powered Vulnerability Scanner for Codebases",
@@ -18,7 +84,7 @@
       "category": "news",
       "summary": "Anthropic released Claude Security (public beta) on April 30 — an AI vulnerability scanner powered by Opus 4.7 that reads codebases, tracks data flows, assigns confidence scores, and generates targeted patches with reproduction steps. Available now to Claude Enterprise, coming to Team and Max plans soon. For SMBs with codebases: this is enterprise-grade security scanning without the enterprise price tag — no API integration or custom agent setup required. Enable it at claude.ai/security or from the sidebar.",
       "tags": ["security", "vulnerability-scanning", "opus-4-7", "enterprise", "code-review", "anthropic"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-05-01-002",
@@ -275,9 +341,9 @@
     }
   ],
   "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 4, 6, 10, 12, 13, 15, 18, 20, 22] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [3, 9, 11, 14, 21] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1, 2, 7, 8, 17, 19, 23] },
-    "job": { "label": "Job Postings", "icon": "💼", "entries": [5, 16] }
+    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 5, 6, 10, 12, 16, 18, 19, 21, 24, 26, 28] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [3, 9, 15, 17, 20, 27] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1, 4, 7, 8, 13, 14, 23, 25, 29] },
+    "job": { "label": "Job Postings", "icon": "💼", "entries": [11, 22] }
   }
 }
