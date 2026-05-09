@@ -5,10 +5,76 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-05-03T13:00:00-05:00",
-    "entryCount": 30
+    "lastUpdated": "2026-05-09T13:00:00-05:00",
+    "entryCount": 36
   },
   "entries": [
+    {
+      "id": "2026-05-09-001",
+      "title": "Code w/ Claude 2026: Dreaming, Outcomes & Multiagent Orchestration — Self-Improving AI Agents Go Live",
+      "url": "https://9to5mac.com/2026/05/07/anthropic-updates-claude-managed-agents-with-three-new-features/",
+      "source": "9to5Mac / Anthropic",
+      "sourceLabel": "Anthropic — Code w/ Claude 2026",
+      "category": "news",
+      "summary": "Anthropic dropped three bombshell updates at 'Code w/ Claude 2026' (May 6): Dreaming (research preview) lets agents review past sessions and self-improve overnight; Outcomes (public beta) lets you grade agent results by rubric so they auto-iterate until right; Multiagent Orchestration (public beta) lets a lead agent delegate subtasks to specialist sub-agents with their own models and tools. For SMBs: these are the building blocks for hands-off AI operations — agents that get better without you watching, grade themselves, and form AI teams. Apply for Dreaming access in the Anthropic console today.",
+      "tags": ["managed-agents", "dreaming", "outcomes", "multiagent", "orchestration", "anthropic", "event", "code-with-claude", "self-improving"],
+      "featured": true
+    },
+    {
+      "id": "2026-05-09-002",
+      "title": "Anthropic Launches 10 Ready-to-Run Finance Agent Templates — Pitch Books, KYC, Month-End Close",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Official",
+      "category": "vertical",
+      "summary": "Anthropic released 10 pre-built agent templates for financial services: pitch book builder, KYC screening, valuations review, closing books, and more. Ships as Claude Cowork/Code plugins and Managed Agent cookbooks. Works with Microsoft Excel, PowerPoint, and Word via Office add-ins. For SMBs: your bookkeeper or accountant can now run month-end close, screen clients, or prepare pitch decks through natural language — no integration project required. Get them at github.com/anthropics/financial-services.",
+      "tags": ["finance", "accounting", "templates", "agents", "kyc", "closing-books", "pitch-books", "microsoft-365", "opus-4-7"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-09-003",
+      "title": "Era Becomes First Personal Finance Connector in Claude Directory — AI That Reorganizes Your Money, Not Just Talks About It",
+      "url": "https://lasvegassun.com/news/2026/may/06/era-becomes-the-first-personal-finance-connector-i/",
+      "source": "Las Vegas Sun / BusinessWire",
+      "sourceLabel": "Era",
+      "category": "vertical",
+      "summary": "Era is now the first personal finance connector in the Claude directory — supervise $250M+ in user assets through Claude with unified account views, transaction tracking, and a rule engine Claude can write to. One prompt can reorganize hundreds of past transactions into custom categories, create auto-routing rules, and carry goals across sessions. For SMB owners: connects personal and business finances into one Claude conversation — manage cash flow, tag business expenses, and automate category structures without spreadsheets. Enable it in Claude Settings > Connectors.",
+      "tags": ["personal-finance", "connector", "era", "accounting", "expense-tracking", "automation", "claude-directory"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-09-004",
+      "title": "Prismatic Releases Open-Source Skills for Claude Code — Build Integrations Faster Without Context-Switching",
+      "url": "https://www.devopsdigest.com/prismatic-skills-for-claude-code-released",
+      "source": "DevOps Digest",
+      "sourceLabel": "Prismatic",
+      "category": "news",
+      "summary": "Prismatic launched a free open-source plugin that turns Claude Code into an integration specialist — building custom connectors, monitoring environments, and migrating existing integrations. Five purpose-built skills: CNI Builder, Component Builder, Embed Advisor, Orby (monitoring), and Migration Analyzer. For SMB tech teams: generate production-ready API integrations from natural language without leaving Claude Code. Free for all Prismatic customers.",
+      "tags": ["integrations", "open-source", "prismatic", "devops", "api", "claude-code", "plugin"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-09-005",
+      "title": "The 'Three M' Framework for Building a Claude Automation System — Guide for SMB Owners",
+      "url": "https://selfmadesuccess.com/claude-ai-automation-system/",
+      "source": "Self-Made Success",
+      "sourceLabel": "Self-Made Success Blog",
+      "category": "community",
+      "summary": "A comprehensive guide (updated May 7) walks SMB owners through building a Claude automation system using the 'Three M Framework': Mindset, Method, Machine. Covers the full architecture — from context files and SOPs to scheduled workflows and tool connections. Includes a break-even calculator to decide what to automate (hint: don't automate tasks changing frequently or under 5x/month). For SMB owners: a blueprint to turn Claude from a chat window into your business operating system in an afternoon.",
+      "tags": ["automation-system", "framework", "guide", "sop", "workflows", "claude-code", "no-code", "tutorial"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-09-006",
+      "title": "Upwork Sees Surge in Claude Cowork & Agent Gigs — SMBs Hiring Workflow Builders, Prompt Engineers, and Automation Experts",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Cowork-Automation-Expert_~022051829509506148786/",
+      "source": "Upwork",
+      "sourceLabel": "Upwork",
+      "category": "job",
+      "summary": "Multiple active Upwork postings this week: Claude Cowork & AI Automation Expert (n8n integration), AI Skills Developer for business acquisitions and homecare, Inbox Management Claude prompt engineer (urgent), and Claude Expert for coworking AI solutions. Budgets are real and growing — SMBs are paying premium rates for Claude workflow builders. For freelancers: this is the moment to specialize in Claude skills. For SMB owners: hire a Claude automation expert instead of building from scratch.",
+      "tags": ["freelance", "jobs", "upwork", "claude-cowork", "automation", "prompt-engineering", "career", "n8n"],
+      "featured": false
+    },
     {
       "id": "2026-05-03-001",
       "title": "Anthropic Launches Skills Marketplace with 600 Skills — One-Command Install for Claude",
@@ -18,7 +84,7 @@
       "category": "news",
       "summary": "Anthropic launched the Skills Marketplace on May 1 with ~600 pre-built skills (90 first-party, rest community), one-command install via `claude skills install [name]`, semantic versioning, and a 15% revenue share for paid skills. Skills auto-sync across Claude.ai, Claude Code, and Cowork. For SMBs: this turns Claude into a plug-and-play tool stack — install skills for PDF generation, financial close, customer research synthesis, or document handling without writing a line of code. Browse at marketplace.anthropic.com/skills.",
       "tags": ["skills-marketplace", "skills", "anthropic", "launch", "productivity", "no-code", "community"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-05-03-002",
@@ -341,9 +407,9 @@
     }
   ],
   "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 5, 6, 10, 12, 16, 18, 19, 21, 24, 26, 28] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [3, 9, 15, 17, 20, 27] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1, 4, 7, 8, 13, 14, 23, 25, 29] },
-    "job": { "label": "Job Postings", "icon": "💼", "entries": [11, 22] }
+    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 3, 6, 8, 11, 12, 16, 18, 22, 24, 25, 27, 30, 32, 34] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [4, 9, 15, 21, 23, 26, 33] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1, 2, 7, 10, 13, 14, 19, 20, 29, 31, 35] },
+    "job": { "label": "Job Postings", "icon": "💼", "entries": [5, 17, 28] }
   }
 }
