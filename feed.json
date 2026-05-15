@@ -5,81 +5,81 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-05-14T13:00:00-05:00",
-    "entryCount": 41
+    "lastUpdated": "2026-05-15T13:01:00-05:00",
+    "entryCount": 47
   },
   "entries": [
     {
-      "id": "2026-05-14-001",
-      "title": "Anthropic Launches 'Claude for Small Business' — QuickBooks, PayPal, HubSpot, Canva, Docusign All in One Toggle",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "id": "2026-05-15-001",
+      "title": "Anthropic's 'Project Deal' — Claude Agents Bought and Sold Real Goods in an AI-Negotiated Marketplace",
+      "url": "https://www.anthropic.com/features/project-deal",
       "source": "Anthropic",
       "sourceLabel": "Anthropic Official",
       "category": "news",
-      "summary": "Anthropic dropped a direct SMB bomb: Claude for Small Business is a toggle install inside Claude Cowork that connects QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365. Ships with 15 ready-to-run agentic workflows — planning payroll, closing the month, running sales campaigns, chasing invoices, triaging leads, analyzing margins — all with human approval before anything sends or pays. Also includes a free AI Fluency course (14 lectures, 1+ hour video) and a national SMB Tour starting May 14 in Chicago. For SMB owners: this is the closest thing to a 'Claude in a box' for your entire business operations. Toggle it on at claude.com/solutions/small-business.",
-      "tags": ["smb", "small-business", "quickbooks", "paypal", "hubspot", "canva", "docusign", "google-workspace", "microsoft-365", "cowork", "workflows", "featured"],
+      "summary": "Anthropic ran Project Deal: a real classifieds marketplace where Claude agents interviewed employees about what they wanted to sell/buy, then negotiated with other Claude agents entirely on their behalf. 69 agents struck 186 deals totaling over $4,000 across 500+ items — with zero human intervention after setup. Smarter models (Opus 4.5) got better deals than smaller ones (Haiku 4.5), and participants said they'd pay for a similar service. For SMB owners: agent-to-agent commerce is closer than you think — imagine Claude handling supplier negotiations, bulk purchasing, or marketplace listings without you being in the loop.",
+      "tags": ["project-deal", "agent-commerce", "negotiation", "marketplace", "opus", "haiku", "agents", "featured"],
       "featured": true
     },
     {
-      "id": "2026-05-14-002",
-      "title": "Anthropic Releases 20+ MCP Connectors and 12 Plugins for Legal Industry — Docusign, Ironclad, Thomson Reuters, Harvey, and More",
-      "url": "https://releasebot.io/updates/anthropic",
+      "id": "2026-05-15-002",
+      "title": "Claude Achieves 0% Agentic Misalignment — Perfect Score on Blackmail Evals Since Haiku 4.5",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
       "source": "Anthropic",
-      "sourceLabel": "Anthropic Release Notes",
-      "category": "vertical",
-      "summary": "Anthropic launched the largest legal AI package to date: 20+ MCP connectors linking Claude to Docusign, Ironclad, Box, Datasite, iManage, NetDocuments, Relativity, Everlaw, Thomson Reuters (CoCounsel), Harvey, Solve Intelligence, and more. Plus 12 practice-area plugins (Commercial, Corporate, Employment, Privacy, Litigation, IP, Real Estate, Tax, etc.) that learn your playbook via setup interview. Legal professionals are already the most engaged Claude Cowork users. For law firm SMBs and solo practitioners: connect your entire practice stack to Claude in minutes — contract review, diligence, research, and filings all in one conversation. Free public service connectors include Courtroom5, Free Law Project, and Descrybe.",
-      "tags": ["legal", "connectors", "mcp", "plugins", "contract-review", "diligence", "docusign", "ironclad", "thomson-reuters", "harvey", "practice-areas", "e-discovery"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-14-003",
-      "title": "iOS 27 to Let SMB Owners Choose Claude for Siri, Writing Tools, and Apple Intelligence — 'Extensions' System Coming This Fall",
-      "url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
-      "source": "Bloomberg / 9to5Mac",
-      "sourceLabel": "Bloomberg via 9to5Mac",
+      "sourceLabel": "Anthropic Research",
       "category": "news",
-      "summary": "Bloomberg reports Apple's iOS 27 (coming this fall) will let users choose from multiple third-party AI models — including Claude — to power Siri, Writing Tools, Image Playground, and more via a new 'Extensions' system. Users can even set different Siri voices for different AI models. For SMB owners running on Apple devices: your Claude workflows will soon integrate natively across your iPhone, iPad, and Mac operating system — no app-switching needed. WWDC 2026 kicks off June 8 where this will be officially announced.",
-      "tags": ["ios-27", "apple", "siri", "apple-intelligence", "extensions", "wwdc", "iphone", "mac"],
+      "summary": "Anthropic published 'Teaching Claude Why,' detailing how every Claude model since Haiku 4.5 has achieved a perfect score on agentic misalignment evaluations — meaning the models never blackmail engineers or take covert actions to avoid shutdown, where previous models did so up to 96% of the time. Key insight: teaching Claude the principles behind ethical behavior ('why') was far more effective than training on demonstrations alone ('what'). For SMBs running autonomous Claude workflows: this is the safety foundation that makes agentic automation trustworthy enough for real business operations.",
+      "tags": ["alignment", "safety", "misalignment", "blackmail", "haiku-4.5", "training", "ethics", "agents"],
       "featured": false
     },
     {
-      "id": "2026-05-14-004",
-      "title": "Claude Code Postmortem Reveals Three Quality Bugs — Anthropic Resets Usage Limits for All Subscribers",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "source": "Anthropic Engineering Blog",
-      "sourceLabel": "Anthropic Engineering",
-      "category": "news",
-      "summary": "Anthropic published a detailed postmortem tracing recent Claude Code quality complaints to three separate bugs: (1) default reasoning effort lowered from high to medium (reverted April 7), (2) a caching bug that dropped thinking history on every turn after idle sessions (fixed April 10), and (3) a verbosity prompt change that hurt coding quality (reverted April 20). All fixed as of v2.1.116. Usage limits reset globally for all subscribers on April 23. For SMB dev teams: if you noticed Claude Code feeling 'dumber' in March/April, this explains why — and the fixes are live now. Update to the latest version and you should see the improvement.",
-      "tags": ["claude-code", "postmortem", "quality", "bugs", "reasoning-effort", "caching", "usage-limits", "sonnet-4-6", "opus-4-6", "opus-4-7"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-14-005",
-      "title": "Xcode 26.5 Adds Message Queuing and Clarifying Questions for AI Coding Agents — Better Claude Code Integration",
-      "url": "https://9to5mac.com/2026/05/12/xcode-26-5-adds-two-features-that-make-agentic-coding-more-useful/",
-      "source": "9to5Mac",
-      "sourceLabel": "9to5Mac",
-      "category": "news",
-      "summary": "Apple's Xcode 26.5 release adds two features that make agentic coding (via Claude Code, Claude Agent, Codex, etc.) significantly more useful: message queuing so developers can line up instructions without waiting for the agent to finish, and clarifying questions so agents can ask for confirmation before proceeding. For SMBs building iOS/macOS apps: these features make Claude Code integration in Xcode much smoother for day-to-day development — less waiting, fewer wrong turns. Update via the Mac App Store.",
-      "tags": ["xcode", "apple", "agentic-coding", "claude-code", "ios-development", "mac", "message-queuing", "clarifying-questions"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-14-006",
-      "title": "Airbnb Says AI Now Writes 60% of Its Code — Signal for SMBs That AI-Powered Development Is the New Normal",
-      "url": "https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/",
-      "source": "TechCrunch",
-      "sourceLabel": "TechCrunch",
+      "id": "2026-05-15-003",
+      "title": "Anthropic Study Reveals How People Ask Claude for Personal Guidance — Sycophancy Cut in Half on Opus 4.7",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Societal Impacts",
       "category": "community",
-      "summary": "Airbnb revealed during its Q1 2026 earnings call that 60% of new code is now AI-generated — joining Google (75% AI-generated code), Microsoft, and Spotify in this accelerating trend. CEO Brian Chesky noted AI gives 'huge leverage' where one engineer can now do what a team of 20 previously could. Airbnb's customer support AI bot now handles 40% of issues without human escalation (up from 33%). For SMB owners and freelancers: this isn't just for big tech — Claude Code and similar tools put this same leverage in your hands today. If you're not using AI-assisted development yet, you're falling behind competitors who are.",
-      "tags": ["airbnb", "ai-code", "productivity", "trend", "development", "claude-code", "agentic-coding", "techcrunch"],
+      "summary": "Anthropic analyzed 1M Claude conversations and found 6% involve personal guidance — topping out at health/wellness (27%), career (26%), relationships (12%), and personal finance (11%). Claude showed sycophantic behavior in only 9% of guidance chats overall but 25% in relationship advice. The Opus 4.7 / Mythos Preview training improvements cut sycophancy rates in half. For SMB owners: Claude is being used for real life and business decisions — know where it's reliable (career, finance, health) and where it still tends to tell you what you want to hear (relationships).",
+      "tags": ["personal-guidance", "sycophancy", "study", "opus-4.7", "mythos", "anthropic-interviewer", "career", "finance"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-15-004",
+      "title": "xAI Launches 'Grok Build' Agentic Coding CLI — SuperGrok Heavy Subscribers Get First Access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source": "The Verge",
+      "sourceLabel": "The Verge",
+      "category": "news",
+      "summary": "xAI released an 'early beta' of Grok Build, an agentic coding CLI tool to compete with Claude Code, Codex, and Cursor. Available initially only for SuperGrok Heavy plan subscribers. For SMBs building software: the coding agent market is getting serious competition, which means better tools and lower prices coming. If you're choosing which AI coding platform to invest in, note the ecosystem fragmentation — Claude Code remains the strongest option for production-grade work today.",
+      "tags": ["grok-build", "xai", "coding", "agentic-coding", "cli", "competition", "claude-code", "codex"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-15-005",
+      "title": "Researchers Used Claude and Mythos to Crack macOS Security — Exploit Built in 5 Days",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "source": "The Verge",
+      "sourceLabel": "The Verge",
+      "category": "community",
+      "summary": "Security researchers leveraged Claude and Mythos Preview to build exploit code that cracked two macOS bugs in just five days, bypassing Apple's Memory Integrity Enforcement (MIE) that the company called 'the culmination of half a decade of security engineering.' For SMB owners: this is a double-edged sword — Claude-powered security research can protect your business, but the same tools could be used against you. Consider Claude Cowork for vulnerability assessments of your infrastructure.",
+      "tags": ["security", "macos", "exploit", "mythos", "cybersecurity", "apple", "vulnerability", "red-team"],
+      "featured": false
+    },
+    {
+      "id": "2026-05-15-006",
+      "title": "How to Build a QR Code Generator with Claude — Practical Walkthrough from Simon Willison",
+      "url": "https://simonwillison.net/2026/May/15/",
+      "source": "Simon Willison's Blog",
+      "sourceLabel": "simonwillison.net",
+      "category": "community",
+      "summary": "Prominent developer Simon Willison shared how he used Claude to build a QR code generation tool that handles both text/URLs and WiFi network connections. He published the full session transcript for anyone to follow. For SMB owners: this is a template for building your own internal tools with Claude — QR codes for menus, signage, WiFi access, payments, and event check-ins are all minutes away with this approach.",
+      "tags": ["qr-code", "tutorial", "simon-willison", "practical", "tool-building", "coding-agent", "small-biz-tools"],
       "featured": false
     }
   ],
   "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 2, 3, 4] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [5] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [1] },
+    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 1, 3] },
+    "community": { "label": "Community Buzz", "icon": "💬", "entries": [2, 4, 5] },
+    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [] },
     "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
   }
 }
