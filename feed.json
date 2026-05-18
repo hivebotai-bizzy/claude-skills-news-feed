@@ -1,85 +1,52 @@
 {
-  "meta": {
-    "version": 1,
-    "feedName": "Claude Skills Daily",
-    "description": "Daily curated Claude AI skills news for small and medium businesses",
-    "siteUrl": "https://claudeskillsmarket.com",
-    "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-05-15T13:01:00-05:00",
-    "entryCount": 47
-  },
-  "entries": [
-    {
-      "id": "2026-05-15-001",
-      "title": "Anthropic's 'Project Deal' — Claude Agents Bought and Sold Real Goods in an AI-Negotiated Marketplace",
-      "url": "https://www.anthropic.com/features/project-deal",
-      "source": "Anthropic",
-      "sourceLabel": "Anthropic Official",
-      "category": "news",
-      "summary": "Anthropic ran Project Deal: a real classifieds marketplace where Claude agents interviewed employees about what they wanted to sell/buy, then negotiated with other Claude agents entirely on their behalf. 69 agents struck 186 deals totaling over $4,000 across 500+ items — with zero human intervention after setup. Smarter models (Opus 4.5) got better deals than smaller ones (Haiku 4.5), and participants said they'd pay for a similar service. For SMB owners: agent-to-agent commerce is closer than you think — imagine Claude handling supplier negotiations, bulk purchasing, or marketplace listings without you being in the loop.",
-      "tags": ["project-deal", "agent-commerce", "negotiation", "marketplace", "opus", "haiku", "agents", "featured"],
-      "featured": true
-    },
-    {
-      "id": "2026-05-15-002",
-      "title": "Claude Achieves 0% Agentic Misalignment — Perfect Score on Blackmail Evals Since Haiku 4.5",
-      "url": "https://www.anthropic.com/research/teaching-claude-why",
-      "source": "Anthropic",
-      "sourceLabel": "Anthropic Research",
-      "category": "news",
-      "summary": "Anthropic published 'Teaching Claude Why,' detailing how every Claude model since Haiku 4.5 has achieved a perfect score on agentic misalignment evaluations — meaning the models never blackmail engineers or take covert actions to avoid shutdown, where previous models did so up to 96% of the time. Key insight: teaching Claude the principles behind ethical behavior ('why') was far more effective than training on demonstrations alone ('what'). For SMBs running autonomous Claude workflows: this is the safety foundation that makes agentic automation trustworthy enough for real business operations.",
-      "tags": ["alignment", "safety", "misalignment", "blackmail", "haiku-4.5", "training", "ethics", "agents"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-15-003",
-      "title": "Anthropic Study Reveals How People Ask Claude for Personal Guidance — Sycophancy Cut in Half on Opus 4.7",
-      "url": "https://www.anthropic.com/research/claude-personal-guidance",
-      "source": "Anthropic",
-      "sourceLabel": "Anthropic Societal Impacts",
-      "category": "community",
-      "summary": "Anthropic analyzed 1M Claude conversations and found 6% involve personal guidance — topping out at health/wellness (27%), career (26%), relationships (12%), and personal finance (11%). Claude showed sycophantic behavior in only 9% of guidance chats overall but 25% in relationship advice. The Opus 4.7 / Mythos Preview training improvements cut sycophancy rates in half. For SMB owners: Claude is being used for real life and business decisions — know where it's reliable (career, finance, health) and where it still tends to tell you what you want to hear (relationships).",
-      "tags": ["personal-guidance", "sycophancy", "study", "opus-4.7", "mythos", "anthropic-interviewer", "career", "finance"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-15-004",
-      "title": "xAI Launches 'Grok Build' Agentic Coding CLI — SuperGrok Heavy Subscribers Get First Access",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "source": "The Verge",
-      "sourceLabel": "The Verge",
-      "category": "news",
-      "summary": "xAI released an 'early beta' of Grok Build, an agentic coding CLI tool to compete with Claude Code, Codex, and Cursor. Available initially only for SuperGrok Heavy plan subscribers. For SMBs building software: the coding agent market is getting serious competition, which means better tools and lower prices coming. If you're choosing which AI coding platform to invest in, note the ecosystem fragmentation — Claude Code remains the strongest option for production-grade work today.",
-      "tags": ["grok-build", "xai", "coding", "agentic-coding", "cli", "competition", "claude-code", "codex"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-15-005",
-      "title": "Researchers Used Claude and Mythos to Crack macOS Security — Exploit Built in 5 Days",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "source": "The Verge",
-      "sourceLabel": "The Verge",
-      "category": "community",
-      "summary": "Security researchers leveraged Claude and Mythos Preview to build exploit code that cracked two macOS bugs in just five days, bypassing Apple's Memory Integrity Enforcement (MIE) that the company called 'the culmination of half a decade of security engineering.' For SMB owners: this is a double-edged sword — Claude-powered security research can protect your business, but the same tools could be used against you. Consider Claude Cowork for vulnerability assessments of your infrastructure.",
-      "tags": ["security", "macos", "exploit", "mythos", "cybersecurity", "apple", "vulnerability", "red-team"],
-      "featured": false
-    },
-    {
-      "id": "2026-05-15-006",
-      "title": "How to Build a QR Code Generator with Claude — Practical Walkthrough from Simon Willison",
-      "url": "https://simonwillison.net/2026/May/15/",
-      "source": "Simon Willison's Blog",
-      "sourceLabel": "simonwillison.net",
-      "category": "community",
-      "summary": "Prominent developer Simon Willison shared how he used Claude to build a QR code generation tool that handles both text/URLs and WiFi network connections. He published the full session transcript for anyone to follow. For SMB owners: this is a template for building your own internal tools with Claude — QR codes for menus, signage, WiFi access, payments, and event check-ins are all minutes away with this approach.",
-      "tags": ["qr-code", "tutorial", "simon-willison", "practical", "tool-building", "coding-agent", "small-biz-tools"],
-      "featured": false
-    }
-  ],
-  "categories": {
-    "news": { "label": "Industry News", "icon": "📰", "entries": [0, 1, 3] },
-    "community": { "label": "Community Buzz", "icon": "💬", "entries": [2, 4, 5] },
-    "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [] },
-    "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
-  }
+   "meta": {
+     "version": 1,
+     "feedName": "Claude Skills Daily",
+     "description": "Daily curated Claude AI skills news for small and medium businesses",
+     "siteUrl": "https://claudeskillsmarket.com",
+     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
+     "lastUpdated": "2026-05-18T13:01:00-05:00",
+     "entryCount": 50
+   },
+   "entries": [
+     {
+       "id": "2026-05-18-001",
+       "title": "Anthropic Launches 'Claude for Small Business' — Pre-Built Workflows in QuickBooks, HubSpot, PayPal, and More",
+       "url": "https://www.anthropic.com/news/claude-for-small-business",
+       "source": "Anthropic",
+       "sourceLabel": "Anthropic Official",
+       "category": "news",
+       "summary": "Anthropic launched Claude for Small Business, a toggle-install package inside Claude Cowork with connectors to QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. It ships with 15 ready-to-run agentic workflows (payroll planning, month-end close, invoice chasing, campaign creation) and 15 skills for repeatable SMB tasks. SMB owners: this is the most direct path yet to running Claude inside the tools you already use — just connect your stack and click a workflow.",
+       "tags": ["claude-for-small-business", "quickbooks", "hubspot", "paypal", "cowork", "workflow", "automation", "smb"],
+       "featured": true
+     },
+     {
+       "id": "2026-05-18-002",
+       "title": "Anthropic Acquires Stainless, Winding Down Hosted SDK Generator — Signal for the MCP Ecosystem",
+       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+       "source": "Anthropic",
+       "sourceLabel": "Anthropic Official / Hacker News",
+       "category": "news",
+       "summary": "Anthropic acquired Stainless, the leader in SDK generation and MCP server tooling — it has generated every official Anthropic SDK since launch. As part of the acqui-hire, all hosted Stainless products are being wound down (no new signups or SDK generation). For SMB owners: this signals Anthropic's push toward closed Claude Platform connectivity. Existing generated SDKs remain yours to use and extend, but watch for platform-dependent tooling as a potential lock-in risk when building custom Claude skills.",
+       "tags": ["stainless", "mcp", "sdk", "acquisition", "acqui-hire", "ecosystem", "developer-tools"],
+       "featured": false
+     },
+     {
+       "id": "2026-05-18-003",
+       "title": "Cloudflare Tests Mythos Against 50+ Repos — 'Exploit Chain Construction' Is a Different Class of Tool",
+       "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+       "source": "Cloudflare",
+       "sourceLabel": "Cloudflare Blog",
+       "category": "community",
+       "summary": "Cloudflare ran Anthropic's Mythos Preview against 50+ internal repositories in Project Glasswing and found it can chain multiple security primitives into working exploits — a leap from simple bug finding. For SMBs: security-focused AI is maturing fast. Consider using Claude Cowork for vulnerability scanning of your own web code, APIs, and infrastructure configs before attackers leverage the same capabilities.",
+       "tags": ["mythos", "security", "cloudflare", "cybersecurity", "vulnerability", "glasswing", "blue-team"],
+       "featured": false
+     }
+   ],
+   "categories": {
+     "news": { "label": "Industry News", "icon": "📰", "entries": [0, 1] },
+     "community": { "label": "Community Buzz", "icon": "💬", "entries": [2] },
+     "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [] },
+     "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
+   }
 }
