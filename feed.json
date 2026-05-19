@@ -5,48 +5,82 @@
      "description": "Daily curated Claude AI skills news for small and medium businesses",
      "siteUrl": "https://claudeskillsmarket.com",
      "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-     "lastUpdated": "2026-05-18T13:01:00-05:00",
-     "entryCount": 50
+     "lastUpdated": "2026-05-19T13:05:00-05:00",
+     "entryCount": 53
    },
    "entries": [
      {
-       "id": "2026-05-18-001",
-       "title": "Anthropic Launches 'Claude for Small Business' — Pre-Built Workflows in QuickBooks, HubSpot, PayPal, and More",
-       "url": "https://www.anthropic.com/news/claude-for-small-business",
-       "source": "Anthropic",
-       "sourceLabel": "Anthropic Official",
+       "id": "2026-05-19-001",
+       "title": "KPMG Inks $100M Global Alliance With Anthropic — Digital Gateway Powered by Claude Reaches 276K Workforce",
+       "url": "https://kpmg.com/xx/en/media/press-releases/2026/05/kpmg-and-anthropic-sign-global-alliance-and-launch-digital-gateway-powered-by-claude.html",
+       "source": "KPMG / Anthropic",
+       "sourceLabel": "KPMG Press Release",
        "category": "news",
-       "summary": "Anthropic launched Claude for Small Business, a toggle-install package inside Claude Cowork with connectors to QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. It ships with 15 ready-to-run agentic workflows (payroll planning, month-end close, invoice chasing, campaign creation) and 15 skills for repeatable SMB tasks. SMB owners: this is the most direct path yet to running Claude inside the tools you already use — just connect your stack and click a workflow.",
-       "tags": ["claude-for-small-business", "quickbooks", "hubspot", "paypal", "cowork", "workflow", "automation", "smb"],
+       "summary": "KPMG and Anthropic announced a global alliance embedding Claude Cowork and Managed Agents into KPMG's Digital Gateway platform. KPMG's 276,000-person workforce gets access to Claude, and Anthropic named KPMG a preferred consultant for Private Equity AI deployments. For SMBs: this means Big 4 firms are now building Claude-powered services — expect boutique consultants and agencies to follow with SMB-friendly offerings in tax, bookkeeping, and portfolio management.",
+       "tags": ["kpmg", "global-alliance", "digital-gateway", "private-equity", "consulting", "tax", "accounting", "enterprise"],
        "featured": true
      },
      {
-       "id": "2026-05-18-002",
-       "title": "Anthropic Acquires Stainless, Winding Down Hosted SDK Generator — Signal for the MCP Ecosystem",
-       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-       "source": "Anthropic",
-       "sourceLabel": "Anthropic Official / Hacker News",
+       "id": "2026-05-19-002",
+       "title": "Claude Managed Agents Add MCP Tunnels and Self-Hosted Sandboxes — Secure Private Network Access for Agent Workflows",
+       "url": "https://9to5mac.com/2026/05/19/anthropic-enhances-claude-managed-agents-with-two-new-privacy-and-security-features/",
+       "source": "9to5Mac",
+       "sourceLabel": "9to5Mac",
        "category": "news",
-       "summary": "Anthropic acquired Stainless, the leader in SDK generation and MCP server tooling — it has generated every official Anthropic SDK since launch. As part of the acqui-hire, all hosted Stainless products are being wound down (no new signups or SDK generation). For SMB owners: this signals Anthropic's push toward closed Claude Platform connectivity. Existing generated SDKs remain yours to use and extend, but watch for platform-dependent tooling as a potential lock-in risk when building custom Claude skills.",
-       "tags": ["stainless", "mcp", "sdk", "acquisition", "acqui-hire", "ecosystem", "developer-tools"],
+       "summary": "Anthropic released MCP tunnels (research preview) and self-hosted sandboxes for Claude Managed Agents. MCP tunnels let agents reach internal databases and private APIs without public endpoints. Self-hosted sandboxes keep sensitive files and packages on your own infrastructure. For SMBs: if you run Claude agents that handle customer data, payroll files, or inventory databases, these features let you keep everything behind your own firewall while Claude orchestrates.",
+       "tags": ["managed-agents", "mcp-tunnels", "self-hosted", "sandbox", "security", "privacy", "infrastructure"],
        "featured": false
      },
      {
-       "id": "2026-05-18-003",
-       "title": "Cloudflare Tests Mythos Against 50+ Repos — 'Exploit Chain Construction' Is a Different Class of Tool",
-       "url": "https://blog.cloudflare.com/cyber-frontier-models/",
-       "source": "Cloudflare",
-       "sourceLabel": "Cloudflare Blog",
-       "category": "community",
-       "summary": "Cloudflare ran Anthropic's Mythos Preview against 50+ internal repositories in Project Glasswing and found it can chain multiple security primitives into working exploits — a leap from simple bug finding. For SMBs: security-focused AI is maturing fast. Consider using Claude Cowork for vulnerability scanning of your own web code, APIs, and infrastructure configs before attackers leverage the same capabilities.",
-       "tags": ["mythos", "security", "cloudflare", "cybersecurity", "vulnerability", "glasswing", "blue-team"],
+       "id": "2026-05-19-003",
+       "title": "Anthropic Puts Claude Agents on a Separate Meter — Subscription Changes Take Effect June 15",
+       "url": "https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html",
+       "source": "InfoWorld",
+       "sourceLabel": "InfoWorld",
+       "category": "news",
+       "summary": "Starting June 15, Anthropic separates programmatic Claude usage (Agent SDK, GitHub Actions, OpenClaw) from chat subscriptions. Pro users get $20/mo in agent credits, Max 5x gets $100, Max 20x gets $200. For SMBs: if you're running automated Claude agents or skills on subscription plans, factor in the new metering — agent-heavy workflows may be cheaper on API direct access than on the new credit system.",
+       "tags": ["subscription", "pricing", "metering", "agents", "api", "billing", "credits"],
+       "featured": false
+     },
+     {
+       "id": "2026-05-19-004",
+       "title": "Anthropic Launches Claude Partner Network With $100M Fund — Consultants and SIs Can Now Build Claude Practices",
+       "url": "https://www.channelinsider.com/ai/anthropic-claude-partner-network-launch/",
+       "source": "Channel Insider",
+       "sourceLabel": "Channel Insider",
+       "category": "news",
+       "summary": "Anthropic launched the Claude Partner Network, a formal partner program with a $100M fund for system integrators, consultancies, and technology partners building Claude-powered solutions. For SMBs: this will create a wave of local Claude implementation specialists — expect more affordable options for custom workflow builds, skills development, and integration services aimed at smaller businesses.",
+       "tags": ["partner-network", "channel", "consultants", "system-integrators", "ecosystem", "funding"],
+       "featured": false
+     },
+     {
+       "id": "2026-05-19-005",
+       "title": "n8n Valuation Doubles to $5.2B After SAP Taps It as Agent Orchestration Layer — Open-Core Workflow Tool Goes Enterprise",
+       "url": "https://thenextweb.com/news/n8n-sap-joule-studio-workflow-automation",
+       "source": "TNW",
+       "sourceLabel": "The Next Web",
+       "category": "tools",
+       "summary": "SAP embedded open-core workflow automation tool n8n into Joule Studio as the orchestration layer for its Autonomous Enterprise platform, doubling n8n's valuation to $5.2B. For SMBs: n8n is free to self-host with 1,000+ integrations — pairing n8n with Claude for skills-driven workflows (invoice processing, CRM sync, inventory alerts) is a powerful no-code automation stack without per-seat enterprise licensing.",
+       "tags": ["n8n", "sap", "workflow-automation", "orchestration", "open-source", "no-code", "integration"],
+       "featured": false
+     },
+     {
+       "id": "2026-05-19-006",
+       "title": "Anthropic Launches 'Claude for Financial Services' — Pre-Built MCP Connectors for Market Data, Snowflake, and Databricks",
+       "url": "https://www.anthropic.com/news/claude-for-financial-services",
+       "source": "Anthropic",
+       "sourceLabel": "Anthropic Official",
+       "category": "vertical",
+       "summary": "Anthropic released a comprehensive Financial Analysis Solution with Claude Opus 4, pre-built MCP connectors to financial data providers, and expert implementation support. Claude scored 83% on complex Excel financial modeling tasks. For SMBs: if you run a bookkeeping, accounting, or fractional CFO practice, Claude can now pull live market data, run Monte Carlo simulations, and validate against source documents — a full financial analyst stack at subscription pricing.",
+       "tags": ["financial-services", "finance", "accounting", "bookkeeping", "cfo", "market-data", "mcp", "excel"],
        "featured": false
      }
    ],
    "categories": {
-     "news": { "label": "Industry News", "icon": "📰", "entries": [0, 1] },
-     "community": { "label": "Community Buzz", "icon": "💬", "entries": [2] },
-     "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [] },
-     "job": { "label": "Job Postings", "icon": "💼", "entries": [] }
+     "news": { "label": "Industry News", "icon": "📰", "entries": [0, 1, 2, 3] },
+     "community": { "label": "Community Buzz", "icon": "💬", "entries": [] },
+     "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [5] },
+     "job": { "label": "Job Postings", "icon": "💼", "entries": [] },
+     "tools": { "label": "Tools & Integrations", "icon": "🔧", "entries": [4] }
    }
 }
