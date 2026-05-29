@@ -1,141 +1,385 @@
 {
-   "meta": {
-     "version": 1,
-     "feedName": "Claude Skills Daily",
-     "description": "Daily curated Claude AI skills news for small and medium businesses",
-     "siteUrl": "https://claudeskillsmarket.com",
-     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-     "lastUpdated": "2026-05-22T13:00:00-05:00",
-     "entryCount": 64
-   },
-   "entries": [
-     {
-       "id": "2026-05-22-001",
-       "title": "SISTRIX Opens MCP Server to All Customers — No API Key Needed, Direct Claude/ ChatGPT Connection for SEO Analytics",
-       "url": "https://ppc.land/sistrix-opens-mcp-server-to-all-customers-no-api-key-needed/",
-       "source": "PPC Land",
-       "sourceLabel": "PPC Land",
-       "category": "tools",
-       "summary": "SISTRIX dropped the API key requirement for its MCP server, giving any subscription tier direct OAuth-based access to live SEO data through Claude and ChatGPT. MCP requests don't consume API credits either. For SMB owners running their own SEO: connect Claude directly to real-time keyword rankings, Visibility Index, and search volume data — no export, no API key, no tier gatekeeping.",
-       "tags": ["mcp", "seo", "sistrix", "analytics", "keyword-research", "oauth", "claude-cowork", "search", "data-connector"],
-       "featured": true
-     },
-     {
-       "id": "2026-05-22-002",
-       "title": "Salesforce Will Spend $300M on Anthropic Tokens This Year — Benioff Cites 30%+ Engineering Productivity Gains",
-       "url": "https://americanbazaaronline.com/2026/05/18/salesforce-to-spend-300m-on-anthropic-tokens-amid-hiring-pause-481019/",
-       "source": "American Bazaar",
-       "sourceLabel": "American Bazaar",
-       "category": "news",
-       "summary": "Salesforce CEO Marc Benioff revealed plans to spend ~$300M on Anthropic tokens in 2026, primarily for coding agent usage, alongside a continued freeze on engineering hiring. Benioff described productivity improvements as 'unprecedented' across service, support, distribution, and marketing. For SMB owners: this validates the ROI case for Claude-powered automation at any scale — if Salesforce is all-in on Claude agents replacing entire engineering teams, your business can justify similar shifts in smaller workflows.",
-       "tags": ["salesforce", "enterprise-adoption", "coding-agents", "roi", "agentforce", "slack", "ai-adoption", "productivity"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-22-003",
-       "title": "Anthropic Gives All Paid Users Monthly Agent SDK Credits — $20–$200/Month Starting June 15",
-       "url": "https://www.siliconangle.com/2026/05/13/anthropic-launches-claude-small-business-new-automation-workflows/",
-       "source": "SiliconAngle",
-       "sourceLabel": "SiliconAngle",
-       "category": "tools",
-       "summary": "Anthropic announced that all paid Claude accounts will receive monthly Agent SDK credits starting June 15 — $20/month for Pro users up to $200/month for Max users. This lets SMB owners build and run custom Claude-powered agents without separate API billing. For SMB owners: if you've wanted to build a custom Claude skill for your business but hesitated on token costs, these credits cover the runway — start planning your agent now before the June 15 launch.",
-       "tags": ["agent-sdk", "credits", "api", "development", "cowork", "custom-agents", "pro", "max", "build"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-22-004",
-       "title": "ZDNET Tests Claude's Contract Review Skill — 'Off-the-Charts Powerful,' Flags Hidden Indemnity Clauses in Minutes",
-       "url": "https://www.zdnet.com/article/claude-small-business-contract-review-ai-no-lawyer/",
-       "source": "ZDNET",
-       "sourceLabel": "ZDNET",
-       "category": "vertical",
-       "summary": "ZDNET put Claude for Small Business's /review-contract skill through real-world testing with old vendor contracts and found it surfaced dangerous indemnity clauses and auto-renewal traps that a non-lawyer would miss. The full analysis takes about five minutes and runs inside Claude Cowork with the small-business plugin installed. For SMB owners: install the small-business plugin, type /review-contract, upload any vendor or client contract, and get a lawyer-grade red flag analysis before you sign — costs nothing beyond your $20/month Pro subscription.",
-       "tags": ["contract-review", "legal", "small-business", "zdnet", "review", "docusign", "vendor-management", "risk"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-22-005",
-       "title": "Anthropic Launches 12 New Legal Plugins for Claude — Contract Drafting, Deposition Prep, and Regulatory Compliance Skills",
-       "url": "https://www.anthropic.com/news/claude-for-legal-professionals",
-       "source": "Anthropic",
-       "sourceLabel": "Anthropic Official",
-       "category": "vertical",
-       "summary": "Anthropic expanded Claude's legal capabilities with 12 new plugins covering contract drafting, deposition preparation, regulatory compliance monitoring, and e-discovery analysis. These plug into the existing Claude for Legal Professionals offering alongside 30+ existing skills. For SMB owners: if you run a solo law practice, legal consultancy, or handle your own contracts, these plugins work with the same $20/month Pro plan — no enterprise deal required to access professional-grade legal AI workflows.",
-       "tags": ["legal", "plugins", "contracts", "compliance", "e-discovery", "law", "regulatory", "professional-services"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-22-006",
-       "title": "Trump Postpones AI Executive Order Over Competitiveness Concerns — Regulatory Uncertainty Continues for SMBs",
-       "url": "https://www.usnews.com/news/business/articles/2026-05-21/trump-says-hes-postponing-signing-an-executive-order-on-ai-out-of-concern-it-would-hurt-ai-industry",
-       "source": "U.S. News",
-       "sourceLabel": "U.S. News & World Report",
-       "category": "news",
-       "summary": "President Trump postponed signing an AI executive order, citing concerns it could weaken the U.S. AI industry's competitive edge. The decision leaves the regulatory landscape uncertain for businesses deploying AI tools like Claude. For SMB owners: the lack of new AI regulation means you can continue adopting Claude skills without new compliance burdens for now — but keep monitoring, as state-level AI bills are moving quickly in the absence of federal action.",
-       "tags": ["regulation", "policy", "executive-order", "trump", "compliance", "smb-policy", "ai-regulation", "federal"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-20-001",
-       "title": "Anthropic Launches Claude for Small Business — 15 Pre-Built Workflows for QuickBooks, PayPal, HubSpot, and Canva",
-       "url": "https://www.anthropic.com/news/claude-for-small-business",
-       "source": "Anthropic",
-       "sourceLabel": "Anthropic Official",
-       "category": "news",
-       "summary": "Anthropic launched a dedicated small-business package with toggle-install connectors to QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365. Ships with 15 ready-to-run agentic workflows (payroll planning, month-end close, invoice chasing, margin analysis, campaign management) and 15 skills built on the tasks owners say slow them down most. For SMB owners: toggle this on in Claude Cowork, connect your tools, and Claude handles the late-night work—you approve before anything sends or pays.",
-       "tags": ["small-business", "quickbooks", "paypal", "hubspot", "canva", "docusign", "cowork", "workflows", "payroll", "invoicing", "marketing", "smb"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-20-002",
-       "title": "Anthropic Acquires Stainless — SDK and MCP Server Tooling Now In-House, Agent Connectivity Accelerates",
-       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-       "source": "Anthropic",
-       "sourceLabel": "Anthropic Official",
-       "category": "tools",
-       "summary": "Anthropic acquired Stainless, the company behind the SDK generation tooling that powers every official Claude API SDK and hundreds of companies' MCP servers. Stainless converts API specs into TypeScript, Python, Go, and Java SDKs automatically. For SMB skills builders: this means faster, better-maintained MCP connectors for the tools you use — expect more third-party integrations and fewer broken SDKs as Anthropic deepens its investment in agent-to-system connectivity.",
-       "tags": ["stainless", "acquisition", "sdk", "mcp", "api", "developer-tools", "connectivity", "platform"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-20-003",
-       "title": "PwC Deploys Claude Across Hundreds of Thousands of Professionals — 30,000 to Be Certified, Office of the CFO Launched",
-       "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-       "source": "Anthropic / PwC",
-       "sourceLabel": "Anthropic Official",
-       "category": "news",
-       "summary": "PwC expanded its Anthropic alliance, rolling out Claude Code and Cowork starting with US teams toward global deployment across hundreds of thousands of professionals. A joint Center of Excellence will train 30,000 PwC staff on Claude, and PwC launched an Office of the CFO business group built on Anthropic's stack targeting regulated industries. For SMBs: PwC is already cutting insurance underwriting from 10 weeks to 10 days and security work from hours to minutes — expect these Claude-powered consulting services to filter down to SMB-friendly tiers through boutique firms.",
-       "tags": ["pwc", "partnership", "consulting", "cfo", "certification", "claude-code", "cowork", "center-of-excellence", "enterprise"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-20-004",
-       "title": "Claude Skills Hub Launches at claude.com/skills — Central Directory for Reusable Agent Workflows",
-       "url": "https://claude.com/skills",
-       "source": "Anthropic",
-       "sourceLabel": "Claude.com",
-       "category": "tools",
-       "summary": "Anthropic's new Skills landing page at claude.com/skills serves as a central directory for reusable agent workflows, alongside a plugins marketplace at claude.com/plugins for Claude Code and Cowork. The small-business plugin alone ships 15 skills including contract reviewer, lead triager, content strategist, and tax-season organizer. For SMB owners: browse the skills directory to find pre-built, approval-gated workflows you can install in one click — no prompt engineering needed.",
-       "tags": ["skills-hub", "plugins", "marketplace", "directory", "cowork", "claude-code", "workflows", "no-code"],
-       "featured": false
-     },
-     {
-       "id": "2026-05-20-005",
-       "title": "Anthropic and Gates Foundation Commit $200M to AI-Powered Global Health, Education, and Economic Mobility",
-       "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-       "source": "Anthropic / Gates Foundation",
-       "sourceLabel": "Anthropic Official",
-       "category": "vertical",
-       "summary": "Anthropic committed $200M in grants, Claude credits, and engineering support with the Gates Foundation over four years for programs in global health, life sciences, education, and economic mobility. Claude will be used for vaccine screening, health data intelligence in low-income countries, and education tools. For SMBs in health, life sciences, or education: expect Claude connectors and benchmarks developed here (health data connectors, evaluation frameworks) to become available broadly, opening vertical-specific skills for smaller organizations in these sectors.",
-       "tags": ["gates-foundation", "global-health", "education", "life-sciences", "nonprofit", "public-benefit", "vaccines", "health-data"],
-       "featured": false
-     }
-   ],
-   "categories": {
-     "news": { "label": "Industry News", "icon": "📰", "entries": [1, 5, 6, 8] },
-     "community": { "label": "Community Buzz", "icon": "💬", "entries": [] },
-     "vertical": { "label": "SMB Verticals", "icon": "🏢", "entries": [3, 4, 10] },
-     "job": { "label": "Job Postings", "icon": "💼", "entries": [] },
-     "tools": { "label": "Tools & Integrations", "icon": "🔧", "entries": [0, 2, 7, 9] }
-   }
+  "meta": {
+    "version": 1,
+    "feedName": "Claude Skills Daily",
+    "description": "Daily curated Claude AI skills news for small and medium businesses",
+    "siteUrl": "https://claudeskillsmarket.com",
+    "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
+    "lastUpdated": "2026-05-29T13:00:00-05:00",
+    "entryCount": 16
+  },
+  "entries": [
+    {
+      "id": "2026-05-29-001",
+      "title": "Anthropic Raises $65B, Valuation Hits $965B \u2014 Revenue Run Rate More Than Triples to $47B",
+      "url": "https://apnews.com/article/anthropic-ai-claude-openai-valuation-86c432fa375548fd4f111f8164d6ffc1",
+      "source": "AP News",
+      "sourceLabel": "AP News / Reuters",
+      "category": "news",
+      "summary": "Anthropic closed a $65B Series H at $965B valuation, surpassing OpenAI, with revenue tripling to $47B run rate. Apollo and Blackstone adding $36B debt for infrastructure. For SMB owners: massive capital backing means faster model improvements, better uptime, and long-term platform stability \u2014 Claude Skills are a safe investment of your time.",
+      "tags": [
+        "funding",
+        "valuation",
+        "series-h",
+        "revenue",
+        "infrastructure",
+        "anthropic",
+        "platform-stability"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-05-29-002",
+      "title": "ZDNET Calls Claude's /review-contract Skill 'A No-Brainer' \u2014 Beats Attorney Feedback on Real Contracts",
+      "url": "https://www.zdnet.com/article/claude-small-business-contract-review-ai-no-lawyer/",
+      "source": "ZDNET",
+      "sourceLabel": "ZDNET",
+      "category": "tools",
+      "summary": "ZDNET tested `/review-contract` against real contracts and says it beats feedback from $1,000+ attorneys. Available on any $20/month Claude Pro account \u2014 enables in Claude Cowork Customize \u2192 Browse Plugins \u2192 Small Business Plugin. For SMB owners: skip the $500+ lawyer for routine contracts. Run `/review-contract` first, escalate only the red flags it finds.",
+      "tags": [
+        "contract-review",
+        "legal",
+        "small-business",
+        "claude-pro",
+        "tools",
+        "review-contract",
+        "zdnet"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-29-003",
+      "title": "Freelancer Publishes 11 Claude Workflows With Exact Copy-Paste Prompts \u2014 Zero Code, Fully Automated",
+      "url": "https://growthwithalex.substack.com/p/14-i-built-11-claude-workflows-that",
+      "source": "Substack",
+      "sourceLabel": "Growth with Alex",
+      "category": "community",
+      "summary": "A freelance growth consultant shared 11 Claude workflows connecting Gmail, Notion, Google Calendar, Canva, Slack, and more via MCP. Includes exact prompts for automated morning briefs, lead-to-proposal in 90 seconds, invoice chasing, and content generation. For SMB owners: each connector takes ~2 minutes to activate in Claude.ai Settings \u2192 Integrations. Copy the prompts verbatim and you're running automated workflows today.",
+      "tags": [
+        "workflows",
+        "mcp",
+        "freelance",
+        "automation",
+        "copy-paste-prompts",
+        "gmail",
+        "canva",
+        "notion",
+        "slack"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-29-004",
+      "title": "Forbes: Run Your Entire Business From One Tab With Claude for Small Business",
+      "url": "https://www.forbes.com/sites/jodiecook/2026/05/24/run-your-whole-business-from-one-tab-with-claudes-new-update/",
+      "source": "Forbes",
+      "sourceLabel": "Forbes (Jodie Cook)",
+      "category": "vertical",
+      "summary": "Forbes walks through exact Claude for Small Business workflows: payroll planning from hours to minutes, invoice chasing from 3 hours to 12 minutes, full campaign management from a whole day to 45 minutes. For SMB owners: start with the invoice chaser \u2014 connects QuickBooks + PayPal, ranks overdue invoices, drafts reminder emails you approve and send.",
+      "tags": [
+        "forbes",
+        "claude-for-small-business",
+        "payroll",
+        "invoicing",
+        "quickbooks",
+        "paypal",
+        "canva",
+        "hubspot"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-29-005",
+      "title": "Opus 4.8 Now Available in Microsoft Foundry \u2014 Native Azure Integration for SMBs on Microsoft 365",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-4-8-is-now-available-in-microsoft-foundry/4523367",
+      "source": "Microsoft",
+      "sourceLabel": "Microsoft Tech Community",
+      "category": "news",
+      "summary": "Microsoft released Claude Opus 4.8 on Azure Foundry, highlighting contract review, redlining, due diligence, legal research, and financial analysis. Azure's global infrastructure means lower-latency access for businesses already in the Microsoft ecosystem. For SMB owners on Microsoft 365: Opus 4.8-grade contract review and analysis works inside your existing Microsoft stack \u2014 no separate tools or new accounts.",
+      "tags": [
+        "microsoft-foundry",
+        "azure",
+        "opus-4-8",
+        "contract-review",
+        "legal",
+        "financial-analysis",
+        "integration"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-22-001",
+      "title": "SISTRIX Opens MCP Server to All Customers \u2014 No API Key Needed, Direct Claude/ ChatGPT Connection for SEO Analytics",
+      "url": "https://ppc.land/sistrix-opens-mcp-server-to-all-customers-no-api-key-needed/",
+      "source": "PPC Land",
+      "sourceLabel": "PPC Land",
+      "category": "tools",
+      "summary": "SISTRIX dropped the API key requirement for its MCP server, giving any subscription tier direct OAuth-based access to live SEO data through Claude and ChatGPT. MCP requests don't consume API credits either. For SMB owners running their own SEO: connect Claude directly to real-time keyword rankings, Visibility Index, and search volume data \u2014 no export, no API key, no tier gatekeeping.",
+      "tags": [
+        "mcp",
+        "seo",
+        "sistrix",
+        "analytics",
+        "keyword-research",
+        "oauth",
+        "claude-cowork",
+        "search",
+        "data-connector"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-05-22-002",
+      "title": "Salesforce Will Spend $300M on Anthropic Tokens This Year \u2014 Benioff Cites 30%+ Engineering Productivity Gains",
+      "url": "https://americanbazaaronline.com/2026/05/18/salesforce-to-spend-300m-on-anthropic-tokens-amid-hiring-pause-481019/",
+      "source": "American Bazaar",
+      "sourceLabel": "American Bazaar",
+      "category": "news",
+      "summary": "Salesforce CEO Marc Benioff revealed plans to spend ~$300M on Anthropic tokens in 2026, primarily for coding agent usage, alongside a continued freeze on engineering hiring. Benioff described productivity improvements as 'unprecedented' across service, support, distribution, and marketing. For SMB owners: this validates the ROI case for Claude-powered automation at any scale \u2014 if Salesforce is all-in on Claude agents replacing entire engineering teams, your business can justify similar shifts in smaller workflows.",
+      "tags": [
+        "salesforce",
+        "enterprise-adoption",
+        "coding-agents",
+        "roi",
+        "agentforce",
+        "slack",
+        "ai-adoption",
+        "productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-22-003",
+      "title": "Anthropic Gives All Paid Users Monthly Agent SDK Credits \u2014 $20\u2013$200/Month Starting June 15",
+      "url": "https://www.siliconangle.com/2026/05/13/anthropic-launches-claude-small-business-new-automation-workflows/",
+      "source": "SiliconAngle",
+      "sourceLabel": "SiliconAngle",
+      "category": "tools",
+      "summary": "Anthropic announced that all paid Claude accounts will receive monthly Agent SDK credits starting June 15 \u2014 $20/month for Pro users up to $200/month for Max users. This lets SMB owners build and run custom Claude-powered agents without separate API billing. For SMB owners: if you've wanted to build a custom Claude skill for your business but hesitated on token costs, these credits cover the runway \u2014 start planning your agent now before the June 15 launch.",
+      "tags": [
+        "agent-sdk",
+        "credits",
+        "api",
+        "development",
+        "cowork",
+        "custom-agents",
+        "pro",
+        "max",
+        "build"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-22-004",
+      "title": "ZDNET Tests Claude's Contract Review Skill \u2014 'Off-the-Charts Powerful,' Flags Hidden Indemnity Clauses in Minutes",
+      "url": "https://www.zdnet.com/article/claude-small-business-contract-review-ai-no-lawyer/",
+      "source": "ZDNET",
+      "sourceLabel": "ZDNET",
+      "category": "vertical",
+      "summary": "ZDNET put Claude for Small Business's /review-contract skill through real-world testing with old vendor contracts and found it surfaced dangerous indemnity clauses and auto-renewal traps that a non-lawyer would miss. The full analysis takes about five minutes and runs inside Claude Cowork with the small-business plugin installed. For SMB owners: install the small-business plugin, type /review-contract, upload any vendor or client contract, and get a lawyer-grade red flag analysis before you sign \u2014 costs nothing beyond your $20/month Pro subscription.",
+      "tags": [
+        "contract-review",
+        "legal",
+        "small-business",
+        "zdnet",
+        "review",
+        "docusign",
+        "vendor-management",
+        "risk"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-22-005",
+      "title": "Anthropic Launches 12 New Legal Plugins for Claude \u2014 Contract Drafting, Deposition Prep, and Regulatory Compliance Skills",
+      "url": "https://www.anthropic.com/news/claude-for-legal-professionals",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Official",
+      "category": "vertical",
+      "summary": "Anthropic expanded Claude's legal capabilities with 12 new plugins covering contract drafting, deposition preparation, regulatory compliance monitoring, and e-discovery analysis. These plug into the existing Claude for Legal Professionals offering alongside 30+ existing skills. For SMB owners: if you run a solo law practice, legal consultancy, or handle your own contracts, these plugins work with the same $20/month Pro plan \u2014 no enterprise deal required to access professional-grade legal AI workflows.",
+      "tags": [
+        "legal",
+        "plugins",
+        "contracts",
+        "compliance",
+        "e-discovery",
+        "law",
+        "regulatory",
+        "professional-services"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-22-006",
+      "title": "Trump Postpones AI Executive Order Over Competitiveness Concerns \u2014 Regulatory Uncertainty Continues for SMBs",
+      "url": "https://www.usnews.com/news/business/articles/2026-05-21/trump-says-hes-postponing-signing-an-executive-order-on-ai-out-of-concern-it-would-hurt-ai-industry",
+      "source": "U.S. News",
+      "sourceLabel": "U.S. News & World Report",
+      "category": "news",
+      "summary": "President Trump postponed signing an AI executive order, citing concerns it could weaken the U.S. AI industry's competitive edge. The decision leaves the regulatory landscape uncertain for businesses deploying AI tools like Claude. For SMB owners: the lack of new AI regulation means you can continue adopting Claude skills without new compliance burdens for now \u2014 but keep monitoring, as state-level AI bills are moving quickly in the absence of federal action.",
+      "tags": [
+        "regulation",
+        "policy",
+        "executive-order",
+        "trump",
+        "compliance",
+        "smb-policy",
+        "ai-regulation",
+        "federal"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-20-001",
+      "title": "Anthropic Launches Claude for Small Business \u2014 15 Pre-Built Workflows for QuickBooks, PayPal, HubSpot, and Canva",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Official",
+      "category": "news",
+      "summary": "Anthropic launched a dedicated small-business package with toggle-install connectors to QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365. Ships with 15 ready-to-run agentic workflows (payroll planning, month-end close, invoice chasing, margin analysis, campaign management) and 15 skills built on the tasks owners say slow them down most. For SMB owners: toggle this on in Claude Cowork, connect your tools, and Claude handles the late-night work\u2014you approve before anything sends or pays.",
+      "tags": [
+        "small-business",
+        "quickbooks",
+        "paypal",
+        "hubspot",
+        "canva",
+        "docusign",
+        "cowork",
+        "workflows",
+        "payroll",
+        "invoicing",
+        "marketing",
+        "smb"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-20-002",
+      "title": "Anthropic Acquires Stainless \u2014 SDK and MCP Server Tooling Now In-House, Agent Connectivity Accelerates",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Official",
+      "category": "tools",
+      "summary": "Anthropic acquired Stainless, the company behind the SDK generation tooling that powers every official Claude API SDK and hundreds of companies' MCP servers. Stainless converts API specs into TypeScript, Python, Go, and Java SDKs automatically. For SMB skills builders: this means faster, better-maintained MCP connectors for the tools you use \u2014 expect more third-party integrations and fewer broken SDKs as Anthropic deepens its investment in agent-to-system connectivity.",
+      "tags": [
+        "stainless",
+        "acquisition",
+        "sdk",
+        "mcp",
+        "api",
+        "developer-tools",
+        "connectivity",
+        "platform"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-20-003",
+      "title": "PwC Deploys Claude Across Hundreds of Thousands of Professionals \u2014 30,000 to Be Certified, Office of the CFO Launched",
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "source": "Anthropic / PwC",
+      "sourceLabel": "Anthropic Official",
+      "category": "news",
+      "summary": "PwC expanded its Anthropic alliance, rolling out Claude Code and Cowork starting with US teams toward global deployment across hundreds of thousands of professionals. A joint Center of Excellence will train 30,000 PwC staff on Claude, and PwC launched an Office of the CFO business group built on Anthropic's stack targeting regulated industries. For SMBs: PwC is already cutting insurance underwriting from 10 weeks to 10 days and security work from hours to minutes \u2014 expect these Claude-powered consulting services to filter down to SMB-friendly tiers through boutique firms.",
+      "tags": [
+        "pwc",
+        "partnership",
+        "consulting",
+        "cfo",
+        "certification",
+        "claude-code",
+        "cowork",
+        "center-of-excellence",
+        "enterprise"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-20-004",
+      "title": "Claude Skills Hub Launches at claude.com/skills \u2014 Central Directory for Reusable Agent Workflows",
+      "url": "https://claude.com/skills",
+      "source": "Anthropic",
+      "sourceLabel": "Claude.com",
+      "category": "tools",
+      "summary": "Anthropic's new Skills landing page at claude.com/skills serves as a central directory for reusable agent workflows, alongside a plugins marketplace at claude.com/plugins for Claude Code and Cowork. The small-business plugin alone ships 15 skills including contract reviewer, lead triager, content strategist, and tax-season organizer. For SMB owners: browse the skills directory to find pre-built, approval-gated workflows you can install in one click \u2014 no prompt engineering needed.",
+      "tags": [
+        "skills-hub",
+        "plugins",
+        "marketplace",
+        "directory",
+        "cowork",
+        "claude-code",
+        "workflows",
+        "no-code"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-05-20-005",
+      "title": "Anthropic and Gates Foundation Commit $200M to AI-Powered Global Health, Education, and Economic Mobility",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "source": "Anthropic / Gates Foundation",
+      "sourceLabel": "Anthropic Official",
+      "category": "vertical",
+      "summary": "Anthropic committed $200M in grants, Claude credits, and engineering support with the Gates Foundation over four years for programs in global health, life sciences, education, and economic mobility. Claude will be used for vaccine screening, health data intelligence in low-income countries, and education tools. For SMBs in health, life sciences, or education: expect Claude connectors and benchmarks developed here (health data connectors, evaluation frameworks) to become available broadly, opening vertical-specific skills for smaller organizations in these sectors.",
+      "tags": [
+        "gates-foundation",
+        "global-health",
+        "education",
+        "life-sciences",
+        "nonprofit",
+        "public-benefit",
+        "vaccines",
+        "health-data"
+      ],
+      "featured": false
+    }
+  ],
+  "categories": {
+    "news": {
+      "label": "Industry News",
+      "icon": "\ud83d\udcf0",
+      "entries": [
+        1,
+        5,
+        7,
+        11,
+        12,
+        14
+      ]
+    },
+    "community": {
+      "label": "Community Buzz",
+      "icon": "\ud83d\udcac",
+      "entries": [
+        3
+      ]
+    },
+    "vertical": {
+      "label": "SMB Verticals",
+      "icon": "\ud83c\udfe2",
+      "entries": [
+        4,
+        9,
+        10,
+        16
+      ]
+    },
+    "job": {
+      "label": "Job Postings",
+      "icon": "\ud83d\udcbc",
+      "entries": []
+    },
+    "tools": {
+      "label": "Tools & Integrations",
+      "icon": "\ud83d\udd27",
+      "entries": [
+        2,
+        6,
+        8,
+        13,
+        15
+      ]
+    }
+  }
 }
