@@ -5,10 +5,76 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-05-31T13:00:00-05:00",
-    "entryCount": 21
+    "lastUpdated": "2026-06-01T13:00:00-05:00",
+    "entryCount": 26
   },
   "entries": [
+    {
+      "id": "2026-06-01-001",
+      "title": "Open Design Hits 52.7K Stars, 132 Skills, Video Generation — Open-Source Claude Design Alternative Surges",
+      "url": "https://wotai.co/blog/open-design-4-weeks-in",
+      "source": "WotAI",
+      "sourceLabel": "wotai.co",
+      "category": "tools",
+      "summary": "Open Design, the open-source alternative to Claude Design, surged from 1,500 to 52,718 GitHub stars in 28 days with 8 stable releases. It now runs on 16 coding agents (Claude Code, Codex, Cursor Agent, Gemini CLI, etc.), ships 132 design skills (up from 19), and just added video and motion graphics generation. For SMB owners: if you have a technical builder on staff, Open Design gives you a multi-format artifact pipeline (web prototypes, decks, videos) without per-seat Claude Design costs — install is 10 minutes via Claude Code.",
+      "tags": ["open-design", "open-source", "claude-design", "design-tools", "video-generation", "claude-code", "prototyping", "community"],
+      "featured": true
+    },
+    {
+      "id": "2026-06-01-002",
+      "title": "Claude Credit Overhaul June 15: Agent SDK Leaves Subscription Pools — What SMBs Must Re-Budget For",
+      "url": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
+      "source": "Digital Applied",
+      "sourceLabel": "digitalapplied.com",
+      "category": "news",
+      "summary": "Starting June 15, Claude Agent SDK and claude -p headless usage exit Pro/Max/Team/Enterprise subscription pools and move to separate monthly dollar credits at standard API rates with no rollover. Pro plan users who run automated skill workflows will need to opt-in to a monthly credit that matches their subscription cost. For SMB owners: if you use Claude Code for recurring automation or have custom agent skills running headless, budget for this change now — the 15-30x subsidy on programmatic usage ends June 15.",
+      "tags": ["pricing", "agent-sdk", "billing", "claude-code", "api-rates", "subscription", "budgeting", "automation"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-01-003",
+      "title": "Claude Code Weekly Limits Increase 50% Through July 13 — Reddit Confirms Immediate Boost",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/",
+      "source": "Reddit",
+      "sourceLabel": "r/ClaudeAI",
+      "category": "news",
+      "summary": "Claude Code weekly usage limits jumped 50% and will remain elevated through July 13, confirmed by multiple Reddit users. For SMB owners building custom Claude skills: this means 50% more development capacity per week at no extra cost — accelerate your skill-building pipeline now while the window is open.",
+      "tags": ["claude-code", "limits", "usage", "capacity", "development", "reddit", "confirmation"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-01-004",
+      "title": "Claude for Small Business: Practical Decision Tree, Trust Table, and 4-Week Rollout Plan Published",
+      "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows",
+      "source": "Substack",
+      "sourceLabel": "Product with Attitude",
+      "category": "vertical",
+      "summary": "A detailed implementation guide for Anthropic's Claude for Small Business launch — includes a decision tree to pick your first workflow, a trust-boundary table showing what Claude can and cannot touch across QuickBooks, PayPal, HubSpot, and DocuSign, and a four-week rollout plan starting with read-only workflows. For SMB owners: stop wondering where to start — this guide walks you from toggle-on to approving your first AI-run payroll forecast by week four.",
+      "tags": ["claude-for-small-business", "smb", "implementation", "decision-tree", "trust", "rollout", "quickbooks", "paypal", "hubspot", "cowork", "workflows"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-01-005",
+      "title": "Reddit Discusses: 'Claude Skills Will Be the New Fiverr/Upwork' — Skills Marketplace Debate Heats Up",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0wfb1/claude_skills_will_be_the_new_version_of/",
+      "source": "Reddit",
+      "sourceLabel": "r/ClaudeAI",
+      "category": "job",
+      "summary": "A lively r/ClaudeAI discussion argues the emerging Claude skills marketplace will reshape freelance work the way Fiverr and Upwork did a decade ago — with SMBs installing pre-built skills instead of hiring freelancers for common tasks. Upwork data backs this up: AI freelance skills grew 109% YoY and Claude skill creation is now an active job category. For SMB owners: the economics favor owners who invest in building a skills library over paying per-task contractor rates.",
+      "tags": ["freelance", "marketplace", "economy", "fiverr", "upwork", "skills", "jobs", "gig-economy", "reddit-discussion"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-01-006",
+      "title": "Open Design v0.7 Adds Video & Motion Graphics — Consultants Can Now Produce Client Deliverables at Token Cost",
+      "url": "https://wotai.co/blog/open-design-4-weeks-in",
+      "source": "WotAI",
+      "sourceLabel": "wotai.co",
+      "category": "vertical",
+      "summary": "Open Design v0.7 added video generation (15-second MP4 product reveals via Seedance 2.0) and motion graphics (HyperFrames HTML-to-MP4), meaning SMB consultants can generate multi-format client deliverables from a single agent-driven brief without expensive external vendors. For SMB owners: motion graphics and video prototypes that used to cost thousands per project are now token burn alone if you have the agent setup.",
+      "tags": ["open-design", "video", "motion-graphics", "consultants", "prototyping", "cost-savings", "product-reveal", "smb-verticals"],
+      "featured": false
+    },
     {
       "id": "2026-05-31-001",
       "title": "Anthropic Launches Claude Opus 4.8 With Effort Control, Dynamic Workflows, and Cheaper Fast Mode",
@@ -27,7 +93,7 @@
         "pricing",
         "anthropic"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-05-31-002",
@@ -113,10 +179,7 @@
     "news": {
       "label": "Industry News",
       "icon": "📰",
-      "entries": [
-        1,
-        3
-      ]
+      "entries": [2, 3, 7, 9]
     },
     "community": {
       "label": "Community Buzz",
@@ -126,22 +189,17 @@
     "vertical": {
       "label": "SMB Verticals",
       "icon": "🏢",
-      "entries": [
-        2
-      ]
+      "entries": [4, 6, 8]
     },
     "job": {
       "label": "Job Postings",
       "icon": "💼",
-      "entries": []
+      "entries": [5]
     },
     "tools": {
       "label": "Tools & Integrations",
       "icon": "🔧",
-      "entries": [
-        4,
-        5
-      ]
+      "entries": [1, 10, 11]
     }
   }
 }
