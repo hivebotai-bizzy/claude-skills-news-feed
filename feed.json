@@ -5,10 +5,76 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-04T13:00:00-05:00",
-    "entryCount": 44
+    "lastUpdated": "2026-06-05T13:00:00-05:00",
+    "entryCount": 50
   },
   "entries": [
+    {
+      "id": "2026-06-05-001",
+      "title": "Notion Opens Workspace to Claude Code, Cursor, and Codex as Native AI Agents",
+      "url": "https://www.techtimes.com/articles/317092/20260525/notion-opens-workspace-claude-code-cursor-codex-native-ai-agents.htm",
+      "source": "TechTimes",
+      "sourceLabel": "techtimes.com",
+      "category": "tools",
+      "summary": "Notion now lets Claude Code, Cursor, and Codex operate as tracked collaborators inside your workspace via the new External Agents API. Teams can assign work to AI agents inside Notion, track progress alongside humans, and connect results to live databases — all from one interface. For SMB owners: this means your Claude skills can now read and write directly to your Notion project docs, CRM notes, and company wiki without any copy-paste. Assign a Claude task to research competitors, and the output lands in your Notion database automatically.",
+      "tags": ["notion", "workspace-integration", "external-agents", "claude-code", "codex", "cursor", "collaboration", "developer-platform"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-002",
+      "title": "Inside Anthropic's Own Finance Team: 150 Claude Skills for Reconciliation, FP&A, ERP Migration, and Reporting",
+      "url": "https://www.cfoconnect.eu/resources/finance-insights/anthropic-finance-team-claude-skills/",
+      "source": "CFO Connect",
+      "sourceLabel": "cfoconnect.eu",
+      "category": "vertical",
+      "summary": "Anthropic's finance team runs ~150 shared Claude Skills across reconciliation (AR sub-ledger to GL matching in seconds), FP&A (revenue movers analysis from BigQuery with auto slide decks), ERP migration (validated historical data in 20 seconds per year vs hundreds of manual hours), and master data governance. The key insight: domain experts — accountants and FP&A analysts — write the skills themselves, not IT. For SMB owners: if you run QuickBooks or Xero, this is your blueprint. Start by encoding your most painful monthly reconciliation as a single Cowork skill — no developer needed.",
+      "tags": ["finance", "accounting", "reconciliation", "fp&a", "erp-migration", "claude-cowork", "workflow-automation", "skill-creation", "domain-experts"],
+      "featured": true
+    },
+    {
+      "id": "2026-06-05-003",
+      "title": "OpenAI's Codex Update Lets Non-Developers Build Interactive Workspaces — 20% of Users Now Knowledge Workers",
+      "url": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
+      "source": "VentureBeat",
+      "sourceLabel": "venturebeat.com",
+      "category": "news",
+      "summary": "OpenAI launched Codex 'Sites' (semi-private web hosting for agents), 'Annotations' (edit specific cells/charts without regenerating entire files), and role-specific plugins — positioning Codex as an everyday operating environment for business professionals. 20% of Codex's 5M weekly users are non-developers (financial analysts, marketers, operators), adopting 3x faster than engineers. For SMB owners: if you've dismissed Codex as 'for coders only', that's changing fast. The Annotations feature is the real SMB win — you can tell Codex to update one chart in your Q2 report without it rewriting and breaking the rest of the spreadsheet.",
+      "tags": ["openai", "codex", "sites", "annotations", "knowledge-workers", "non-developers", "enterprise-workspaces", "venturebeat"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-004",
+      "title": "The 8 Claude Code Skills Worth Installing First — Curated and Tested by the Community",
+      "url": "https://medium.com/@tentenco/the-8-claude-code-skills-worth-installing-first-898735fec4b8",
+      "source": "Medium / Ewan Mak",
+      "sourceLabel": "Ewan Mak via @axichuhai",
+      "category": "community",
+      "summary": "Developer @axichuhai published a curated list of eight Claude Code Skills sorted into three tiers: Foundation (Skill Creator + Find Skills — teaches the agent to extend itself), Product Development (code review, testing, project scaffolding), and Content Creation (image generation, formatting, research). Both Claude Code and Codex run the same open SKILL.md standard, so all eight work on either platform. For SMB owners: install Skill Creator and Find Skills first — they're the 'meta skills' that make installing every other skill easier. The list saves you from testing dozens of random skills yourself.",
+      "tags": ["skills-ranking", "skill-creator", "find-skills", "community-curated", "claude-code", "codex", "productivity", "installation-guide"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-005",
+      "title": "15 Claude Small Business Workflows Ranked by Time Saved — Invoice Chasing Saves 4-6 Hours/Week",
+      "url": "https://findskill.ai/blog/claude-small-business-workflows-ranked/",
+      "source": "FindSkill.ai",
+      "sourceLabel": "findskill.ai",
+      "category": "vertical",
+      "summary": "A practical ranking of every Claude for Small Business workflow by estimated hours saved per week. The top three: (1) Invoice chasing — 4-6 hrs/week, reads QuickBooks aging, drafts personalized follow-ups per customer, queues for approval; (2) Lead triager — 3-5 hrs/week, scores new HubSpot contacts against your ICP, drafts first-touch messages; (3) Cash flow forecasting — 3-4 hrs/week, projects 30/60/90 day outlook from QuickBooks + bank feeds. For SMB owners: this is the 'where to start' guide you've been waiting for. Install invoice chasing first if you do B2B invoicing; install lead triager first if you're a service business.",
+      "tags": ["small-business", "workflows-ranked", "invoice-chasing", "lead-triager", "cash-flow", "quickbooks", "hubspot", "time-savings", "roi"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-006",
+      "title": "Cowork Changed: The June 2026 Shift from Chat to Delegation — Stop Prompting, Start Assigning",
+      "url": "https://emergingai.substack.com/p/cowork-changed-the-june-2026-way",
+      "source": "Emerging AI / Substack",
+      "sourceLabel": "emergingai.substack.com",
+      "category": "community",
+      "summary": "A practical guide on the mindset shift Claude Cowork requires: most users still treat it like a chatbot ('summarize this file,' 'draft a reply'), but the real leverage comes from delegation ('Here are the tools, here's the process, here's the output I need — go do the work and save the result'). Opus 4.8's effort controls, Cowork scheduling, and plugin improvements make this shift possible now. For SMB owners: if your Cowork usage still feels like 'AI-assisted copy-paste,' this guide shows how to set up recurring weekly reports, automated invoice processing, and customer follow-ups that run without you typing a new prompt each time.",
+      "tags": ["cowork", "delegation-mindset", "opus-4.8", "effort-controls", "scheduling", "workflow-automation", "productivity", "mindset-shift"],
+      "featured": false
+    },
     {
       "id": "2026-06-04-001",
       "title": "Anthropic Reveals Claude Now Writes 80%+ of Its Code — Engineers Ship 8x More Output Per Quarter",
@@ -18,7 +84,7 @@
       "category": "news",
       "summary": "Anthropic published a landmark report showing the AI self-improvement flywheel in action. Claude now authors over 80% of Anthropic's merged code (up from low single digits in 2024), the typical engineer ships 8x more code per day than in 2024, and Claude autonomously fixed 800+ API bugs in April that an engineer estimated would have taken a human months. For SMB owners: this is the leading indicator for what Claude skills will be capable of in 6-12 months. If Anthropic's own engineers trust Claude to write production code autonomously, the same architecture is coming to small business workflows — expect Claude skills that handle entire business processes (order fulfillment, customer onboarding, compliance checks) without human step-by-step supervision.",
       "tags": ["recursive-self-improvement", "productivity", "code-generation", "anthropic-research", "autonomous-agents", "productivity-benchmarks", "cli"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-04-002",
@@ -135,17 +201,17 @@
     "news": {
       "label": "Industry News",
       "icon": "📰",
-      "entries": [1, 5, 6]
+      "entries": [3, 7, 11, 12, 13, 14]
     },
     "community": {
       "label": "Community Buzz",
       "icon": "💬",
-      "entries": [3]
+      "entries": [4, 6, 9, 15]
     },
     "vertical": {
       "label": "SMB Verticals",
       "icon": "🏢",
-      "entries": []
+      "entries": [2, 5, 17]
     },
     "job": {
       "label": "Job Postings",
@@ -155,7 +221,7 @@
     "tools": {
       "label": "Tools & Integrations",
       "icon": "🔧",
-      "entries": [2, 4]
+      "entries": [1, 8, 10, 16]
     }
   }
 }
