@@ -5,19 +5,208 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-05T13:00:00-05:00",
-    "entryCount": 50
+    "lastUpdated": "2026-06-06T13:00:00-05:00",
+    "entryCount": 23
   },
   "entries": [
     {
-      "id": "2026-06-05-001",
-      "title": "Notion Opens Workspace to Claude Code, Cursor, and Codex as Native AI Agents",
-      "url": "https://www.techtimes.com/articles/317092/20260525/notion-opens-workspace-claude-code-cursor-codex-native-ai-agents.htm",
-      "source": "TechTimes",
-      "sourceLabel": "techtimes.com",
+      "id": "2026-06-06-006",
+      "title": "CFOs on Reddit Discuss Running Claude Cowork 24/7 on Dedicated Machines \u2014 Real Deployment Lessons",
+      "url": "https://www.reddit.com/r/CFO/comments/1ttuoou/planning_to_start_running_claude_cowork_stuff/",
+      "source": "Reddit",
+      "sourceLabel": "r/CFO",
+      "category": "community",
+      "summary": "Fractional CFOs discuss dedicated 24/7 machines for continuous reconciliations, cash flow monitoring, and client reporting. Key lessons: Cowork can't send emails directly yet, dedicated hardware avoids browser sleep, and QuickBooks + Cowork for weekly AR aging is the top use case. For SMB owners: a $200 mini PC running Claude skills uninterruptedly can replace your laptop for task automation.",
+      "tags": [
+        "reddit",
+        "cfo",
+        "cowork",
+        "24-7",
+        "dedicated-machine",
+        "finance",
+        "quickbooks",
+        "ar-aging",
+        "lessons-learned"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-06-005",
+      "title": "Hermes Agent Desktop v0.15.2 Ships \u2014 Self-Improving AI Agent That Generates Its Own Skills from Usage",
+      "url": "https://medium.com/@tentenco/hermes-agent-desktop-app-everything-you-need-to-know-about-nous-researchs-self-improving-ai-agent-3cb59bd31e5f",
+      "source": "Medium / Tentenco",
+      "sourceLabel": "Nous Research via @tentenco",
       "category": "tools",
-      "summary": "Notion now lets Claude Code, Cursor, and Codex operate as tracked collaborators inside your workspace via the new External Agents API. Teams can assign work to AI agents inside Notion, track progress alongside humans, and connect results to live databases — all from one interface. For SMB owners: this means your Claude skills can now read and write directly to your Notion project docs, CRM notes, and company wiki without any copy-paste. Assign a Claude task to research competitors, and the output lands in your Notion database automatically.",
-      "tags": ["notion", "workspace-integration", "external-agents", "claude-code", "codex", "cursor", "collaboration", "developer-platform"],
+      "summary": "Nous Research's open-source Hermes Agent now has a native desktop app. After every task, it evaluates success and saves reasoning patterns as reusable skills (Markdown). Agents with 20+ self-created skills complete similar tasks 40% faster. For SMB owners: a no-subscription alternative to Claude Cowork \u2014 runs locally, gets smarter about your workflows with use.",
+      "tags": [
+        "hermes-agent",
+        "nous-research",
+        "self-improving",
+        "desktop-app",
+        "open-source",
+        "skill-generation",
+        "alternative"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-06-004",
+      "title": "KPMG and Anthropic Sign Global Alliance \u2014 Digital Gateway Powered by Claude for Tax, Audit, and Advisory",
+      "url": "https://kpmg.com/xx/en/media/press-releases/2026/05/kpmg-and-anthropic-sign-global-alliance-and-launch-digital-gateway-powered-by-claude.html",
+      "source": "KPMG",
+      "sourceLabel": "KPMG Press Release",
+      "category": "vertical",
+      "summary": "KPMG signed a global alliance to embed Claude across tax, audit, and advisory via a Digital Gateway platform \u2014 following PwC's 276,000-seat deployment. For SMB owners: the accounting workflows the Big 4 are building (reconciliation, compliance checks, document review) are the same skills you can run today in Claude Cowork with your QuickBooks connection.",
+      "tags": [
+        "kpmg",
+        "big4",
+        "accounting",
+        "audit",
+        "tax",
+        "professional-services",
+        "enterprise-adoption",
+        "validation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-06-003",
+      "title": "VoltAgent Launches Cross-Platform Agent Skill Collection \u2014 1,424 Skills That Work on Claude Code, Codex, Gemini CLI, and Cursor",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "source": "GitHub",
+      "sourceLabel": "VoltAgent/awesome-agent-skills",
+      "category": "tools",
+      "summary": "1,424 hand-curated agent skills from official teams (Anthropic, Google, Stripe, Vercel, Cloudflare) that work across Claude Code, Codex, Gemini CLI, Cursor, and more. For SMB owners: write a skill once in SKILL.md format and it runs on any tool. The Stripe and Cloudflare skills are directly applicable for e-commerce and infrastructure operations.",
+      "tags": [
+        "cross-platform",
+        "voltagent",
+        "multi-agent",
+        "stripe",
+        "vercel",
+        "google-gemini",
+        "cursor",
+        "codex",
+        "portability"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-06-002",
+      "title": "Awesome Claude Skills Repository Crosses 10,111 Skills \u2014 Largest Curated Library of Pre-Built Skills",
+      "url": "https://github.com/Chat2AnyLLM/awesome-claude-skills",
+      "source": "GitHub",
+      "sourceLabel": "Chat2AnyLLM/awesome-claude-skills",
+      "category": "community",
+      "summary": "The community-curated Awesome Claude Skills repo hit 10,111 skills across backend, DevOps, data, AI/LLM, and business productivity. For SMB owners: search this repo for 'invoice,' 'crm,' or 'payroll' before writing a skill from scratch \u2014 fork and customize in minutes.",
+      "tags": [
+        "awesome-list",
+        "github",
+        "skill-library",
+        "10k-skills",
+        "business-productivity",
+        "community",
+        "open-source"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-06-001",
+      "title": "Anthropic Files Confidential S-1, Sets Stage for Landmark AI IPO \u2014 What SMB Customers Should Watch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-claude-may-only-1-013100903.html",
+      "source": "Yahoo Finance",
+      "sourceLabel": "finance.yahoo.com",
+      "category": "news",
+      "summary": "Anthropic filed a confidential S-1 with the SEC. For SMB owners using Claude Skills or Cowork: IPOs bring pricing transparency, long-term stability, and often more aggressive product roadmaps \u2014 but also potential pressure to monetize. The filing follows Anthropic's KPMG global alliance and explosive SMB growth since the May 'Claude for Small Business' launch.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "s-1",
+        "public-offering",
+        "pricing",
+        "stability",
+        "enterprise-adoption"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-06-05-006",
+      "title": "Cowork Changed: The June 2026 Shift from Chat to Delegation \u2014 Stop Prompting, Start Assigning",
+      "url": "https://emergingai.substack.com/p/cowork-changed-the-june-2026-way",
+      "source": "Emerging AI / Substack",
+      "sourceLabel": "emergingai.substack.com",
+      "category": "community",
+      "summary": "A practical guide on the mindset shift Claude Cowork requires: most users still treat it like a chatbot ('summarize this file,' 'draft a reply'), but the real leverage comes from delegation ('Here are the tools, here's the process, here's the output I need \u2014 go do the work and save the result'). Opus 4.8's effort controls, Cowork scheduling, and plugin improvements make this shift possible now. For SMB owners: if your Cowork usage still feels like 'AI-assisted copy-paste,' this guide shows how to set up recurring weekly reports, automated invoice processing, and customer follow-ups that run without you typing a new prompt each time.",
+      "tags": [
+        "cowork",
+        "delegation-mindset",
+        "opus-4.8",
+        "effort-controls",
+        "scheduling",
+        "workflow-automation",
+        "productivity",
+        "mindset-shift"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-005",
+      "title": "15 Claude Small Business Workflows Ranked by Time Saved \u2014 Invoice Chasing Saves 4-6 Hours/Week",
+      "url": "https://findskill.ai/blog/claude-small-business-workflows-ranked/",
+      "source": "FindSkill.ai",
+      "sourceLabel": "findskill.ai",
+      "category": "vertical",
+      "summary": "A practical ranking of every Claude for Small Business workflow by estimated hours saved per week. The top three: (1) Invoice chasing \u2014 4-6 hrs/week, reads QuickBooks aging, drafts personalized follow-ups per customer, queues for approval; (2) Lead triager \u2014 3-5 hrs/week, scores new HubSpot contacts against your ICP, drafts first-touch messages; (3) Cash flow forecasting \u2014 3-4 hrs/week, projects 30/60/90 day outlook from QuickBooks + bank feeds. For SMB owners: this is the 'where to start' guide you've been waiting for. Install invoice chasing first if you do B2B invoicing; install lead triager first if you're a service business.",
+      "tags": [
+        "small-business",
+        "workflows-ranked",
+        "invoice-chasing",
+        "lead-triager",
+        "cash-flow",
+        "quickbooks",
+        "hubspot",
+        "time-savings",
+        "roi"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-004",
+      "title": "The 8 Claude Code Skills Worth Installing First \u2014 Curated and Tested by the Community",
+      "url": "https://medium.com/@tentenco/the-8-claude-code-skills-worth-installing-first-898735fec4b8",
+      "source": "Medium / Ewan Mak",
+      "sourceLabel": "Ewan Mak via @axichuhai",
+      "category": "community",
+      "summary": "Developer @axichuhai published a curated list of eight Claude Code Skills sorted into three tiers: Foundation (Skill Creator + Find Skills \u2014 teaches the agent to extend itself), Product Development (code review, testing, project scaffolding), and Content Creation (image generation, formatting, research). Both Claude Code and Codex run the same open SKILL.md standard, so all eight work on either platform. For SMB owners: install Skill Creator and Find Skills first \u2014 they're the 'meta skills' that make installing every other skill easier. The list saves you from testing dozens of random skills yourself.",
+      "tags": [
+        "skills-ranking",
+        "skill-creator",
+        "find-skills",
+        "community-curated",
+        "claude-code",
+        "codex",
+        "productivity",
+        "installation-guide"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-05-003",
+      "title": "OpenAI's Codex Update Lets Non-Developers Build Interactive Workspaces \u2014 20% of Users Now Knowledge Workers",
+      "url": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
+      "source": "VentureBeat",
+      "sourceLabel": "venturebeat.com",
+      "category": "news",
+      "summary": "OpenAI launched Codex 'Sites' (semi-private web hosting for agents), 'Annotations' (edit specific cells/charts without regenerating entire files), and role-specific plugins \u2014 positioning Codex as an everyday operating environment for business professionals. 20% of Codex's 5M weekly users are non-developers (financial analysts, marketers, operators), adopting 3x faster than engineers. For SMB owners: if you've dismissed Codex as 'for coders only', that's changing fast. The Annotations feature is the real SMB win \u2014 you can tell Codex to update one chart in your Q2 report without it rewriting and breaking the rest of the spreadsheet.",
+      "tags": [
+        "openai",
+        "codex",
+        "sites",
+        "annotations",
+        "knowledge-workers",
+        "non-developers",
+        "enterprise-workspaces",
+        "venturebeat"
+      ],
       "featured": false
     },
     {
@@ -27,85 +216,76 @@
       "source": "CFO Connect",
       "sourceLabel": "cfoconnect.eu",
       "category": "vertical",
-      "summary": "Anthropic's finance team runs ~150 shared Claude Skills across reconciliation (AR sub-ledger to GL matching in seconds), FP&A (revenue movers analysis from BigQuery with auto slide decks), ERP migration (validated historical data in 20 seconds per year vs hundreds of manual hours), and master data governance. The key insight: domain experts — accountants and FP&A analysts — write the skills themselves, not IT. For SMB owners: if you run QuickBooks or Xero, this is your blueprint. Start by encoding your most painful monthly reconciliation as a single Cowork skill — no developer needed.",
-      "tags": ["finance", "accounting", "reconciliation", "fp&a", "erp-migration", "claude-cowork", "workflow-automation", "skill-creation", "domain-experts"],
+      "summary": "Anthropic's finance team runs ~150 shared Claude Skills across reconciliation (AR sub-ledger to GL matching in seconds), FP&A (revenue movers analysis from BigQuery with auto slide decks), ERP migration (validated historical data in 20 seconds per year vs hundreds of manual hours), and master data governance. The key insight: domain experts \u2014 accountants and FP&A analysts \u2014 write the skills themselves, not IT. For SMB owners: if you run QuickBooks or Xero, this is your blueprint. Start by encoding your most painful monthly reconciliation as a single Cowork skill \u2014 no developer needed.",
+      "tags": [
+        "finance",
+        "accounting",
+        "reconciliation",
+        "fp&a",
+        "erp-migration",
+        "claude-cowork",
+        "workflow-automation",
+        "skill-creation",
+        "domain-experts"
+      ],
       "featured": true
     },
     {
-      "id": "2026-06-05-003",
-      "title": "OpenAI's Codex Update Lets Non-Developers Build Interactive Workspaces — 20% of Users Now Knowledge Workers",
-      "url": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
-      "source": "VentureBeat",
-      "sourceLabel": "venturebeat.com",
-      "category": "news",
-      "summary": "OpenAI launched Codex 'Sites' (semi-private web hosting for agents), 'Annotations' (edit specific cells/charts without regenerating entire files), and role-specific plugins — positioning Codex as an everyday operating environment for business professionals. 20% of Codex's 5M weekly users are non-developers (financial analysts, marketers, operators), adopting 3x faster than engineers. For SMB owners: if you've dismissed Codex as 'for coders only', that's changing fast. The Annotations feature is the real SMB win — you can tell Codex to update one chart in your Q2 report without it rewriting and breaking the rest of the spreadsheet.",
-      "tags": ["openai", "codex", "sites", "annotations", "knowledge-workers", "non-developers", "enterprise-workspaces", "venturebeat"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-05-004",
-      "title": "The 8 Claude Code Skills Worth Installing First — Curated and Tested by the Community",
-      "url": "https://medium.com/@tentenco/the-8-claude-code-skills-worth-installing-first-898735fec4b8",
-      "source": "Medium / Ewan Mak",
-      "sourceLabel": "Ewan Mak via @axichuhai",
-      "category": "community",
-      "summary": "Developer @axichuhai published a curated list of eight Claude Code Skills sorted into three tiers: Foundation (Skill Creator + Find Skills — teaches the agent to extend itself), Product Development (code review, testing, project scaffolding), and Content Creation (image generation, formatting, research). Both Claude Code and Codex run the same open SKILL.md standard, so all eight work on either platform. For SMB owners: install Skill Creator and Find Skills first — they're the 'meta skills' that make installing every other skill easier. The list saves you from testing dozens of random skills yourself.",
-      "tags": ["skills-ranking", "skill-creator", "find-skills", "community-curated", "claude-code", "codex", "productivity", "installation-guide"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-05-005",
-      "title": "15 Claude Small Business Workflows Ranked by Time Saved — Invoice Chasing Saves 4-6 Hours/Week",
-      "url": "https://findskill.ai/blog/claude-small-business-workflows-ranked/",
-      "source": "FindSkill.ai",
-      "sourceLabel": "findskill.ai",
-      "category": "vertical",
-      "summary": "A practical ranking of every Claude for Small Business workflow by estimated hours saved per week. The top three: (1) Invoice chasing — 4-6 hrs/week, reads QuickBooks aging, drafts personalized follow-ups per customer, queues for approval; (2) Lead triager — 3-5 hrs/week, scores new HubSpot contacts against your ICP, drafts first-touch messages; (3) Cash flow forecasting — 3-4 hrs/week, projects 30/60/90 day outlook from QuickBooks + bank feeds. For SMB owners: this is the 'where to start' guide you've been waiting for. Install invoice chasing first if you do B2B invoicing; install lead triager first if you're a service business.",
-      "tags": ["small-business", "workflows-ranked", "invoice-chasing", "lead-triager", "cash-flow", "quickbooks", "hubspot", "time-savings", "roi"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-05-006",
-      "title": "Cowork Changed: The June 2026 Shift from Chat to Delegation — Stop Prompting, Start Assigning",
-      "url": "https://emergingai.substack.com/p/cowork-changed-the-june-2026-way",
-      "source": "Emerging AI / Substack",
-      "sourceLabel": "emergingai.substack.com",
-      "category": "community",
-      "summary": "A practical guide on the mindset shift Claude Cowork requires: most users still treat it like a chatbot ('summarize this file,' 'draft a reply'), but the real leverage comes from delegation ('Here are the tools, here's the process, here's the output I need — go do the work and save the result'). Opus 4.8's effort controls, Cowork scheduling, and plugin improvements make this shift possible now. For SMB owners: if your Cowork usage still feels like 'AI-assisted copy-paste,' this guide shows how to set up recurring weekly reports, automated invoice processing, and customer follow-ups that run without you typing a new prompt each time.",
-      "tags": ["cowork", "delegation-mindset", "opus-4.8", "effort-controls", "scheduling", "workflow-automation", "productivity", "mindset-shift"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-04-001",
-      "title": "Anthropic Reveals Claude Now Writes 80%+ of Its Code — Engineers Ship 8x More Output Per Quarter",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "source": "Anthropic",
-      "sourceLabel": "Anthropic Institute",
-      "category": "news",
-      "summary": "Anthropic published a landmark report showing the AI self-improvement flywheel in action. Claude now authors over 80% of Anthropic's merged code (up from low single digits in 2024), the typical engineer ships 8x more code per day than in 2024, and Claude autonomously fixed 800+ API bugs in April that an engineer estimated would have taken a human months. For SMB owners: this is the leading indicator for what Claude skills will be capable of in 6-12 months. If Anthropic's own engineers trust Claude to write production code autonomously, the same architecture is coming to small business workflows — expect Claude skills that handle entire business processes (order fulfillment, customer onboarding, compliance checks) without human step-by-step supervision.",
-      "tags": ["recursive-self-improvement", "productivity", "code-generation", "anthropic-research", "autonomous-agents", "productivity-benchmarks", "cli"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-04-002",
-      "title": "How to Cut Claude Code Token Costs with Prompt Caching in Dynamic Workflows",
-      "url": "https://www.mindstudio.ai/blog/prompt-caching-cut-token-costs-claude-dynamic-workflows",
-      "source": "MindStudio",
-      "sourceLabel": "mindstudio.ai",
+      "id": "2026-06-05-001",
+      "title": "Notion Opens Workspace to Claude Code, Cursor, and Codex as Native AI Agents",
+      "url": "https://www.techtimes.com/articles/317092/20260525/notion-opens-workspace-claude-code-cursor-codex-native-ai-agents.htm",
+      "source": "TechTimes",
+      "sourceLabel": "techtimes.com",
       "category": "tools",
-      "summary": "Dynamic workflows burn tokens fast — a single complex task can spawn 50 parallel sub-agents, each consuming context. This guide shows how to use prompt caching (reuse shared context across sub-agents), scope bounding (limit each sub-agent to only the files it needs), and Haiku sub-agents for cheap tasks like file reads. For SMB owners: if you're using Claude Code and your monthly bill made you wince, these three techniques can cut 40-60% off without reducing output quality.",
-      "tags": ["prompt-caching", "token-costs", "dynamic-workflows", "cost-optimization", "haiku", "sub-agents", "mindstudio"],
+      "summary": "Notion now lets Claude Code, Cursor, and Codex operate as tracked collaborators inside your workspace via the new External Agents API. Teams can assign work to AI agents inside Notion, track progress alongside humans, and connect results to live databases \u2014 all from one interface. For SMB owners: this means your Claude skills can now read and write directly to your Notion project docs, CRM notes, and company wiki without any copy-paste. Assign a Claude task to research competitors, and the output lands in your Notion database automatically.",
+      "tags": [
+        "notion",
+        "workspace-integration",
+        "external-agents",
+        "claude-code",
+        "codex",
+        "cursor",
+        "collaboration",
+        "developer-platform"
+      ],
       "featured": false
     },
     {
-      "id": "2026-06-04-003",
-      "title": "When to Use Dynamic Workflows vs Sub-Agents vs /goal — Don't Burn Tokens on the Wrong Pattern",
-      "url": "https://www.mindstudio.ai/blog/anthropic-dynamic-workflows-when-to-use-them",
-      "source": "MindStudio",
-      "sourceLabel": "mindstudio.ai",
-      "category": "community",
-      "summary": "A practical decision guide breaking down when to reach for dynamic workflows (Opus 4.8's parallel sub-agent mode), when a simple /goal command is enough, and when a manual sub-agent setup is actually better. The key mistake: using dynamic workflows for tasks that don't need parallelism, which wastes compute on orchestrator overhead. For SMB owners: this is the difference between paying $5 for a task that should cost $0.50 and paying $50 for a task that should cost $5 — read this before you turn on dynamic workflows for everything.",
-      "tags": ["dynamic-workflows", "sub-agents", "goal", "decision-guide", "cost-optimization", "opus-4.8", "claude-code", "mindstudio"],
+      "id": "2026-06-04-006",
+      "title": "How Anthropic Contains Claude Across Products \u2014 Agent Safety Patterns Every SMB Deploying AI Should Know",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Engineering",
+      "category": "news",
+      "summary": "Anthropic published an in-depth engineering post on how it secures Claude across claude.ai, Claude Code, and Claude Cowork. The three-layer defense: (1) environment sandboxing (VMs, egress controls), (2) model-level guardrails (Claude Opus 4.7 resists prompt injection to 0.1% success rate), and (3) external content controls (MCP servers, plugins). Claude Code's auto mode catches 83% of overeager behaviors before execution. For SMB owners: if you're giving Claude access to your QuickBooks, CRM, or inventory system, this post explains the actual safety architecture \u2014 the TL;DR is that read-only access and sandboxed environments are the two things that matter most.",
+      "tags": [
+        "containment",
+        "agent-safety",
+        "prompt-injection",
+        "sandboxing",
+        "anthropic-engineering",
+        "auto-mode",
+        "security"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-04-005",
+      "title": "Uber Caps AI Tool Spending at $1,500/Month Per Employee \u2014 What SMBs Should Learn About AI Budgeting",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "source": "Simon Willison / Bloomberg",
+      "sourceLabel": "simonwillison.net",
+      "category": "news",
+      "summary": "Uber has capped every employee at $1,500/month per AI coding tool after blowing their 2026 AI budget in four months. Simon Willison breaks down the math: at $3,000/month for two tools per engineer that's ~11% of a typical engineer's comp. The cap mirrors Anthropic's own June 15 Agent SDK credit system. For SMB owners: if a company as large as Uber is rationing AI tokens, your budget discipline matters even more. The three cost levers are (1) effort controls for simple tasks, (2) prompt caching, and (3) subscribing to Pro/Max for subsidized API-usage credits rather than paying raw API rates.",
+      "tags": [
+        "budgeting",
+        "uber",
+        "cost-management",
+        "enterprise",
+        "pricing",
+        "token-caps",
+        "simon-willison"
+      ],
       "featured": false
     },
     {
@@ -115,74 +295,74 @@
       "source": "Hacker News",
       "sourceLabel": "Show HN",
       "category": "tools",
-      "summary": "A new startup (boxes.dev) gives every Claude Code and Codex agent its own cloud computer, eliminating the need for local development. Each agent thread starts from a snapshot of your full dev setup with its own filesystem and compute — no more git worktrees, cracked-open laptops, or SSHing into garage servers. Includes a full mobile app and Slack integration. For SMB technical teams: if you have even one developer using Claude Code, this turns your laptop into a thin client — developers can spawn parallel agent threads from their phone without any local setup.",
-      "tags": ["boxes.dev", "cloud-ide", "agentic-dev-environment", "claude-code", "codex", "remote-compute", "hacker-news"],
+      "summary": "A new startup (boxes.dev) gives every Claude Code and Codex agent its own cloud computer, eliminating the need for local development. Each agent thread starts from a snapshot of your full dev setup with its own filesystem and compute \u2014 no more git worktrees, cracked-open laptops, or SSHing into garage servers. Includes a full mobile app and Slack integration. For SMB technical teams: if you have even one developer using Claude Code, this turns your laptop into a thin client \u2014 developers can spawn parallel agent threads from their phone without any local setup.",
+      "tags": [
+        "boxes.dev",
+        "cloud-ide",
+        "agentic-dev-environment",
+        "claude-code",
+        "codex",
+        "remote-compute",
+        "hacker-news"
+      ],
       "featured": false
     },
     {
-      "id": "2026-06-04-005",
-      "title": "Uber Caps AI Tool Spending at $1,500/Month Per Employee — What SMBs Should Learn About AI Budgeting",
-      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
-      "source": "Simon Willison / Bloomberg",
-      "sourceLabel": "simonwillison.net",
-      "category": "news",
-      "summary": "Uber has capped every employee at $1,500/month per AI coding tool after blowing their 2026 AI budget in four months. Simon Willison breaks down the math: at $3,000/month for two tools per engineer that's ~11% of a typical engineer's comp. The cap mirrors Anthropic's own June 15 Agent SDK credit system. For SMB owners: if a company as large as Uber is rationing AI tokens, your budget discipline matters even more. The three cost levers are (1) effort controls for simple tasks, (2) prompt caching, and (3) subscribing to Pro/Max for subsidized API-usage credits rather than paying raw API rates.",
-      "tags": ["budgeting", "uber", "cost-management", "enterprise", "pricing", "token-caps", "simon-willison"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-04-006",
-      "title": "How Anthropic Contains Claude Across Products — Agent Safety Patterns Every SMB Deploying AI Should Know",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "source": "Anthropic",
-      "sourceLabel": "Anthropic Engineering",
-      "category": "news",
-      "summary": "Anthropic published an in-depth engineering post on how it secures Claude across claude.ai, Claude Code, and Claude Cowork. The three-layer defense: (1) environment sandboxing (VMs, egress controls), (2) model-level guardrails (Claude Opus 4.7 resists prompt injection to 0.1% success rate), and (3) external content controls (MCP servers, plugins). Claude Code's auto mode catches 83% of overeager behaviors before execution. For SMB owners: if you're giving Claude access to your QuickBooks, CRM, or inventory system, this post explains the actual safety architecture — the TL;DR is that read-only access and sandboxed environments are the two things that matter most.",
-      "tags": ["containment", "agent-safety", "prompt-injection", "sandboxing", "anthropic-engineering", "auto-mode", "security"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-03-001",
-      "title": "Claude Opus 4.8 Launches with Effort Controls, Dynamic Workflows, and Cheaper Fast Mode — SMBs Save on Every Task",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "source": "Anthropic",
-      "sourceLabel": "Anthropic Official",
-      "category": "news",
-      "summary": "Claude Opus 4.8 is here with three big additions: (1) effort controls let you dial down compute for simple tasks and dial up for complex ones — pay only for what you need, (2) dynamic workflows in Claude Code break large problems into parallel sub-agents that run simultaneously, and (3) fast mode is now 3x cheaper while running 2.5x faster. For SMB owners: effort controls are the sleeper hit — set 'low effort' on routine tasks like drafting emails or summarizing documents and you'll use fewer tokens per request. Dynamic workflows mean you can now ask Claude to research 20 competitors, analyze 200 customer reviews, or audit an entire codebase in one command instead of 20 separate prompts.",
-      "tags": ["opus-4.8", "effort-controls", "dynamic-workflows", "fast-mode", "pricing", "anthropic", "claude-code", "cost-savings"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-03-002",
-      "title": "Claude Agent SDK Gets Monthly Credit Beginning June 15 — $20/mo for Pro, $100/mo for Max, Free for Subscribers",
-      "url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan",
-      "source": "Anthropic Support",
-      "sourceLabel": "support.claude.com",
-      "category": "news",
-      "summary": "Starting June 15, Claude Agent SDK, claude -p, and third-party Agent SDK apps no longer count against your plan's chat usage limits. Instead, eligible plans get a separate monthly credit: Pro gets $20, Max 5x gets $100, Max 20x gets $200, Team gets $20–$100 per seat. For SMB owners: this is a direct cost reduction if you run any automated workflows — your bot that checks inventory daily, your marketing report generator, your customer follow-up scraper — they all move to a separate budget that doesn't compete with your interactive Claude use. Opt in once and it refreshes monthly.",
-      "tags": ["agent-sdk", "credits", "pricing", "automation", "claude-code", "billing", "june-15", "pro", "max"],
-      "featured": false
-    },
-    {
-      "id": "2026-06-03-003",
-      "title": "Dynamic Workflows Explained: How Opus 4.8 Runs Hundreds of Parallel Sub-Agents for Massive Analysis Tasks",
-      "url": "https://www.mindstudio.ai/blog/claude-opus-4-8-dynamic-workflows-parallel-sub-agents/",
+      "id": "2026-06-04-003",
+      "title": "When to Use Dynamic Workflows vs Sub-Agents vs /goal \u2014 Don't Burn Tokens on the Wrong Pattern",
+      "url": "https://www.mindstudio.ai/blog/anthropic-dynamic-workflows-when-to-use-them",
       "source": "MindStudio",
       "sourceLabel": "mindstudio.ai",
       "category": "community",
-      "summary": "A deep-dive guide on Opus 4.8's orchestrator-subagent model that breaks work into parallel tasks and reassembles results. The three-layer architecture (Orchestrator → Sub-Agents → Tools) means a single prompt can spawn 5 research agents or 50 — the orchestrator decides at runtime based on task scope. For SMB owners: this is the architecture behind 'analyze my entire Q2' type commands. If you run an agency, you can now have Claude research 30 local competitors simultaneously and synthesize a competitive analysis in minutes instead of hours.",
-      "tags": ["dynamic-workflows", "sub-agents", "parallel", "orchestrator", "tutorial", "mindstudio", "opus-4.8", "multi-agent"],
+      "summary": "A practical decision guide breaking down when to reach for dynamic workflows (Opus 4.8's parallel sub-agent mode), when a simple /goal command is enough, and when a manual sub-agent setup is actually better. The key mistake: using dynamic workflows for tasks that don't need parallelism, which wastes compute on orchestrator overhead. For SMB owners: this is the difference between paying $5 for a task that should cost $0.50 and paying $50 for a task that should cost $5 \u2014 read this before you turn on dynamic workflows for everything.",
+      "tags": [
+        "dynamic-workflows",
+        "sub-agents",
+        "goal",
+        "decision-guide",
+        "cost-optimization",
+        "opus-4.8",
+        "claude-code",
+        "mindstudio"
+      ],
       "featured": false
     },
     {
-      "id": "2026-06-03-004",
-      "title": "Custom Claude Marketing Skills: How to Wire Live Campaign Data into Agent Skills for Attribution, Budget Pacing, and Reporting",
-      "url": "https://improvado.io/blog/claude-marketing-skills",
-      "source": "Improvado",
-      "sourceLabel": "improvado.io",
+      "id": "2026-06-04-002",
+      "title": "How to Cut Claude Code Token Costs with Prompt Caching in Dynamic Workflows",
+      "url": "https://www.mindstudio.ai/blog/prompt-caching-cut-token-costs-claude-dynamic-workflows",
+      "source": "MindStudio",
+      "sourceLabel": "mindstudio.ai",
       "category": "tools",
-      "summary": "A practical guide for building Claude Agent Skills that connect to live marketing data warehouses, enforce attribution rules, and answer questions like 'What's our actual CAC for enterprise accounts in EMEA this month, broken out by channel?' The guide covers the exact system prompt patterns, unified schema requirements, and three production deployment patterns (ad-hoc query agents, scheduled insight bots, pre-launch campaign governance). For SMB marketing owners: this shows you how to build a marketing analyst skill that doesn't hallucinate — it reads your actual campaign data and applies your specific attribution model every time.",
-      "tags": ["marketing", "campaign-analysis", "attribution", "data-warehouse", "live-data", "agent-skills", "improvado", "tutorial"],
+      "summary": "Dynamic workflows burn tokens fast \u2014 a single complex task can spawn 50 parallel sub-agents, each consuming context. This guide shows how to use prompt caching (reuse shared context across sub-agents), scope bounding (limit each sub-agent to only the files it needs), and Haiku sub-agents for cheap tasks like file reads. For SMB owners: if you're using Claude Code and your monthly bill made you wince, these three techniques can cut 40-60% off without reducing output quality.",
+      "tags": [
+        "prompt-caching",
+        "token-costs",
+        "dynamic-workflows",
+        "cost-optimization",
+        "haiku",
+        "sub-agents",
+        "mindstudio"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-04-001",
+      "title": "Anthropic Reveals Claude Now Writes 80%+ of Its Code \u2014 Engineers Ship 8x More Output Per Quarter",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Institute",
+      "category": "news",
+      "summary": "Anthropic published a landmark report showing the AI self-improvement flywheel in action. Claude now authors over 80% of Anthropic's merged code (up from low single digits in 2024), the typical engineer ships 8x more code per day than in 2024, and Claude autonomously fixed 800+ API bugs in April that an engineer estimated would have taken a human months. For SMB owners: this is the leading indicator for what Claude skills will be capable of in 6-12 months. If Anthropic's own engineers trust Claude to write production code autonomously, the same architecture is coming to small business workflows \u2014 expect Claude skills that handle entire business processes (order fulfillment, customer onboarding, compliance checks) without human step-by-step supervision.",
+      "tags": [
+        "recursive-self-improvement",
+        "productivity",
+        "code-generation",
+        "anthropic-research",
+        "autonomous-agents",
+        "productivity-benchmarks",
+        "cli"
+      ],
       "featured": false
     },
     {
@@ -192,36 +372,153 @@
       "source": "MindStudio",
       "sourceLabel": "mindstudio.ai",
       "category": "vertical",
-      "summary": "A step-by-step setup walkthrough for Anthropic's 31 built-in small business skills in Claude Cowork, covering the exact installation process, which QuickBooks/HubSpot connections to configure first, and how to customize individual skill behaviors for your specific business. For SMB owners: this removes the friction of getting started — follow along and you'll have payroll forecasting, cash management, contract review, and overdue invoice chasing running in under 30 minutes. The guide also covers which skills to pair together for maximum efficiency (e.g., cash management + overdue invoicing as a weekly routine).",
-      "tags": ["small-business", "setup-guide", "cowork", "plugin-pack", "quickbooks", "hubspot", "payroll", "invoicing"],
+      "summary": "A step-by-step setup walkthrough for Anthropic's 31 built-in small business skills in Claude Cowork, covering the exact installation process, which QuickBooks/HubSpot connections to configure first, and how to customize individual skill behaviors for your specific business. For SMB owners: this removes the friction of getting started \u2014 follow along and you'll have payroll forecasting, cash management, contract review, and overdue invoice chasing running in under 30 minutes. The guide also covers which skills to pair together for maximum efficiency (e.g., cash management + overdue invoicing as a weekly routine).",
+      "tags": [
+        "small-business",
+        "setup-guide",
+        "cowork",
+        "plugin-pack",
+        "quickbooks",
+        "hubspot",
+        "payroll",
+        "invoicing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-03-004",
+      "title": "Custom Claude Marketing Skills: How to Wire Live Campaign Data into Agent Skills for Attribution, Budget Pacing, and Reporting",
+      "url": "https://improvado.io/blog/claude-marketing-skills",
+      "source": "Improvado",
+      "sourceLabel": "improvado.io",
+      "category": "tools",
+      "summary": "A practical guide for building Claude Agent Skills that connect to live marketing data warehouses, enforce attribution rules, and answer questions like 'What's our actual CAC for enterprise accounts in EMEA this month, broken out by channel?' The guide covers the exact system prompt patterns, unified schema requirements, and three production deployment patterns (ad-hoc query agents, scheduled insight bots, pre-launch campaign governance). For SMB marketing owners: this shows you how to build a marketing analyst skill that doesn't hallucinate \u2014 it reads your actual campaign data and applies your specific attribution model every time.",
+      "tags": [
+        "marketing",
+        "campaign-analysis",
+        "attribution",
+        "data-warehouse",
+        "live-data",
+        "agent-skills",
+        "improvado",
+        "tutorial"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-03-003",
+      "title": "Dynamic Workflows Explained: How Opus 4.8 Runs Hundreds of Parallel Sub-Agents for Massive Analysis Tasks",
+      "url": "https://www.mindstudio.ai/blog/claude-opus-4-8-dynamic-workflows-parallel-sub-agents/",
+      "source": "MindStudio",
+      "sourceLabel": "mindstudio.ai",
+      "category": "community",
+      "summary": "A deep-dive guide on Opus 4.8's orchestrator-subagent model that breaks work into parallel tasks and reassembles results. The three-layer architecture (Orchestrator \u2192 Sub-Agents \u2192 Tools) means a single prompt can spawn 5 research agents or 50 \u2014 the orchestrator decides at runtime based on task scope. For SMB owners: this is the architecture behind 'analyze my entire Q2' type commands. If you run an agency, you can now have Claude research 30 local competitors simultaneously and synthesize a competitive analysis in minutes instead of hours.",
+      "tags": [
+        "dynamic-workflows",
+        "sub-agents",
+        "parallel",
+        "orchestrator",
+        "tutorial",
+        "mindstudio",
+        "opus-4.8",
+        "multi-agent"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-03-002",
+      "title": "Claude Agent SDK Gets Monthly Credit Beginning June 15 \u2014 $20/mo for Pro, $100/mo for Max, Free for Subscribers",
+      "url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan",
+      "source": "Anthropic Support",
+      "sourceLabel": "support.claude.com",
+      "category": "news",
+      "summary": "Starting June 15, Claude Agent SDK, claude -p, and third-party Agent SDK apps no longer count against your plan's chat usage limits. Instead, eligible plans get a separate monthly credit: Pro gets $20, Max 5x gets $100, Max 20x gets $200, Team gets $20\u2013$100 per seat. For SMB owners: this is a direct cost reduction if you run any automated workflows \u2014 your bot that checks inventory daily, your marketing report generator, your customer follow-up scraper \u2014 they all move to a separate budget that doesn't compete with your interactive Claude use. Opt in once and it refreshes monthly.",
+      "tags": [
+        "agent-sdk",
+        "credits",
+        "pricing",
+        "automation",
+        "claude-code",
+        "billing",
+        "june-15",
+        "pro",
+        "max"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-03-001",
+      "title": "Claude Opus 4.8 Launches with Effort Controls, Dynamic Workflows, and Cheaper Fast Mode \u2014 SMBs Save on Every Task",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source": "Anthropic",
+      "sourceLabel": "Anthropic Official",
+      "category": "news",
+      "summary": "Claude Opus 4.8 is here with three big additions: (1) effort controls let you dial down compute for simple tasks and dial up for complex ones \u2014 pay only for what you need, (2) dynamic workflows in Claude Code break large problems into parallel sub-agents that run simultaneously, and (3) fast mode is now 3x cheaper while running 2.5x faster. For SMB owners: effort controls are the sleeper hit \u2014 set 'low effort' on routine tasks like drafting emails or summarizing documents and you'll use fewer tokens per request. Dynamic workflows mean you can now ask Claude to research 20 competitors, analyze 200 customer reviews, or audit an entire codebase in one command instead of 20 separate prompts.",
+      "tags": [
+        "opus-4.8",
+        "effort-controls",
+        "dynamic-workflows",
+        "fast-mode",
+        "pricing",
+        "anthropic",
+        "claude-code",
+        "cost-savings"
+      ],
       "featured": false
     }
   ],
   "categories": {
     "news": {
       "label": "Industry News",
-      "icon": "📰",
-      "entries": [3, 7, 11, 12, 13, 14]
+      "icon": "\ud83d\udcf0",
+      "entries": [
+        6,
+        10,
+        13,
+        14,
+        18,
+        22,
+        23
+      ]
     },
     "community": {
       "label": "Community Buzz",
-      "icon": "💬",
-      "entries": [4, 6, 9, 15]
+      "icon": "\ud83d\udcac",
+      "entries": [
+        1,
+        5,
+        7,
+        9,
+        16,
+        21
+      ]
     },
     "vertical": {
       "label": "SMB Verticals",
-      "icon": "🏢",
-      "entries": [2, 5, 17]
+      "icon": "\ud83c\udfe2",
+      "entries": [
+        3,
+        8,
+        11,
+        19
+      ]
     },
     "job": {
       "label": "Job Postings",
-      "icon": "💼",
+      "icon": "\ud83d\udcbc",
       "entries": []
     },
     "tools": {
       "label": "Tools & Integrations",
-      "icon": "🔧",
-      "entries": [1, 8, 10, 16]
+      "icon": "\ud83d\udd27",
+      "entries": [
+        2,
+        4,
+        12,
+        15,
+        17,
+        20
+      ]
     }
   }
 }
