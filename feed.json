@@ -5,10 +5,132 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-08T13:00:00-05:00",
-    "entryCount": 35
+    "lastUpdated": "2026-06-09T13:00:00-05:00",
+    "entryCount": 18
   },
   "entries": [
+    {
+      "id": "2026-06-09-001",
+      "title": "Claude Fable 5 Launches — Mythos-Class Model Drops at $10/$50 Per MTok with Safety Guardrails",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "source": "Anthropic",
+      "sourceLabel": "anthropic.com",
+      "category": "news",
+      "summary": "Anthropic released Claude Fable 5 today — the first publicly available Mythos-class model — at $10/$50 per million tokens (less than half Mythos Preview pricing). Safety classifiers block responses in cybersecurity, biology, chemistry, and distillation (fallback to Opus 4.8), triggering in under 5% of sessions. Early results: Stripe migrated a 50M-line Ruby codebase in one day (team of months by hand), and the model beat Pokémon FireRed with vision-only input. For SMB owners: Fable 5 is the first frontier model priced within SMB reach at $10/$50 per MTok. It excels at long, complex tasks — codebase migrations, financial analysis, document reasoning — that smaller models can't handle reliably. Test it on your hardest problem this week while it's free on subscriptions.",
+      "tags": [
+        "claude-fable-5",
+        "mythos",
+        "anthropic",
+        "frontier-model",
+        "pricing",
+        "safety",
+        "vision",
+        "stripe",
+        "launch"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-06-09-002",
+      "title": "Anthropic's Finance Team Runs 150 Shared Claude Skills — Version-Controlled by Accountants, Not IT",
+      "url": "https://www.cfoconnect.eu/resources/finance-insights/anthropic-finance-team-claude-skills/",
+      "source": "CFO Connect",
+      "sourceLabel": "cfoconnect.eu",
+      "category": "vertical",
+      "summary": "In a June 2026 webinar, Anthropic's Finance AI Product Lead and Head of Finance Systems revealed their team uses ~150 shared Claude Skills stored in a version-controlled GitHub repo — and domain experts (accountants, FP&A analysts) write the skills themselves, not IT. Skills cover reconciliations, revenue mover analysis, ERP migration validation (20 seconds per year of data vs. hundreds of hours), master data governance, and scheduled reporting. For SMB finance teams: this is the playbook. Start by encoding the procedures that exist in one person's head — reconciliation rules, variance thresholds, report formats — as reusable Claude Skills. The ROI compounds: build once, share with everyone, version forever.",
+      "tags": [
+        "finance",
+        "skills-library",
+        "version-control",
+        "domain-experts",
+        "reconciliation",
+        "fpa",
+        "erp-migration",
+        "governance",
+        "automation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-09-003",
+      "title": "Claude Code Now Auto-Loads Skills from .claude/skills — Plugin Scaffold Command Ships",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source": "Releasebot / Anthropic",
+      "sourceLabel": "releasebot.io",
+      "category": "tools",
+      "summary": "Claude Code's June update adds auto-loading of plugins from .claude/skills directories (no marketplace required), a 'claude plugin init' command that scaffolds new plugins, a /reload-skills command to re-scan without restart, and SessionStart hooks that can install skills within the same session. Skills can now declare 'disallowed-tools' in frontmatter to remove tools while active. For SMB developers: this dramatically lowers the barrier to building custom Claude skills — you can now drop a skill file in .claude/skills, run /reload-skills, and it's active. No package registry, no install process.",
+      "tags": [
+        "claude-code",
+        "plugins",
+        "skills",
+        "auto-loading",
+        "scaffold",
+        "sessionstart",
+        "development",
+        "smb-developer"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-09-004",
+      "title": "MCP Ecosystem Crosses 5,000 Community Servers — AWS MCP Server Goes GA",
+      "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
+      "source": "AWS / SkillsLLM",
+      "sourceLabel": "aws.amazon.com",
+      "category": "tools",
+      "summary": "The MCP (Model Context Protocol) ecosystem has surpassed 5,000 community-built servers as of June 2026, with PulseMCP adding 1,000+ servers per month in Q1-Q2. The AWS MCP Server is now generally available, giving Claude agents access to 15,000+ AWS API operations through existing IAM credentials. Anthropic SDKs crossed 97M monthly downloads. For SMBs running on AWS or building AI workflows: the MCP ecosystem hit critical mass. You can now connect Claude to virtually any service — databases, CRMs, cloud infrastructure — through a community MCP server rather than building custom integrations.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "aws",
+        "integrations",
+        "ecosystem",
+        "5000-servers",
+        "api",
+        "infrastructure"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-09-005",
+      "title": "SMBs Get Claude Fable 5 Free Until June 22 — What to Test Before the Window Closes",
+      "url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+      "source": "TechCrunch",
+      "sourceLabel": "techcrunch.com",
+      "category": "news",
+      "summary": "Claude Fable 5 (the public Mythos-class model at $10/$50 per MTok) is included on Pro, Max, Team, and Enterprise subscription plans at no extra cost through June 22. After that date, usage credits will be required. Anthropic also mandates 30-day traffic retention for Fable/Mythos use — even for enterprises with zero-retention agreements — to defend against novel jailbreak attacks. For SMB owners: this is a 13-day test window. Connect Fable 5 to your heaviest workflows (document analysis, code generation, financial modeling) and measure before the credit meter starts. The 30-day retention is worth noting if you handle sensitive client data.",
+      "tags": [
+        "fable-5",
+        "free-period",
+        "june-22-deadline",
+        "pricing",
+        "data-retention",
+        "testing",
+        "smb",
+        "subscription"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-09-006",
+      "title": "Freelance Claude Skills Economy Emerges — $18-$42/hr Gigs Hit Upwork & Indeed",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Skill-Creation-for-Assistant_~022061464161733718099/",
+      "source": "Upwork / Indeed",
+      "sourceLabel": "upwork.com",
+      "category": "job",
+      "summary": "1,687 remote Claude AI jobs are now open on Indeed, with Upwork seeing new 'Claude Skill Creation' and 'Claude Opus prompt engineer' gigs posted within the last 24 hours. Budgets range $18-$42/hr for skill-builders, and MentorCruise lists 56+ freelance Claude experts for hire. For SMB owners looking to build Claude skills: the labor market is forming. You can hire a freelance skill builder on Upwork to encode your business workflows instead of learning it yourself — the role is now specialized enough to outsource.",
+      "tags": [
+        "freelance",
+        "upwork",
+        "indeed",
+        "job-market",
+        "prompt-engineer",
+        "skill-builder",
+        "hiring",
+        "claude-expert"
+      ],
+      "featured": false
+    },
     {
       "id": "2026-06-08-006",
       "title": "Opus 4.8 Ships Dynamic Workflows — Claude Writes Orchestration Scripts for Up to 1,000 Subagents",
@@ -27,7 +149,7 @@
         "fast-mode",
         "anthropic"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-08-005",
@@ -259,43 +381,27 @@
     "news": {
       "label": "Industry News",
       "icon": "📰",
-      "entries": [
-        2,
-        5,
-        7,
-        9
-      ]
+      "entries": [1, 5, 8, 11, 13, 15]
     },
     "community": {
       "label": "Community Buzz",
       "icon": "💬",
-      "entries": [
-        3,
-        8,
-        10,
-        12
-      ]
+      "entries": [9, 14, 16, 18]
     },
     "vertical": {
       "label": "SMB Verticals",
       "icon": "🏢",
-      "entries": [
-        6
-      ]
+      "entries": [2, 12]
     },
     "job": {
       "label": "Job Postings",
       "icon": "💼",
-      "entries": []
+      "entries": [6]
     },
     "tools": {
       "label": "Tools & Integrations",
       "icon": "🔧",
-      "entries": [
-        1,
-        4,
-        11
-      ]
+      "entries": [3, 4, 7, 10, 17]
     }
   }
 }
