@@ -5,523 +5,75 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-10T13:00:00-05:00",
-    "entryCount": 24
+    "lastUpdated": "2026-06-15T13:00:00-05:00",
+    "entryCount": 10
   },
   "entries": [
     {
-      "id": "2026-06-10-001",
-      "title": "Anthropic Institute Reveals 80% of Its Code Now Written by Claude — Recursive Self-Improvement Trend Documented",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "source": "Anthropic Institute",
-      "sourceLabel": "anthropic.com/institute",
+      "id": "2026-06-15-001",
+      "title": "Claude Billing Changes Today: Agent SDK Separated from Subscription Credits — What SMBs Must Do Before June 15",
+      "url": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
+      "source": "Digital Applied",
+      "sourceLabel": "digitalapplied.com",
       "category": "news",
-      "summary": "Anthropic published data showing 80%+ of merged code is now authored by Claude, and engineers ship 8x more per quarter than in 2024. The METR time-horizons trend shows AI task length doubling every 4 months — 12-hour tasks today, days-long tasks expected this year, weeks-long by 2027. The paper maps the path from coding agents to fully autonomous recursive self-improvement. For SMB owners: this is the clearest signal yet that AI capabilities will compound faster than most businesses are planning for. The businesses that integrate Claude deeply into their workflows now will be the ones that benefit from what comes next year — the gap between 'trying AI' and 'running on AI' is about to widen dramatically.",
-      "tags": [
-        "anthropic-institute",
-        "recursive-self-improvement",
-        "80-percent-code",
-        "8x-productivity",
-        "metr",
-        "time-horizons",
-        "autonomous-agents",
-        "long-tasks"
-      ],
+      "summary": "Effective today, June 15, Anthropic unbundles Agent SDK and claude-p usage from Pro/Max/Team/Enterprise subscription pools. Heavy automation users previously had a 15-30x subsidy that now ends — you'll get a monthly dollar credit billed at standard API rates instead. SMB owners running Claude agents or headless workflows need to re-budget immediately or their automations will cost far more than expected.",
+      "tags": ["billing", "pricing-change", "agent-sdk", "subscription", "cost-alert", "june-15"],
       "featured": true
     },
     {
-      "id": "2026-06-10-002",
-      "title": "Claude Code Architect Boris Cherny: 'Stop Comparing AI Costs to AI — Compare to Human Labor'",
-      "url": "https://fortune.com/2026/06/09/boris-cherny-claude-code-says-comparing-ai-costs-to-wrong-thing-anthropic/",
-      "source": "Fortune",
-      "sourceLabel": "Fortune Brainstorm Tech",
+      "id": "2026-06-15-002",
+      "title": "Anthropic Releases Claude Fable 5 — Mythos-Class Model Now Available to the Public With Cyber Safeguards",
+      "url": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
+      "source": "The Hacker News",
+      "sourceLabel": "thehackernews.com",
       "category": "news",
-      "summary": "Speaking at Fortune Brainstorm Tech in Aspen, Boris Cherny (head of Claude Code) said SMBs and enterprises that compare Claude Code to $20/month AI subscriptions are benchmarking against the wrong thing. He points to real results: one developer rewrote an entire codebase in 6 days that would have taken a year; Salesforce, Ramp, and Airbnb report similar. His advice: run an internal pilot with one team using Claude Code and one without, measure the delta in speed/security/output, and let data make the ROI case. For SMB owners: don't judge Claude by its per-seat price — judge it by what an engineer (or three) would cost to do the same work manually.",
-      "tags": [
-        "boris-cherny",
-        "claude-code",
-        "roi",
-        "cost-comparison",
-        "fortune-brainstorm-tech",
-        "human-labor-benchmark",
-        "pilot-program",
-        "smb"
-      ],
+      "summary": "Claude Fable 5 (public tier) and Claude Mythos 5 (restricted) launched June 9, both at $10M input / $50M output tokens — less than half the earlier preview price. For SMBs: included on Pro/Max/Team/Enterprise at no extra cost through June 22, then moves to usage credits. Fable 5 is designed for complex reasoning and coding tasks; the safety layer means it can't be repurposed for cyberattacks.",
+      "tags": ["claude-fable-5", "mythos-class", "model-release", "pricing", "anthropic", "smb-tier"],
       "featured": false
     },
     {
-      "id": "2026-06-10-003",
-      "title": "Claude Cowork Adds Cloud Routines + Windows GA — Now Automates While Your Laptop Is Closed",
-      "url": "https://cjonsystems.substack.com/p/3-cowork-updates",
-      "source": "Substack (cjonsystems)",
-      "sourceLabel": "cjonsystems.substack.com",
-      "category": "tools",
-      "summary": "Claude Cowork exited research preview on April 9 with GA on macOS and Windows, native Microsoft 365 connectivity (Outlook, OneDrive, SharePoint, Teams), and a critical new capability: Routines run on Anthropic's cloud infrastructure, not your laptop. Scheduled Tasks require your machine to be on; Routines fire from the cloud on a schedule, API call, or GitHub webhook — they run whether your laptop is open, closed, or off. For SMB owners: this is the difference between an AI assistant and an AI employee. Want a workflow that emails late-paying clients at 9 AM even if you're asleep? That's a Routine now. No server, no always-on laptop.",
-      "tags": [
-        "claude-cowork",
-        "routines",
-        "cloud-automation",
-        "windows-ga",
-        "microsoft-365",
-        "scheduled-tasks",
-        "background-automation",
-        "smb"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-10-004",
-      "title": "15 Claude SMB Workflows Ranked by Time Saved — Invoice Chasing #1 at 5-6 Hours/Week Saved",
-      "url": "https://findskill.ai/blog/claude-small-business-workflows-ranked/",
-      "source": "FindSkill.ai",
-      "sourceLabel": "findskill.ai",
-      "category": "vertical",
-      "summary": "A practical ranking of the 15 pre-built Claude for Small Business workflows sorted by estimated hours saved per week. Top workflows: Invoice Chasing (5-6 hrs/week — reads QuickBooks aging, drafts personalized follow-up emails in escalating tones), Lead Triager (3-5 hrs/week — scores HubSpot contacts against ICP, drafts first-touch messages), Contract Review (2-3 hrs/week — extracts key terms from DocuSign PDFs into structured summaries). For SMB owners: start with Invoice Chasing. It's the highest-ROI workflow for any business with B2B invoicing. The ranking includes caveats for which businesses benefit most from each workflow, so you can pick based on your actual pain points.",
-      "tags": [
-        "workflows-ranked",
-        "invoice-chasing",
-        "lead-triager",
-        "quickbooks",
-        "hubspot",
-        "docusign",
-        "smb-productivity",
-        "time-saved"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-10-005",
-      "title": "Anthropic's Hiring Playbook: Boris Cherny Says Look for Generalists, Low Ego, and Empiricists",
-      "url": "https://fortune.com/2026/06/10/architect-behind-claude-code-boris-cherny-reveals-three-things-anthropic-looks-for-good-hire-low-ego-must/",
-      "source": "Fortune",
-      "sourceLabel": "Fortune",
+      "id": "2026-06-15-003",
+      "title": "SBA-Hosted Free Workshop: 'AI for Small Business — Getting Started with Claude as Your Virtual Team Member' (Houston, TX)",
+      "url": "https://www.sba.gov/event/85201",
+      "source": "SBA / Small Business Administration",
+      "sourceLabel": "sba.gov",
       "category": "community",
-      "summary": "Boris Cherny, head of Claude Code at Anthropic (just public at $965B valuation), revealed the three traits Anthropic screens for: generalists who cross engineering/design/product boundaries, low-ego candidates who can ship ideas without being attached to them, and empiricists who learn from data. 'Ego just gets in the way of stuff,' Cherny said. For SMB owners building AI-augmented teams: these hiring criteria apply at any scale. When hiring for roles that will use Claude daily, prioritize candidates who can admit being wrong and pivot — the ability to iterate fast with AI feedback matters more than deep technical specialization.",
-      "tags": [
-        "anthropic",
-        "hiring",
-        "boris-cherny",
-        "generalists",
-        "low-ego",
-        "empiricists",
-        "team-building",
-        "ai-augmented-workforce"
-      ],
+      "summary": "The SBA's Small Business Development Center is hosting a free Aug 5 workshop in Houston teaching SMB owners how to use Claude.ai as a virtual team member. Covers prompt writing, uploading business documents for customized outputs, choosing the right model for tasks, and building repeatable AI workflows. Free registration required — ideal for Dallas-Fort Worth area owners traveling south.",
+      "tags": ["sba", "free-training", "workshop", "small-business", "virtual-team", "prompting"],
       "featured": false
     },
     {
-      "id": "2026-06-10-006",
-      "title": "Dedicated Claude Job Market Crosses 200+ Listings — Upwork, 4dayweek.io Track Growing Roles",
-      "url": "https://4dayweek.io/claude-jobs",
-      "source": "4dayweek.io / Upwork / ZipRecruiter",
-      "sourceLabel": "4dayweek.io",
-      "category": "job",
-      "summary": "The dedicated Claude job market has grown to 200+ listings across multiple platforms: 4dayweek.io tracks dedicated Claude roles, Upwork lists freelance Claude specialists and 'Claude Skill Creation' gigs ($18-$42/hr), and ZipRecruiter lists Claude Code-specific jobs. MentorCruise lists 56+ freelance Claude experts available for hire. For SMB owners: the talent market for Claude skill builders is maturing quickly. If you don't have time to learn Claude skills yourself, you can hire a freelancer to build a customized skill pack for your business workflows in days, not weeks.",
-      "tags": [
-        "claude-jobs",
-        "freelance",
-        "upwork",
-        "4dayweek",
-        "ziprecruiter",
-        "skill-builders",
-        "hiring",
-        "claude-marketplace"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-09-001",
-      "title": "Claude Fable 5 Launches — Mythos-Class Model Drops at $10/$50 Per MTok with Safety Guardrails",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "source": "Anthropic",
-      "sourceLabel": "anthropic.com",
-      "category": "news",
-      "summary": "Anthropic released Claude Fable 5 today — the first publicly available Mythos-class model — at $10/$50 per million tokens (less than half Mythos Preview pricing). Safety classifiers block responses in cybersecurity, biology, chemistry, and distillation (fallback to Opus 4.8), triggering in under 5% of sessions. Early results: Stripe migrated a 50M-line Ruby codebase in one day (team of months by hand), and the model beat Pokémon FireRed with vision-only input. For SMB owners: Fable 5 is the first frontier model priced within SMB reach at $10/$50 per MTok. It excels at long, complex tasks — codebase migrations, financial analysis, document reasoning — that smaller models can't handle reliably. Test it on your hardest problem this week while it's free on subscriptions.",
-      "tags": [
-        "claude-fable-5",
-        "mythos",
-        "anthropic",
-        "frontier-model",
-        "pricing",
-        "safety",
-        "vision",
-        "stripe",
-        "launch"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-09-002",
-      "title": "Anthropic's Finance Team Runs 150 Shared Claude Skills — Version-Controlled by Accountants, Not IT",
-      "url": "https://www.cfoconnect.eu/resources/finance-insights/anthropic-finance-team-claude-skills/",
-      "source": "CFO Connect",
-      "sourceLabel": "cfoconnect.eu",
-      "category": "vertical",
-      "summary": "In a June 2026 webinar, Anthropic's Finance AI Product Lead and Head of Finance Systems revealed their team uses ~150 shared Claude Skills stored in a version-controlled GitHub repo — and domain experts (accountants, FP&A analysts) write the skills themselves, not IT. Skills cover reconciliations, revenue mover analysis, ERP migration validation (20 seconds per year of data vs. hundreds of hours), master data governance, and scheduled reporting. For SMB finance teams: this is the playbook. Start by encoding the procedures that exist in one person's head — reconciliation rules, variance thresholds, report formats — as reusable Claude Skills. The ROI compounds: build once, share with everyone, version forever.",
-      "tags": [
-        "finance",
-        "skills-library",
-        "version-control",
-        "domain-experts",
-        "reconciliation",
-        "fpa",
-        "erp-migration",
-        "governance",
-        "automation"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-09-003",
-      "title": "Claude Code Now Auto-Loads Skills from .claude/skills — Plugin Scaffold Command Ships",
-      "url": "https://releasebot.io/updates/anthropic/claude-code",
-      "source": "Releasebot / Anthropic",
-      "sourceLabel": "releasebot.io",
-      "category": "tools",
-      "summary": "Claude Code's June update adds auto-loading of plugins from .claude/skills directories (no marketplace required), a 'claude plugin init' command that scaffolds new plugins, a /reload-skills command to re-scan without restart, and SessionStart hooks that can install skills within the same session. Skills can now declare 'disallowed-tools' in frontmatter to remove tools while active. For SMB developers: this dramatically lowers the barrier to building custom Claude skills — you can now drop a skill file in .claude/skills, run /reload-skills, and it's active. No package registry, no install process.",
-      "tags": [
-        "claude-code",
-        "plugins",
-        "skills",
-        "auto-loading",
-        "scaffold",
-        "sessionstart",
-        "development",
-        "smb-developer"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-09-004",
-      "title": "MCP Ecosystem Crosses 5,000 Community Servers — AWS MCP Server Goes GA",
-      "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
-      "source": "AWS / SkillsLLM",
-      "sourceLabel": "aws.amazon.com",
-      "category": "tools",
-      "summary": "The MCP (Model Context Protocol) ecosystem has surpassed 5,000 community-built servers as of June 2026, with PulseMCP adding 1,000+ servers per month in Q1-Q2. The AWS MCP Server is now generally available, giving Claude agents access to 15,000+ AWS API operations through existing IAM credentials. Anthropic SDKs crossed 97M monthly downloads. For SMBs running on AWS or building AI workflows: the MCP ecosystem hit critical mass. You can now connect Claude to virtually any service — databases, CRMs, cloud infrastructure — through a community MCP server rather than building custom integrations.",
-      "tags": [
-        "mcp",
-        "model-context-protocol",
-        "aws",
-        "integrations",
-        "ecosystem",
-        "5000-servers",
-        "api",
-        "infrastructure"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-09-005",
-      "title": "SMBs Get Claude Fable 5 Free Until June 22 — What to Test Before the Window Closes",
-      "url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
-      "source": "TechCrunch",
-      "sourceLabel": "techcrunch.com",
-      "category": "news",
-      "summary": "Claude Fable 5 (the public Mythos-class model at $10/$50 per MTok) is included on Pro, Max, Team, and Enterprise subscription plans at no extra cost through June 22. After that date, usage credits will be required. Anthropic also mandates 30-day traffic retention for Fable/Mythos use — even for enterprises with zero-retention agreements — to defend against novel jailbreak attacks. For SMB owners: this is a 13-day test window. Connect Fable 5 to your heaviest workflows (document analysis, code generation, financial modeling) and measure before the credit meter starts. The 30-day retention is worth noting if you handle sensitive client data.",
-      "tags": [
-        "fable-5",
-        "free-period",
-        "june-22-deadline",
-        "pricing",
-        "data-retention",
-        "testing",
-        "smb",
-        "subscription"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-09-006",
-      "title": "Freelance Claude Skills Economy Emerges — $18-$42/hr Gigs Hit Upwork & Indeed",
-      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Skill-Creation-for-Assistant_~022061464161733718099/",
-      "source": "Upwork / Indeed",
-      "sourceLabel": "upwork.com",
-      "category": "job",
-      "summary": "1,687 remote Claude AI jobs are now open on Indeed, with Upwork seeing new 'Claude Skill Creation' and 'Claude Opus prompt engineer' gigs posted within the last 24 hours. Budgets range $18-$42/hr for skill-builders, and MentorCruise lists 56+ freelance Claude experts for hire. For SMB owners looking to build Claude skills: the labor market is forming. You can hire a freelance skill builder on Upwork to encode your business workflows instead of learning it yourself — the role is now specialized enough to outsource.",
-      "tags": [
-        "freelance",
-        "upwork",
-        "indeed",
-        "job-market",
-        "prompt-engineer",
-        "skill-builder",
-        "hiring",
-        "claude-expert"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-08-006",
-      "title": "Opus 4.8 Ships Dynamic Workflows — Claude Writes Orchestration Scripts for Up to 1,000 Subagents",
-      "url": "https://code.claude.com/docs/en/whats-new/2026-w22",
-      "source": "Anthropic",
-      "sourceLabel": "code.claude.com",
-      "category": "tools",
-      "summary": "Anthropic's Week 22 release turns Claude Code into a distributed computing platform: Claude writes orchestration scripts and fans work across up to 1,000 background subagents for codebase-wide migrations, security audits, or research that needs cross-checking. Also ships a security-guidance plugin that reviews every change for vulnerabilities, plus fast mode on Opus 4.8 at $10/$50 per MTok (2.5x speed for 2x cost). For SMBs running Claude Code: this means a single developer can now automate tasks that would take a team of 10 a full sprint — orchestrate your entire migration, API refactor, or security audit as one command.",
-      "tags": [
-        "opus-4-8",
-        "dynamic-workflows",
-        "subagents",
-        "orchestration",
-        "claude-code",
-        "security-guidance",
-        "fast-mode",
-        "anthropic"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-08-005",
-      "title": "June 15 Deadline: Anthropic Splits Agent SDK Credits from Subscription — What SMBs Need to Do Before Next Week",
-      "url": "https://devtoolpicks.com/blog/anthropic-splits-claude-subscriptions-agent-sdk-credit-june-2026",
-      "source": "DevToolPicks",
-      "sourceLabel": "devtoolpicks.com",
-      "category": "news",
-      "summary": "Starting June 15, Anthropic moves all programmatic Claude usage (Agent SDK, claude -p, GitHub Actions, third-party tools like OpenClaw and Zed) to a separate monthly credit pool — $20 on Pro, $100 on Max 5x, $200 on Max 20x. Interactive Claude Code in terminal/IDE and Claude chat stay on existing limits. Credits must be claimed before June 15. For SMBs running automated Claude workflows: claim your credits now or your CI pipelines and scheduled agents will stop when the pool runs dry. If you run heavy automation, consider whether API-direct pricing makes more sense.",
-      "tags": [
-        "anthropic",
-        "billing",
-        "agent-sdk",
-        "credits",
-        "pricing",
-        "june-15",
-        "programmatic-usage",
-        "ci-cd",
-        "automation"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-08-004",
-      "title": "How Non-Technical Business Owner Jenna Kutcher Saves 10 Hours a Week with 5 Claude Skills",
-      "url": "https://jennakutcherblog.com/claude-skills-for-business/",
-      "source": "Jenna Kutcher Blog",
-      "sourceLabel": "jennakutcherblog.com",
+      "id": "2026-06-15-004",
+      "title": "Taskade Publishes 'What Are Claude Skills?' — A No-Code Beginner Guide Updated for June 2026",
+      "url": "https://www.taskade.com/blog/claude-skills-explained",
+      "source": "Taskade",
+      "sourceLabel": "taskade.com",
       "category": "community",
-      "summary": "A detailed walkthrough of five Claude Skills — Voice, Repurpose, Email, Audience, and Values — that condensed a four-day work week into two. Includes architect-level prompts for each skill. Key insight: Skills hold your voice, audience, and process so you stop re-explaining yourself to Claude every session. For SMB owners: this is a free, immediately implementable blueprint. Build your Voice Skill first (holds your brand tone, audience personas, business values) — everything else hangs off it.",
-      "tags": [
-        "claude-skills",
-        "smb",
-        "productivity",
-        "voice-skill",
-        "workflow",
-        "tutorial",
-        "non-technical",
-        "time-savings"
-      ],
+      "summary": "A plain-English guide explaining Claude Skills as reusable folders loaded on demand via progressive disclosure, plus a no-code Taskade equivalent for non-technical SMB owners. If you've heard about Claude Skills but never dug in, this is the lowest-friction entry point available right now.",
+      "tags": ["beginner-guide", "no-code", "claude-skills", "taskade", "tutorial"],
       "featured": false
     },
     {
-      "id": "2026-06-08-003",
-      "title": "Claude Security Hits Public Beta — Enterprise Vulnerability Scanning Without Leaving Claude",
-      "url": "https://www.anthropic.com/news/claude-security",
-      "source": "Anthropic",
-      "sourceLabel": "anthropic.com",
+      "id": "2026-06-15-005",
+      "title": "LinkedIn Pro Tips: Build Claude Skills to Offload Cheap AI Tasks and Save on Usage Costs",
+      "url": "https://www.linkedin.com/posts/karlfrankhamtc_ai-claude-smallbusiness-activity-7470724718858493952-PStX",
+      "source": "LinkedIn",
+      "sourceLabel": "@karlfrankhamtc",
+      "category": "news",
+      "summary": "Practical advice from an MSP professional on how building custom Claude Skills lets you route cheap, repetitive AI tasks into reusable skills while reserving expensive model calls for complex work. SMB owners: the cost-saving comes from reducing raw prompt counts by encoding your workflows as skills that Claude auto-activates.",
+      "tags": ["cost-saving", "skills-best-practice", "linkedin", "msp", "workflow-automation"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-15-006",
+      "title": "Claude Cowork: 9 Automations That Work — From Problem Statements to Branded Presentations (Full Guide)",
+      "url": "https://pasqualepillitteri.it/en/news/156/claude-cowork-guide-9-automations-work-ai",
+      "source": "Pasquale Pillitteri",
+      "sourceLabel": "pasqualepillitteri.it",
       "category": "tools",
-      "summary": "Claude Security (formerly Claude Code Security) enters public beta for Claude Enterprise customers, powered by Opus 4.7. It scans repositories for vulnerabilities by understanding how components interact across files — not regex pattern matching — and generates targeted patches with confidence ratings. Multi-stage validation drives down false positives. For SMBs: the same security-guidance plugin is available free for Claude Code via /plugin install security-guidance@claude-plugins-official on any plan.",
-      "tags": [
-        "claude-security",
-        "vulnerability-scanning",
-        "enterprise",
-        "public-beta",
-        "opus-4-7",
-        "security",
-        "patch-generation",
-        "devsecops"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-08-002",
-      "title": "Anthropic Files for $960B IPO, Beating OpenAI — What It Means for SMBs Betting on Claude",
-      "url": "https://247wallst.com/investing/2026/06/04/960-billion-anthropic-beats-openai-to-the-ipo-in-a-race-that-could-reshape-ai-investing/",
-      "source": "247WallSt",
-      "sourceLabel": "247wallst.com",
-      "category": "news",
-      "summary": "Anthropic filed its S-1 for an IPO at a ~$960B valuation, reportedly beating OpenAI to the public markets. The filing reveals Claude writes 80% of Anthropic's own code. For SMB owners: this signals long-term viability for Claude's SMB initiative, but also means diversification makes sense — don't bet your entire business on one AI provider.",
-      "tags": [
-        "anthropic",
-        "ipo",
-        "valuation",
-        "funding",
-        "smb",
-        "long-term",
-        "market",
-        "investment"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-08-001",
-      "title": "Forbes: Claude for Small Business Signals Where White-Collar AI Is Heading — Vertical Integration Over Chat",
-      "url": "https://www.forbes.com/sites/ronschmelzer/2026/05/14/claude-for-small-business-shows-where-white-collar-ai-is-heading/",
-      "source": "Forbes",
-      "sourceLabel": "Forbes",
-      "category": "vertical",
-      "summary": "Forbes analyst argues Anthropic's Claude for Small Business launch (QuickBooks, PayPal, HubSpot, Canva, DocuSign integrations with 15 workflows and 15 Skills) signals AI moving from general-purpose chat to embedded vertical software inside daily work tools. The 10-city training tour and no-additional-fee model make it accessible. For SMB owners: stop using Claude as a chat window — wire it into the tools you already pay for. The ROI comes from integration, not conversation.",
-      "tags": [
-        "forbes",
-        "claude-for-small-business",
-        "vertical-ai",
-        "quickbooks",
-        "paypal",
-        "hubspot",
-        "canva",
-        "integrations",
-        "smb",
-        "white-collar-ai",
-        "agentic-workflows"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-07-006",
-      "title": "OpenAI's Harness Engineering: A 1M-Line Product Built with Zero Hand-Written Code — 3 Engineers, 3.5 PRs/Day",
-      "url": "https://openai.com/index/harness-engineering/",
-      "source": "OpenAI",
-      "sourceLabel": "openai.com",
-      "category": "news",
-      "summary": "OpenAI detail how they built a production product with ~1M lines of Codex-generated code — zero lines by human hands. Three engineers shipped 3.5 PRs per day, agents ran 6+ hours unattended overnight, and humans focused on system design instead of typing. Key to success: repository as the agent's knowledge base with docs/ as system of record, NOT a giant AGENTS.md. For SMB owners: this proves that a tiny team can ship enterprise-grade software when agents handle execution. The pattern (structured docs + feedback loops + agent code review) works at any scale.",
-      "tags": [
-        "openai",
-        "codex",
-        "agent-first",
-        "harness-engineering",
-        "zero-human-code",
-        "productivity",
-        "agent-review",
-        "rellm"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-07-005",
-      "title": "Jane Street Designer Skips Figma Entirely — Builds Interactive Prototypes Directly with Claude Code",
-      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
-      "source": "Jane Street Blog",
-      "sourceLabel": "blog.janestreet.com",
-      "category": "community",
-      "summary": "A Jane Street designer (not an engineer) explains how Claude Code replaced Figma for most of their design workflow — building live interactive prototypes in OCaml/Bonsai instead of static mockups. The key insight: Claude gave 'free, unlimited iteration, unbothered when I changed my mind for the 50th time.' For SMB owners: this is a blueprint for non-technical team members using Claude Code to bring ideas to life without an engineering bottleneck — your marketing person can prototype a customer portal, your ops lead can build internal tools.",
-      "tags": [
-        "janestreet",
-        "design",
-        "figma",
-        "claude-code",
-        "prototyping",
-        "non-engineer",
-        "interactive-design",
-        "designer-workflow"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-07-004",
-      "title": "Tokenomics Research Reveals Code Review Consumes 59% of Agent Costs — Not Code Generation",
-      "url": "https://arxiv.org/abs/2601.14470",
-      "source": "arXiv",
-      "sourceLabel": "arxiv.org",
-      "category": "news",
-      "summary": "New academic research on token consumption patterns in multi-agent software engineering finds that Code Review accounts for 59.4% of all tokens used in agentic workflows — not initial code generation. Input tokens make up 53.9% of total consumption, suggesting massive agent-to-agent context-passing inefficiencies. For SMB owners running Claude Code or Cowork skills: this means the most expensive part of your automated workflows is probably the back-and-forth verification, not the initial output. Optimize by reducing review depth on low-risk tasks, using fast mode for review agents, and batching changes.",
-      "tags": [
-        "tokenomics",
-        "token-consumption",
-        "code-review",
-        "cost-optimization",
-        "agent-efficiency",
-        "research",
-        "arxiv",
-        "agent-collaboration"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-07-003",
-      "title": "Anthropic Faces 268 Upvotes and 139 Comments Demanding Official Claude Desktop for Linux — Community Repackages Reach 4.5K Stars",
-      "url": "https://github.com/anthropics/claude-code/issues/65697",
-      "source": "GitHub",
-      "sourceLabel": "github.com/anthropics",
-      "category": "community",
-      "summary": "A detailed GitHub issue (268 upvotes) lays out the case for an official Linux Claude Desktop: 27.7% of professional developers use Ubuntu as their primary OS per Stack Overflow 2025, yet Anthropic ships only macOS and Windows builds. The leading community repackage (aaddrick/claude-desktop-debian) has 4.5k stars and tracks upstream within days. For SMB owners running Linux-based development environments: while you can use community builds, official support would mean signed apt repos, guaranteed security updates, and better plugin/extension development workflow — all currently lacking.",
-      "tags": [
-        "linux",
-        "desktop",
-        "github",
-        "anthropic",
-        "claude-code",
-        "community",
-        "ubuntu",
-        "debian",
-        "feature-request"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-07-002",
-      "title": "Harness Engineering Deep Dive: Structured Docs, Execution Plans, and Agent-Code Review as the New Engineering Stack",
-      "url": "https://openai.com/index/harness-engineering/",
-      "source": "OpenAI",
-      "sourceLabel": "openai.com",
-      "category": "tools",
-      "summary": "Beyond the headline numbers, OpenAI's harness engineering post reveals the specific tooling patterns that make agent-first development work: a docs/ directory treated as system of record for agents (not a monolithic 1,000-line AGENTS.md), execution plans as first-class version-controlled artifacts, Chrome DevTools Protocol wired into agent runtimes for UI testing, and LogQL/PromQL queries exposed to agents for observability. For SMB technical teams: adopt the 'AGENTS.md as table of contents' pattern immediately — keep it under 100 lines and point agents to structured docs for deeper context. This single change dramatically improves agent output quality and reduces wasted token spend.",
-      "tags": [
-        "harness-engineering",
-        "agents.md",
-        "execution-plans",
-        "observability",
-        "documentation",
-        "agent-productivity",
-        "openai",
-        "code-review"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2026-06-07-001",
-      "title": "LLMs Are Eroding My Software Engineering Career — 597 Points, 550 Comments on Hacker News Reflects Industry Anxiety",
-      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
-      "source": "Hacker News",
-      "sourceLabel": "human-in-the-loop.bearblog.dev",
-      "category": "community",
-      "summary": "A viral HN post (597 points, 550 comments — the most active thread of the day) captures a software engineer struggling with the existential impact of LLMs on their career, feeling that the 'craft' of programming is being devalued. The discussion spans both sides: some argue the commoditization of code is real; others say it's the same shift as compilers/StackOverflow. For SMB owners: the opposite side of this coin is your opportunity. If experienced engineers are demoralized, you can now hire less-experienced talent augmented by Claude to do the work a senior engineer used to — or just run Claude Code directly. The skill has shifted from 'writing code' to 'delegating to agents' and SMBs benefit from this leveling.",
-      "tags": [
-        "hacker-news",
-        "engineering-career",
-        "llm-impact",
-        "industry-anxiety",
-        "productivity",
-        "hiring",
-        "agent-delegation",
-        "viral"
-      ],
+      "summary": "A comprehensive walkthrough of 9 Claude Cowork automations, including generating branded presentations from plain-English problem statements and using Microsoft Office format skills. SMB owners: this shows how to go from idea to polished deliverable without touching PowerPoint — Claude Cowork's dedicated Skills handle the formatting layer natively.",
+      "tags": ["claude-cowork", "automation-guide", "presentations", "microsoft-office", "workflow"],
       "featured": false
     }
-  ],
-  "categories": {
-    "news": {
-      "label": "Industry News",
-      "icon": "📰",
-      "entries": [1, 2, 7, 11, 14, 17, 19, 21]
-    },
-    "community": {
-      "label": "Community Buzz",
-      "icon": "💬",
-      "entries": [5, 15, 20, 22, 24]
-    },
-    "vertical": {
-      "label": "SMB Verticals",
-      "icon": "🏢",
-      "entries": [4, 8, 18]
-    },
-    "job": {
-      "label": "Job Postings",
-      "icon": "💼",
-      "entries": [6, 12]
-    },
-    "tools": {
-      "label": "Tools & Integrations",
-      "icon": "🔧",
-      "entries": [3, 9, 10, 13, 16, 23]
-    }
-  }
+  ]
 }
