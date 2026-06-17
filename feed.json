@@ -5,10 +5,43 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-16T13:00:00-05:00",
-    "entryCount": 12
+    "lastUpdated": "2026-06-17T13:01:00-06:00",
+    "entryCount": 9
   },
   "entries": [
+    {
+      "id": "2026-06-17-001",
+      "title": "Anthropic Research: Domain Expertise Beats Coding Skills in Agentic AI — SMB Owners Are at an Advantage",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "source": "Anthropic",
+      "sourceLabel": "anthropic.com",
+      "category": "news",
+      "summary": "Anthropic's analysis of ~400,000 Claude Code sessions finds that non-coders with deep domain expertise (accountants, marketers, operators) succeed at nearly the same rate as software engineers. The more business knowledge you bring, the more value Claude delivers per session. Task value rose 25% over seven months. SMB owners: your industry expertise is now your competitive edge — start using Claude Code today without needing a developer.",
+      "tags": ["anthropic-research", "claude-code", "domain-expertise", "smb-advantage", "agentic-coding"],
+      "featured": true
+    },
+    {
+      "id": "2026-06-17-002",
+      "title": "Anthropic Maps a Year of AI Cyber Threats — What SMBs Need to Know About AI-Powered Attacks",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "source": "Anthropic",
+      "sourceLabel": "Frontier Red Team blog",
+      "category": "news",
+      "summary": "Anthropic's Frontier Red Team found that attackers using AI for post-compromise activities (account discovery, lateral movement) jumped from 33% to 56% in six months — AI is lowering the barrier for sophisticated attacks. SMBs often lack dedicated security teams, making them prime targets. Action step: audit your data access controls and enable multi-factor authentication on all business accounts before attackers automate their way into yours.",
+      "tags": ["cybersecurity", "anthropic-frontier-red-team", "AI-threats", "smb-security", "MITRE-ATTACK"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-17-003",
+      "title": "Pew Study: Only 14% of Young Americans See AI Positively — But 6% Already Use Claude Daily",
+      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "source": "TechCrunch / Pew Research",
+      "sourceLabel": "techcrunch.com",
+      "category": "community",
+      "summary": "A new Pew study shows only 16% of Americans believe AI will have a positive societal impact, with young people under 30 the most skeptical (only 14%). However, daily AI usage is growing rapidly — about a quarter of Americans use chatbots daily. Claude sits at 6% usage among US adults, behind ChatGPT (44%), Gemini (24%), and Copilot (17%). SMB owners who adopt early still have a first-mover advantage before the broader market catches up.",
+      "tags": ["pew-research", "adoption-trends", "Claude-usage", "market-sentiment"],
+      "featured": false
+    },
     {
       "id": "2026-06-16-001",
       "title": "Anthropic Ships 31 Built-in Small Business Skills for Claude Cowork — Tax, CRM, Payroll & More",
@@ -18,7 +51,7 @@
       "category": "news",
       "summary": "Anthropic officially shipped a bundled plugin of 31 small business skills for Claude Cowork — covering money/tax (10 skills), sales/CRM (6), marketing (3), customers (4), briefings (3), and hiring/legal (5). Install via Cowork's plugin store, connect QuickBooks/PayPal/HubSpot, then run /smb-onboard to get started. SMB owners: this is the lowest-friction way to add tax prep, cash-flow forecasting, invoicing, contract review, and lead triage without writing any code.",
       "tags": ["anthropic", "claude-cowork", "small-business-skills", "plugin", "tax", "crm", "payroll", "official-release"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-16-002",
