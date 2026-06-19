@@ -5,10 +5,76 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-18T13:00:00-06:00",
-    "entryCount": 13
+    "lastUpdated": "2026-06-19T13:45:00-06:00",
+    "entryCount": 18
   },
   "entries": [
+    {
+      "id": "2026-06-19-004",
+      "title": "BuildFastWithAI: How to Create, Connect, Upload & Improve Claude Skills (2026 Guide)",
+      "url": "https://www.buildfastwithai.com/blogs/how-to-create-claude-skills",
+      "source": "BuildFastWithAI",
+      "sourceLabel": "buildfastwithai.com",
+      "category": "tools",
+      "summary": "A newly published guide walks SMB owners and freelancers through creating, uploading, and improving Claude skills step-by-step. If you have a repeatable business process (invoice processing, client onboarding, content repurposing), this tutorial shows you how to turn it into a reusable skill that runs automatically.",
+      "tags": ["claude-skills", "tutorial", "how-to", "smb-automation", "skills-guide"],
+      "featured": true
+    },
+    {
+      "id": "2026-06-19-005",
+      "title": "Taskade: What Are Claude Skills? A 2026 Beginner Guide for Non-Technical Users",
+      "url": "https://www.taskade.com/blog/claude-skills-explained",
+      "source": "Taskade",
+      "sourceLabel": "taskade.com",
+      "category": "tools",
+      "summary": "Taskade published a beginner-friendly explainer breaking down what Claude Skills are, how they differ from tools and MCP servers, and why they matter for SMBs. If you have not yet explored skills yet, this is the best starting point to understand the concept before diving into your first automation.",
+      "tags": ["claude-skills", "beginner-guide", "tutorial", "non-technical", "mcp"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-006",
+      "title": "MarkTechPost: Claude Code Guide 2026 — 25 Features SMBs Can Leverage for Automation",
+      "url": "https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/",
+      "source": "MarkTechPost",
+      "sourceLabel": "marktechpost.com",
+      "category": "tools",
+      "summary": "A comprehensive breakdown of 25 Claude Code features — from CLAUDE.md memory files to plugins, hooks, subagents, and MCP integrations. SMBs with even a part-time developer can use this as a playbook: pick the features matching your highest-friction workflows and start automating today.",
+      "tags": ["claude-code", "features-guide", "plugins", "mcp", "hooks", "subagents"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-001",
+      "title": "Anthropic Reports Opus 4.8 Build Day Hackathon Winners — Showcasing Claude's Evolving Capabilities",
+      "url": "https://blockchain.news/news/claude-opus-4-8-hackathon-winners",
+      "source": "Blockchain.News",
+      "sourceLabel": "blockchain.news",
+      "category": "news",
+      "summary": "310 developers competed in a 12-hour Opus 4.8 hackathon; winners built cultural preservation tools, urban simulators, and 3D scene generators. While not SMB-specific, the results show Claude's dynamic workflows and 1M-token context can handle complex multi-step projects — SMBs can leverage this for large document processing, custom integrations, and automated pipeline builds.",
+      "tags": ["opus-4-8", "hackathon", "agent-skills", "capability-progress"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-002",
+      "title": "Project Fetch Phase Two: Claude Opus 4.7 Autonomously Runs Robotics Tasks 37x Faster Than Humans",
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "source": "Anthropic Research",
+      "sourceLabel": "anthropic.com/research",
+      "category": "news",
+      "summary": "Claude Opus 4.7 completed every robotics task from the original Project Fetch experiment autonomously and up to 37x faster than human teams. This isn't SMB direct, but it signals where agentic Claude is heading — increasingly capable of taking full ownership of multi-step processes without human hand-holding, a pattern that will soon apply to business operations like inventory management and automated fulfillment.",
+      "tags": ["opus-4-7", "project-fetch", "autonomous-agents", "robotics"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-003",
+      "title": "Anthropic Documents CLAUDE.md Skills, Hooks, Rules & Subagents — A Guide for SMB Developers Building Custom Workflows",
+      "url": "https://www.anthropic.com/blog/standardizing-agent-skills",
+      "source": "Anthropic Blog",
+      "sourceLabel": "anthropic.com/blog",
+      "category": "tools",
+      "summary": "Anthropic published guidance on structuring Claude Code with CLAUDE.md files, custom skills, hooks, rules, and subagents — effectively creating an SDK for SMBs to build and share their own Claude-powered business automations. If your small business has a developer (or you're DIY-ing), this is the blueprint for turning repeatable business processes into reusable agent skills.",
+      "tags": ["claude-code", "clausle-md", "skills", "hooks", "subagents", "developer-tooling"],
+      "featured": false
+    },
     {
       "id": "2026-06-18-001",
       "title": "US Government Issues Export Controls: Fable 5 and Mythos 5 Access Suspended Globally",
@@ -24,16 +90,16 @@
         "smb-impact",
         "model-access"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-18-002",
-      "title": "Anthropic Research: Non-Coders with Domain Expertise Outperform Engineers in Agentic Coding \u2014 Huge Opportunity for SMB Owners",
+      "title": "Anthropic Research: Non-Coders with Domain Expertise Outperform Engineers in Agentic Coding — Huge Opportunity for SMB Owners",
       "url": "https://www.anthropic.com/research/Agentic-coding-and-persistent-returns-to-expertise",
       "source": "Anthropic Research",
       "sourceLabel": "anthropic.com/research",
       "category": "news",
-      "summary": "Anthropic's latest economic research confirms that deep domain expertise (accounting, legal, marketing, ops) drives more value from agentic AI than raw coding ability. SMB owners who know their industry well have a compounding advantage \u2014 every Claude session teaches it more about your specific workflows. Start automating your highest-friction business process today.",
+      "summary": "Anthropic's latest economic research confirms that deep domain expertise (accounting, legal, marketing, ops) drives more value from agentic AI than raw coding ability. SMB owners who know their industry well have a compounding advantage — every Claude session teaches it more about your specific workflows. Start automating your highest-friction business process today.",
       "tags": [
         "anthropic-research",
         "domain-expertise",
@@ -44,7 +110,7 @@
     },
     {
       "id": "2026-06-18-003",
-      "title": "Project Glasswing: Anthropic's AI Safety Update \u2014 What It Means for Claude's Reliability in Business Use",
+      "title": "Project Glasswing: Anthropic's AI Safety Update — What It Means for Claude's Reliability in Business Use",
       "url": "https://www.anthropic.com/news/Project-Glasswing-initial-update",
       "source": "Anthropic",
       "sourceLabel": "anthropic.com/news",
@@ -61,12 +127,12 @@
     },
     {
       "id": "2026-06-18-004",
-      "title": "Claude Marketplace Goes Live \u2014 SMB-Friendly Plugins for QuickBooks, HubSpot, and More",
+      "title": "Claude Marketplace Goes Live — SMB-Friendly Plugins for QuickBooks, HubSpot, and More",
       "url": "https://claude.com/platform/marketplace",
       "source": "Claude Platform",
       "sourceLabel": "claude.com/platform",
       "category": "tools",
-      "summary": "The Claude Marketplace launched, offering a growing catalog of plugins and skills specifically designed for small business use cases. SMB owners can now install pre-built connectors for accounting, CRM, and operations tools directly within Claude. No coding required \u2014 just connect, configure, and automate.",
+      "summary": "The Claude Marketplace launched, offering a growing catalog of plugins and skills specifically designed for small business use cases. SMB owners can now install pre-built connectors for accounting, CRM, and operations tools directly within Claude. No coding required — just connect, configure, and automate.",
       "tags": [
         "marketplace",
         "plugins",
@@ -79,12 +145,12 @@
     },
     {
       "id": "2026-06-17-001",
-      "title": "Anthropic Research: Domain Expertise Beats Coding Skills in Agentic AI \u2014 SMB Owners Are at an Advantage",
+      "title": "Anthropic Research: Domain Expertise Beats Coding Skills in Agentic AI — SMB Owners Are at an Advantage",
       "url": "https://www.anthropic.com/research/claude-code-expertise",
       "source": "Anthropic",
       "sourceLabel": "anthropic.com",
       "category": "news",
-      "summary": "Anthropic's analysis of ~400,000 Claude Code sessions finds that non-coders with deep domain expertise (accountants, marketers, operators) succeed at nearly the same rate as software engineers. The more business knowledge you bring, the more value Claude delivers per session. Task value rose 25% over seven months. SMB owners: your industry expertise is now your competitive edge \u2014 start using Claude Code today without needing a developer.",
+      "summary": "Anthropic's analysis of ~400,000 Claude Code sessions finds that non-coders with deep domain expertise (accountants, marketers, operators) succeed at nearly the same rate as software engineers. The more business knowledge you bring, the more value Claude delivers per session. Task value rose 25% over seven months. SMB owners: your industry expertise is now your competitive edge — start using Claude Code today without needing a developer.",
       "tags": [
         "anthropic-research",
         "claude-code",
@@ -92,16 +158,16 @@
         "smb-advantage",
         "agentic-coding"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-17-002",
-      "title": "Anthropic Maps a Year of AI Cyber Threats \u2014 What SMBs Need to Know About AI-Powered Attacks",
+      "title": "Anthropic Maps a Year of AI Cyber Threats — What SMBs Need to Know About AI-Powered Attacks",
       "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
       "source": "Anthropic",
       "sourceLabel": "Frontier Red Team blog",
       "category": "news",
-      "summary": "Anthropic's Frontier Red Team found that attackers using AI for post-compromise activities (account discovery, lateral movement) jumped from 33% to 56% in six months \u2014 AI is lowering the barrier for sophisticated attacks. SMBs often lack dedicated security teams, making them prime targets. Action step: audit your data access controls and enable multi-factor authentication on all business accounts before attackers automate their way into yours.",
+      "summary": "Anthropic's Frontier Red Team found that attackers using AI for post-compromise activities (account discovery, lateral movement) jumped from 33% to 56% in six months — AI is lowering the barrier for sophisticated attacks. SMBs often lack dedicated security teams, making them prime targets. Action step: audit your data access controls and enable multi-factor authentication on all business accounts before attackers automate their way into yours.",
       "tags": [
         "cybersecurity",
         "anthropic-frontier-red-team",
@@ -113,12 +179,12 @@
     },
     {
       "id": "2026-06-17-003",
-      "title": "Pew Study: Only 14% of Young Americans See AI Positively \u2014 But 6% Already Use Claude Daily",
+      "title": "Pew Study: Only 14% of Young Americans See AI Positively — But 6% Already Use Claude Daily",
       "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
       "source": "TechCrunch / Pew Research",
       "sourceLabel": "techcrunch.com",
       "category": "community",
-      "summary": "A new Pew study shows only 16% of Americans believe AI will have a positive societal impact, with young people under 30 the most skeptical (only 14%). However, daily AI usage is growing rapidly \u2014 about a quarter of Americans use chatbots daily. Claude sits at 6% usage among US adults, behind ChatGPT (44%), Gemini (24%), and Copilot (17%). SMB owners who adopt early still have a first-mover advantage before the broader market catches up.",
+      "summary": "A new Pew study shows only 16% of Americans believe AI will have a positive societal impact, with young people under 30 the most skeptical (only 14%). However, daily AI usage is growing rapidly — about a quarter of Americans use chatbots daily. Claude sits at 6% usage among US adults, behind ChatGPT (44%), Gemini (24%), and Copilot (17%). SMB owners who adopt early still have a first-mover advantage before the broader market catches up.",
       "tags": [
         "pew-research",
         "adoption-trends",
@@ -129,12 +195,12 @@
     },
     {
       "id": "2026-06-16-001",
-      "title": "Anthropic Ships 31 Built-in Small Business Skills for Claude Cowork \u2014 Tax, CRM, Payroll & More",
+      "title": "Anthropic Ships 31 Built-in Small Business Skills for Claude Cowork — Tax, CRM, Payroll & More",
       "url": "https://www.linkedin.com/posts/daily-business-tips_anthropic-just-shipped-claudes-31-small-activity-7470896329536401409-CRD0",
       "source": "LinkedIn",
       "sourceLabel": "@daily-business-tips / Charlie Hills",
       "category": "news",
-      "summary": "Anthropic officially shipped a bundled plugin of 31 small business skills for Claude Cowork \u2014 covering money/tax (10 skills), sales/CRM (6), marketing (3), customers (4), briefings (3), and hiring/legal (5). Install via Cowork's plugin store, connect QuickBooks/PayPal/HubSpot, then run /smb-onboard to get started. SMB owners: this is the lowest-friction way to add tax prep, cash-flow forecasting, invoicing, contract review, and lead triage without writing any code.",
+      "summary": "Anthropic officially shipped a bundled plugin of 31 small business skills for Claude Cowork — covering money/tax (10 skills), sales/CRM (6), marketing (3), customers (4), briefings (3), and hiring/legal (5). Install via Cowork's plugin store, connect QuickBooks/PayPal/HubSpot, then run /smb-onboard to get started. SMB owners: this is the lowest-friction way to add tax prep, cash-flow forecasting, invoicing, contract review, and lead triage without writing any code.",
       "tags": [
         "anthropic",
         "claude-cowork",
@@ -154,7 +220,7 @@
       "source": "Exodata",
       "sourceLabel": "exodata.io",
       "category": "tools",
-      "summary": "A step-by-step playbook walks SMB owners through setting up Claude Fable 5 for real business workflows \u2014 financial auditing, spreadsheet migration, internal tool building, and competitive research. Covers connecting data sources, writing effective prompts for each use case, and deploying with Google Apps Script. Actionable for any owner looking to put the free Fable 5 window (through June 22) to work.",
+      "summary": "A step-by-step playbook walks SMB owners through setting up Claude Fable 5 for real business workflows — financial auditing, spreadsheet migration, internal tool building, and competitive research. Covers connecting data sources, writing effective prompts for each use case, and deploying with Google Apps Script. Actionable for any owner looking to put the free Fable 5 window (through June 22) to work.",
       "tags": [
         "claude-fable-5",
         "workflow-playbook",
@@ -171,7 +237,7 @@
       "source": "VC Trainings",
       "sourceLabel": "vctrainings.com",
       "category": "community",
-      "summary": "A dedicated webinar teaches SMB owners how to leverage Claude's small business capabilities \u2014 from basic prompting to setting up automated workflows. Covers model selection for different business tasks, connecting data sources, and building repeatable processes. Free registration available for business owners who want structured guidance.",
+      "summary": "A dedicated webinar teaches SMB owners how to leverage Claude's small business capabilities — from basic prompting to setting up automated workflows. Covers model selection for different business tasks, connecting data sources, and building repeatable processes. Free registration available for business owners who want structured guidance.",
       "tags": [
         "webinar",
         "training",
@@ -183,7 +249,7 @@
     },
     {
       "id": "2026-06-16-004",
-      "title": "10 Things SMBs Can Finally Do with Claude Fable 5 \u2014 From CFO Audits to Contract Negotiation",
+      "title": "10 Things SMBs Can Finally Do with Claude Fable 5 — From CFO Audits to Contract Negotiation",
       "url": "https://dilipkashyap15.medium.com/10-things-small-businesses-can-finally-do-with-claude-fable-5-8a3d4610e47b",
       "source": "Medium / GitConnected",
       "sourceLabel": "@dilipkashyap15",
@@ -201,7 +267,7 @@
     },
     {
       "id": "2026-06-16-005",
-      "title": "Claude Cowork Plugin Gets 12 Data Connectors at Launch \u2014 QuickBooks, PayPal, HubSpot Included",
+      "title": "Claude Cowork Plugin Gets 12 Data Connectors at Launch — QuickBooks, PayPal, HubSpot Included",
       "url": "https://www.linkedin.com/posts/daily-business-tips_anthropic-just-shipped-claudes-31-small-activity-7470896329536401409-CRD0",
       "source": "LinkedIn",
       "sourceLabel": "@daily-business-tips",
@@ -220,12 +286,12 @@
     },
     {
       "id": "2026-06-16-006",
-      "title": "YouTube: Claude Fable 5 for Business Operations \u2014 What SMB Owners Need to Know",
+      "title": "YouTube: Claude Fable 5 for Business Operations — What SMB Owners Need to Know",
       "url": "https://www.youtube.com/watch?v=7i6uiGCp548",
       "source": "YouTube",
       "sourceLabel": "Claude AI Community",
       "category": "community",
-      "summary": "A video walkthrough explains what Fable 5 means specifically for small business owners \u2014 from the free Pro/Max window through June 22 to which workflows deliver the most ROI. Covers tax prep, invoicing, lead management, and contract review as the highest-impact starting points for non-technical SMB owners.",
+      "summary": "A video walkthrough explains what Fable 5 means specifically for small business owners — from the free Pro/Max window through June 22 to which workflows deliver the most ROI. Covers tax prep, invoicing, lead management, and contract review as the highest-impact starting points for non-technical SMB owners.",
       "tags": [
         "video",
         "claude-fable-5",
