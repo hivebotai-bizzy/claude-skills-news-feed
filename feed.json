@@ -5,10 +5,32 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-20T13:15:00-06:00",
-    "entryCount": 12
+    "lastUpdated": "2026-06-21T13:00:00-06:00",
+    "entryCount": 14
   },
   "entries": [
+    {
+      "id": "2026-06-21-001",
+      "title": "HN: Pulse — Local Dashboard for Claude Code Lets You Approve Tool Calls From Your Phone",
+      "url": "https://github.com/nikitadoudikov/claude-pulse",
+      "source": "Hacker News",
+      "sourceLabel": "HN / nikitadoudikov",
+      "category": "tools",
+      "summary": "Pulse is a zero-dependency local dashboard that reads Claude Code sessions from disk to show live token spend, recover lost sessions, and send phone push notifications with Allow/Deny buttons for tool call approvals. SMB owners using Claude Code remotely can approve critical actions from anywhere — even on cellular — with no Wi-Fi or open ports needed. Install with a single npx command.",
+      "tags": ["claude-code", "dashboard", "tool-calls", "remote-approval", "security", "tokens"],
+      "featured": true
+    },
+    {
+      "id": "2026-06-21-002",
+      "title": "Anthropic Rolling Out Identity Verification on Claude — What It Means for SMB Accounts",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "source": "Claude Support",
+      "sourceLabel": "support.claude.com",
+      "category": "news",
+      "summary": "Anthropic is rolling out government-ID verification via Persona for certain Claude capabilities. SMB owners using Claude for business should be prepared to verify accounts, and should note that failed verification will not allow simple account recreation — the system matches identities across accounts. If your team uses Claude professionally, ensure the account holder has a valid, unexpired government ID ready.",
+      "tags": ["anthropic", "identity-verification", "account-policy", "compliance", "persona"],
+      "featured": false
+    },
     {
       "id": "2026-06-20-007",
       "title": "Forbes: Claude For SMB's 10-City Road Trip + 15 Built-In Workflows You Can Use Today",
@@ -18,7 +40,7 @@
       "category": "news",
       "summary": "Anthropic's Claude For Small Business is running a 10-city road trip (Dallas included on May 14) offering free half-day AI training to 100 small business leaders per city. The package embeds 15 workflow-based AI apps directly inside QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365 — no new software needed. SMB owners should ask their current tool vendors whether Claude workflows are enabled and start using them immediately.",
       "tags": ["claude-for-small-business", "road-trip", "workflows", "smb-automation", "quickbooks", "hubspot"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-20-008",
@@ -117,7 +139,7 @@
       "category": "tools",
       "summary": "A newly published guide walks SMB owners and freelancers through creating, uploading, and improving Claude skills step-by-step. If you have a repeatable business process (invoice processing, client onboarding, content repurposing), this tutorial shows you how to turn it into a reusable skill that runs automatically.",
       "tags": ["claude-skills", "tutorial", "how-to", "smb-automation", "skills-guide"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-19-005",
