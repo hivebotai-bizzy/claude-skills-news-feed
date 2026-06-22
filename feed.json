@@ -5,10 +5,43 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-21T13:00:00-06:00",
-    "entryCount": 14
+    "lastUpdated": "2026-06-22T13:00:00-06:00",
+    "entryCount": 17
   },
   "entries": [
+    {
+      "id": "2026-06-22-001",
+      "title": "r/claudeskills: Skill Function — Move Claude Skills to Cloud Endpoints for Secure, Multi-Model Routing",
+      "url": "https://www.reddit.com/r/claudeskills/comments/1ucojvy/we_built_skill_function_a_new_primitive_that/",
+      "source": "Reddit",
+      "sourceLabel": "r/claudeskills",
+      "category": "tools",
+      "summary": "A developer proposes 'Skill Function' — skills that live as cloud endpoints instead of local files, each running in isolated contexts with its own dedicated model (7B for simple tasks, 70B for complex ones). SMB owners should watch this: it addresses the #1 concern with skills — security (42% of public skills have vulnerabilities) — while dramatically cutting costs by routing tasks to the right model size instead of burning flagship tokens on everything.",
+      "tags": ["skills", "security", "cloud", "multi-model", "cost-savings", "smb"],
+      "featured": true
+    },
+    {
+      "id": "2026-06-22-002",
+      "title": "r/claudeskills: Open-Source Skill to Search and Reply on X — Automate Your SMB's Social Engagement",
+      "url": "https://www.reddit.com/r/claudeskills/comments/1uch85d/created_a_skill_to_search_and_reply_on_x/",
+      "source": "Reddit",
+      "sourceLabel": "r/claudeskills",
+      "category": "tools",
+      "summary": "A solo dev built an open-source Claude skill that searches X/Twitter by query and date, pulls post metrics (views, likes, comments), and lets you reply directly from the agent. SMBs can use this for social listening, competitor monitoring, and engagement automation — no LLM needed to run the skill itself. Works with Claude Code, Codex, and Claude Desktop.",
+      "tags": ["free-skills", "social-media", "x-twitter", "engagement", "open-source"],
+      "featured": false
+    },
+    {
+      "id": "2026-06-22-003",
+      "title": "Claude Code's 'Extended Thinking' Output Is Encrypted — You Can't Audit Your Agent's Reasoning",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "source": "Tech Blog",
+      "sourceLabel": "patrickmccanna.net",
+      "category": "news",
+      "summary": "Critical finding for SMBs using Claude Code: Anthropic encrypts the full reasoning process and only returns a summary. Local reasoning logs contain an encrypted signature, not actual thinking text. If your business needs audit trails, compliance documentation, or transparency around how your AI agent arrives at decisions, you cannot get the full reasoning without an enterprise agreement. Share this with anyone in your org who's using Claude Code for client-facing work.",
+      "tags": ["claude-code", "transparency", "audit", "security", "compliance", "extended-thinking"],
+      "featured": false
+    },
     {
       "id": "2026-06-21-001",
       "title": "HN: Pulse — Local Dashboard for Claude Code Lets You Approve Tool Calls From Your Phone",
@@ -18,7 +51,7 @@
       "category": "tools",
       "summary": "Pulse is a zero-dependency local dashboard that reads Claude Code sessions from disk to show live token spend, recover lost sessions, and send phone push notifications with Allow/Deny buttons for tool call approvals. SMB owners using Claude Code remotely can approve critical actions from anywhere — even on cellular — with no Wi-Fi or open ports needed. Install with a single npx command.",
       "tags": ["claude-code", "dashboard", "tool-calls", "remote-approval", "security", "tokens"],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2026-06-21-002",
