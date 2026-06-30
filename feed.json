@@ -5,10 +5,28 @@
     "description": "Daily curated Claude AI skills news for small and medium businesses",
     "siteUrl": "https://claudeskillsmarket.com",
     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-06-28T13:00:00-06:00",
-    "entryCount": 32
+    "lastUpdated": "2026-06-30T18:00:00-06:00",
+    "entryCount": 33
   },
   "entries": [
+    {
+      "id": "2026-06-30-001",
+      "title": "Claude Code v2.1.196: Org Default Models, Readable Session Names, and Smoother Agents View",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w27",
+      "source": "Anthropic Changelog (via releasebot.io)",
+      "sourceLabel": "releasebot.io",
+      "category": "tools",
+      "summary": "Claude Code v2.1.196 just shipped with org default models (admins set in the org console), readable default session names at creation, and clickable file attachments that reveal files in Finder/Explorer via Cmd/Ctrl-click. Key SMB-facing fixes: background sessions now survive process restarts/update on Windows, MCP OAuth no longer breaks on GitLab self-hosted IdPs, and the streaming idle watchdog is on by default (aborts/retries after 5 min of silence). Security hardening: claude mcp list/get blocks untrusted workspaces from auto-running .mcp.json servers. SMB owners should update immediately — this is a reliability and security bump.",
+      "tags": [
+        "claude-code",
+        "org-default-models",
+        "session-names",
+        "background-agents",
+        "mcp-fixes",
+        "security"
+      ],
+      "featured": true
+    },
     {
       "id": "2026-06-28-001",
       "title": "NVIDIA SkillSpector: Scan Your AI Agent Skills Before Installing Them",
