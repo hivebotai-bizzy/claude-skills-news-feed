@@ -1,112 +1,638 @@
 {
-   "meta": {
-     "version": 1,
-     "feedName": "Claude Skills Daily",
-     "description": "Daily curated Claude AI skills news for small and medium businesses",
-     "siteUrl": "https://claudeskillsmarket.com",
-     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-     "lastUpdated": "2026-07-02T13:10:00-06:00",
-     "entryCount": 9
-   },
-   "entries": [
-     {
-       "id": "2026-07-02-003",
-       "title": "Claude May Require Government ID by July 8 — What SMB Owners Need to Know",
-       "url": "https://www.pcworld.com/article/3175242/claude-may-start-asking-for-your-id-heres-what-anthropic-says-about-it.html",
-       "source": "PCWorld",
-       "sourceLabel": "@pcworld",
-       "category": "news",
-       "summary": "Starting July 8, Anthropic may require some Claude users to upload a government ID, passport, or driver's license for age/identity verification via third-party service Persona. This affects Free, Pro, and Max plans (not Enterprise) but only a small proportion of accounts flagged for potential policy violations. SMB owners: if you use a shared business account or have employee logins on Pro/Max, flag this to your team — having a valid ID ready prevents sudden access disruptions.",
-       "tags": ["identity-verification", "privacy", "claude-pro", "policy-change", "smb"],
-       "featured": true
-     },
-     {
-       "id": "2026-07-02-002",
-       "title": "Freelance Claude Prompt Engineering Market Surges — SMBs Hiring at $150-$400/hr for AI Workflow Experts",
-       "url": "https://softhubtools.com/how-to-become-ai-prompt-engineer-2026/",
-       "source": "SoftHub Tools / Industry Research",
-       "sourceLabel": "softhubtools.com",
-       "category": "job",
-       "summary": "Freelance demand for Claude AI prompt engineers has surged 400%+ over two years, with experienced professionals on Upwork, Twine, and FlexJobs charging $150-$400/hr for SMB projects. Top opportunities include building RAG systems ($8K-$15K per project), creating automated content workflows for brands, and consulting on internal AI adoption. SMBs looking to get started fast can hire these experts to audit existing Claude usage and build reliable custom skills — rates are high but comparable to management consultants.",
-       "tags": ["freelance", "prompt-engineering", "job-market", "hiring", "smb"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-02-001",
-       "title": "Reddit r/ClaudeAI: Fable 5 Revival Megathread Goes Live — Users Share Real-World SMB Impact After Export Controls Lifted",
-       "url": "https://www.reddit.com/r/ClaudeAI/comments/1ukhfk7/fable_and_mythos_revival_megathread/",
-       "source": "Reddit",
-       "sourceLabel": "r/ClaudeAI",
-       "category": "community",
-       "summary": "The r/ClaudeAI megathreading new Fable 5 restoration discussion is the top community activity, with SMB owners sharing real-world impact stories: international agencies that lost access to Claude's strongest model during export controls are now back online and evaluating whether Fable 5 actually delivers on agentic workflow promises for their businesses. The thread includes comparisons between pre- and post-export-control pricing tiers. Worth reading if you run Claude across multiple employee accounts.",
-       "tags": ["fable-5", "community", "reddit", "export-controls", "smb"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-01-004",
-       "title": "Claude for Small Business: First Impressions & Real SMB Use Cases",
-       "url": "https://guardz.com/blog/claude-for-small-business-first-impressions/",
-       "source": "Guardz",
-       "sourceLabel": "guardz.com",
-       "category": "vertical",
-       "summary": "Early hands-on review of Claude for Small Business with real SMB scenarios: a consultant using it for month-end close, an agency automating lead qualification from HubSpot, and a contractor chaining payroll planning with invoice chasing via QuickBooks. Key takeaway — the 15 pre-built workflows save setup time but still benefit from custom skills tailored to each business's unique processes.",
-       "tags": ["claude-for-small-business", "first-impressions", "use-cases", "consultant", "agency"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-01-003",
-       "title": "Claude Code Safety Classifier Catch: Benign Coding Tasks Get Flagged After Fable 5 Restore",
-       "url": "https://digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026",
-       "source": "Digital Applied",
-       "sourceLabel": "digitalapplied.com",
-       "category": "news",
-       "summary": "After Fable 5's restoration on July 1, SMB developers are hitting more false positives from the new safety classifier — routine coding and debugging requests that would have flowed through smoothly are now being blocked and rerouted to Opus 4.8. While the classifier blocks the reported jailbreak technique in 99%+ of cases, it adds friction for legitimate development work. SMBs should be aware of the trade-off: stronger security means occasional workflow interruptions.",
-       "tags": ["claude-code", "fable-5", "safety-classifier", "false-positives", "coding", "troubleshooting"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-01-002",
-       "title": "Anthropic Launches Claude Apps Gateway — Centralized Control for SMB Teams on Amazon Bedrock & Google Cloud",
-       "url": "https://code.claude.com/docs/en/claude-apps-gateway",
-       "source": "Anthropic Docs",
-       "sourceLabel": "claude.com/docs",
-       "category": "tools",
-       "summary": "New Claude Apps Gateway gives teams a self-hosted control plane for Claude Code on Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Foundry. SMB developers with cloud-deployed Claude workflows get corporate SSO, role-based access control, per-user cost tracking with spend caps, and centrally enforced policies — no individual cloud credentials needed per developer. One-time setup replaces manual configuration for each team member.",
-       "tags": ["claude-code", "amazon-bedrock", "google-cloud", "gateway", "enterprise-auth", "smb-tools"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-01-001",
-       "title": "🔥 Claude Sonnet 5 Released: 'Most Agentic Sonnet Yet' — Opus-Level Performance at Lower Cost",
-       "url": "https://www.anthropic.com/news/claude-sonnet-5",
-       "source": "Anthropic News",
-       "sourceLabel": "@Anthropic",
-       "category": "news",
-       "summary": "Claude Sonnet 5 launches July 1 as Anthropic's most agentic Sonnet model — it plans, uses tools (browsers, terminals), and runs autonomously at levels previously requiring Opus-class models. Priced at $2/M input + $10/M output through Aug 31 (then $3/$15), it beats Sonnet 4.6 significantly on reasoning, tool use, coding, and knowledge work while being safer with lower undesirable behavior rates. Now default on Free/Pro plans; available to Max/Team/Enterprise too. SMBs: this is the model upgrade that makes subagent-heavy workflows and complex skills actually affordable.",
-       "tags": ["sonnet-5", "agentic-ai", "pricing", "claude-code", "smb", "cost-savings"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-01-005",
-       "title": "Claude Fable 5 Restored Globally After U.S. Lifts Export Controls — Plus Mythos 5 for Select US Companies",
-       "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
-       "source": "The Hacker News",
-       "sourceLabel": "thehackernews.com",
-       "category": "news",
-       "summary": "After the US Commerce Department lifted export controls on June 30, Claude Fable 5 returned worldwide July 1 across Claude.ai, Platform, Code, and Cowork. The suspension followed a jailbreak discovered by Amazon researchers that could bypass Fable's safeguards. Anthropic deployed a retrained safety classifier blocking the technique in 99%+ of cases, though it may flag some benign coding/debugging requests as false positives. Mythos 5 access returned June 26 for ~100 US companies and federal agencies protecting critical infrastructure.",
-       "tags": ["fable-5", "mythos-5", "export-controls", "safety-classifier", "anthropic", "security"],
-       "featured": false
-     },
-     {
-       "id": "2026-07-02-001",
-       "title": "Guide: Claude for Small Business Core Features & Walkthroughs (2026)",
-       "url": "https://guardz.com/blog/claude-for-smb-core-features-and-walkthroughs/",
-       "source": "Guardz",
-       "sourceLabel": "guardz.com",
-       "category": "vertical",
-       "summary": "A detailed walkthrough of Claude for Small Business covering all 15 agentic workflows and 15 skills — payroll planning, cash-flow forecasting, invoice chasing, lead triage, CRM cleanup, campaign planning, contract review, and more. Each workflow includes step-by-step screenshots showing how Claude connects to QuickBooks, HubSpot, PayPal, Canva, DocuSign, Google Workspace, Microsoft 365, and Slack. SMBs can follow along in under 10 minutes to set up their first automated workflow.",
-       "tags": ["claude-for-small-business", "walkthrough", "workflow", "mcp", "tutorial"],
-       "featured": false
-     }
-   ]
+  "meta": {
+    "version": 1,
+    "feedName": "Claude Skills Daily",
+    "description": "Daily curated Claude AI skills news for small and medium businesses",
+    "siteUrl": "https://claudeskillsmarket.com",
+    "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
+    "lastUpdated": "2026-07-02T13:15:00-06:00",
+    "entryCount": 36
+  },
+  "entries": [
+    {
+      "id": "2026-07-02-003",
+      "title": "Claude May Require Government ID by July 8 \u2014 What SMB Owners Need to Know",
+      "url": "https://www.pcworld.com/article/3175242/claude-may-start-asking-for-your-id-heres-what-anthropic-says-about-it.html",
+      "source": "PCWorld",
+      "sourceLabel": "@pcworld",
+      "category": "news",
+      "summary": "Starting July 8, Anthropic may require some Claude users to upload a government ID, passport, or driver's license for age/identity verification via third-party service Persona. This affects Free, Pro, and Max plans (not Enterprise) but only a small proportion of accounts flagged for potential policy violations. SMB owners: if you use a shared business account or have employee logins on Pro/Max, flag this to your team \u2014 having a valid ID ready prevents sudden access disruptions.",
+      "tags": [
+        "identity-verification",
+        "privacy",
+        "claude-pro",
+        "policy-change",
+        "smb"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-07-02-002",
+      "title": "Freelance Claude Prompt Engineering Market Surges \u2014 SMBs Hiring at $150-$400/hr for AI Workflow Experts",
+      "url": "https://softhubtools.com/how-to-become-ai-prompt-engineer-2026/",
+      "source": "SoftHub Tools / Industry Research",
+      "sourceLabel": "softhubtools.com",
+      "category": "job",
+      "summary": "Freelance demand for Claude AI prompt engineers has surged 400%+ over two years, with experienced professionals on Upwork, Twine, and FlexJobs charging $150-$400/hr for SMB projects. Top opportunities include building RAG systems ($8K-$15K per project), creating automated content workflows for brands, and consulting on internal AI adoption. SMBs looking to get started fast can hire these experts to audit existing Claude usage and build reliable custom skills \u2014 rates are high but comparable to management consultants.",
+      "tags": [
+        "freelance",
+        "prompt-engineering",
+        "job-market",
+        "hiring",
+        "smb"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-07-02-001",
+      "title": "Reddit r/ClaudeAI: Fable 5 Revival Megathread Goes Live \u2014 Users Share Real-World SMB Impact After Export Controls Lifted",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ukhfk7/fable_and_mythos_revival_megathread/",
+      "source": "Reddit",
+      "sourceLabel": "r/ClaudeAI",
+      "category": "community",
+      "summary": "The r/ClaudeAI megathreading new Fable 5 restoration discussion is the top community activity, with SMB owners sharing real-world impact stories: international agencies that lost access to Claude's strongest model during export controls are now back online and evaluating whether Fable 5 actually delivers on agentic workflow promises for their businesses. The thread includes comparisons between pre- and post-export-control pricing tiers. Worth reading if you run Claude across multiple employee accounts.",
+      "tags": [
+        "fable-5",
+        "community",
+        "reddit",
+        "export-controls",
+        "smb"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-30-001",
+      "title": "Claude Code v2.1.196: Org Default Models, Readable Session Names, and Smoother Agents View",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w27",
+      "source": "Anthropic Changelog (via releasebot.io)",
+      "sourceLabel": "releasebot.io",
+      "category": "tools",
+      "summary": "Claude Code v2.1.196 just shipped with org default models (admins set in the org console), readable default session names at creation, and clickable file attachments that reveal files in Finder/Explorer via Cmd/Ctrl-click. Key SMB-facing fixes: background sessions now survive process restarts/update on Windows, MCP OAuth no longer breaks on GitLab self-hosted IdPs, and the streaming idle watchdog is on by default (aborts/retries after 5 min of silence). Security hardening: claude mcp list/get blocks untrusted workspaces from auto-running .mcp.json servers. SMB owners should update immediately \u2014 this is a reliability and security bump.",
+      "tags": [
+        "claude-code",
+        "org-default-models",
+        "session-names",
+        "background-agents",
+        "mcp-fixes",
+        "security"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-28-001",
+      "title": "NVIDIA SkillSpector: Scan Your AI Agent Skills Before Installing Them",
+      "url": "https://dev.to/arshtechpro/nvidia-skillspector-should-you-scan-your-ai-agent-skills-before-installing-them-3am7",
+      "source": "DEV Community",
+      "sourceLabel": "@arshtechpro",
+      "category": "tools",
+      "summary": "NVIDIA released SkillSpector, an open-source scanner that checks Claude Code skills for dangerous code patterns, supply chain risks, and MCP-specific vulnerabilities before you install them. SMBs should run every third-party skill through this free tool \u2014 it gives a simple Safe/Caution/Do Not Install score instead of overwhelming findings.",
+      "tags": [
+        "security",
+        "skills-scan",
+        "nvidia",
+        "supply-chain",
+        "skillSpector",
+        "smb"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-28-002",
+      "title": "Anthropic and Salesforce Announce New Claude to Slack Integration",
+      "url": "https://www.salesforceben.com/anthropic-and-salesforce-announce-new-claude-to-slack-integration/",
+      "source": "Salesforce Ben",
+      "sourceLabel": "salesforceben.com",
+      "category": "tools",
+      "summary": "New Claude-to-Slack integration lets SMB teams query Salesforce data, update records, and trigger workflows directly from Slack using Claude. For sales-focused small businesses already using Salesforce CRM, this means no context-switching \u2014 your team can get customer insights and update deals without leaving their chat app.",
+      "tags": [
+        "slack",
+        "salesforce",
+        "integration",
+        "crm",
+        "smb-automation",
+        "claude-tag"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-27-001",
+      "title": "Claude Code v2.1.195 & .193 Ship: Background Agents Now Reliable, Auto-Mode Controls Sharpened",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source": "Releasebot",
+      "sourceLabel": "Anthropic changelog via releasebot.io",
+      "category": "tools",
+      "summary": "Claude Code's latest releases fix background agent crashes, add full auto-mode shell command classification, and introduce memory-pressure reaping for idle tasks. SMBs running Claude Code as an internal assistant should update immediately \u2014 background tasks no longer vanish or spawn phantom subagents, and you now get denial reasons logged so you can audit what the agent tried to do.",
+      "tags": [
+        "claude-code",
+        "background-agents",
+        "auto-mode",
+        "reliability",
+        "skills"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-27-002",
+      "title": "Anthropic Economic Index Report: Claude Usage Hits Workweek Rhythms, Agentic Tasks Surpass Simple Chat",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "source": "Anthropic Research",
+      "sourceLabel": "anthropic.com/research",
+      "category": "news",
+      "summary": "Anthropic's latest Economic Index shows personal-use conversations spike to nearly 50% on weekends while work queries drop, and that Claude sessions are increasingly long-running agentic tasks rather than simple Q&A. SMBs using Claude Code or Cowork can expect deeper automation patterns \u2014 the data confirms the shift from chat to persistent autonomous workflows is real and accelerating.",
+      "tags": [
+        "economic-index",
+        "agentic-ai",
+        "usage-patterns",
+        "cowork",
+        "claude-code",
+        "trends"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-27-003",
+      "title": "Train Claude Like a VA: SMB Content Setup That Turns Generic AI Output Into On-Brand Copy",
+      "url": "https://kimberlyannjimenez.com/claude-ai-tutorial-the-setup-i-use-to-create-content-for-business-fast/",
+      "source": "Content Marketing Blog",
+      "sourceLabel": "kimberlyannjimenez.com",
+      "category": "tools",
+      "summary": "A practical step-by-step guide for SMB owners on training Claude with your business context \u2014 ideal client profile, communication style, offers, and goals \u2014 so it stops producing generic AI slop and starts creating content that sounds like you. Recommends Opus 4.7 for content work, Claude Pro for token budgets, and building one unified 'business project' instead of scattered chats.",
+      "tags": [
+        "content-creation",
+        "smb-guide",
+        "claude-pro",
+        "training",
+        "opportunity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-27-004",
+      "title": "Anthropic Adds Trusted Devices for Remote Claude Code Control \u2014 Team & Enterprise",
+      "url": "https://releasebot.io/updates/anthropic/claude",
+      "source": "Releasebot",
+      "sourceLabel": "Anthropic via releasebot.io",
+      "category": "tools",
+      "summary": "New Trusted Devices feature requires team members to verify their device before viewing or steering a local Claude Code session remotely. SMB owners running Claude Code on a shared machine or using Cowork across locations can now prevent unauthorized remote access \u2014 admins set it once, devices get verified automatically.",
+      "tags": [
+        "claude-code",
+        "remote-control",
+        "security",
+        "trusted-devices",
+        "team-plan"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-26-001",
+      "title": "Show HN: Smart Model Router Cuts AI API Costs 40\u201370% \u2014 Works With Claude Code, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "source": "Hacker News",
+      "sourceLabel": "HN / workweave",
+      "category": "tools",
+      "summary": "WorkWeave Router is a single endpoint that auto-routes every request to the cheapest capable model \u2014 from a 3B tiny model for simple prompts up to Claude Opus for complex work. SMBs running heavy Claude workflows can slash API bills by 40-70% just by pointing their tool at this proxy. One-line install, works on localhost or hosted.",
+      "tags": [
+        "cost-savings",
+        "model-routing",
+        "claude-code",
+        "codex",
+        "proxy",
+        "api-billing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-26-002",
+      "title": "What Happened After 2,000 People Tried to Hack My AI Assistant \u2014 $500, Zero Leaks",
+      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "source": "Personal Blog",
+      "sourceLabel": "fernandoi.cl",
+      "category": "community",
+      "summary": "A developer let 6,000+ strangers try to break his OpenClaw + Claude agent \u2014 fake emergency emails, authority impersonation, multi-language social engineering. Zero leaked secrets, but $500+ in API costs and a Gmail suspension taught him the hard way: simple anti-prompt-injection rules work well with Opus 4.6, but SMBs should still avoid giving agents unrestricted email send access as a precaution.",
+      "tags": [
+        "prompt-injection",
+        "security",
+        "agent-risks",
+        "sandboxing",
+        "social-engineering"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-26-003",
+      "title": "Claude For Small Business Misses Local Trades, Restaurants and E-Commerce \u2014 The Real Coverage Gap",
+      "url": "https://search.brave.com/search?q=Claude+skills+AI+smb+business+2026&source=date",
+      "source": "Industry Analysis",
+      "sourceLabel": "brave.com search analysis",
+      "category": "news",
+      "summary": "Anthropic's Claude For Small Business covers 8 tools (QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, Microsoft 365, Slack) \u2014 great for office-based professional services but nearly nonexistent for local trades (HVAC, plumbing), restaurants (Toast, OpenTable), e-commerce (Shopify, Stripe), and creators (Kajabi, ConvertKit). SMBs outside the white-collar segment should plan to build custom MCP connectors instead of expecting out-of-the-box support.",
+      "tags": [
+        "claude-for-small-business",
+        "coverage-gap",
+        "trades",
+        "e-commerce",
+        "restaurants",
+        "mcp"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-25-001",
+      "title": "r/ClaudeAI: A 7-Location Restaurant Runs Claude on Every Instagram DM \u2014 97% Cache Hits Make It Affordable",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uf8gd5/running_sonnet_46_on_every_instagram_dm_for_a/",
+      "source": "Reddit",
+      "sourceLabel": "r/ClaudeAI",
+      "category": "vertical",
+      "summary": "A 7-location sushi chain routes ~90% of orders through a Claude Sonnet 4.6 agent on Instagram DMs. By using prompt caching \u2014 splitting the menu/context into a static prefix \u2014 97% of messages hit cache at 90% off, bringing per-message cost down to pennies. SMB owners in hospitality, retail, or food service can replicate this: cache everything static (menus, pricing, hours), let only the conversation change, and Claude becomes viable for real-time customer service at scale.",
+      "tags": [
+        "prompt-caching",
+        "restaurant",
+        "social-media",
+        "smb-automation",
+        "instagram",
+        "case-study"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-25-002",
+      "title": "r/ClaudeAI: SMB Owner Upgraded from Pro to Enterprise \u2014 Spent $14M Tokens in One 5-Hour Opus Subagent Session",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uf2nba/after_using_my_own_pro_subscription_for_18_months/",
+      "source": "Reddit",
+      "sourceLabel": "r/ClaudeAI",
+      "category": "news",
+      "summary": "After 18 months on a Pro subscription, a business owner's employer upgraded to enterprise \u2014 and the first run was Opus spawning 451 Sonnet subagents consuming 14M tokens in one session. Key insight for SMBs: if you're running subagent-heavy workflows, the $20/mo Pro plan hits usage ceilings fast. Enterprise unlocks real scale, but test with a pilot batch first to understand token burn before committing.",
+      "tags": [
+        "subagents",
+        "pricing",
+        "enterprise",
+        "token-usage",
+        "scaling"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-25-003",
+      "title": "Show HN: dbt-skillz \u2014 Compile Your Data Warehouse Into a Claude Code Skill for Reliable Agent Analytics",
+      "url": "https://github.com/atlasfutures/dbt-skillz",
+      "source": "Hacker News",
+      "sourceLabel": "HN / atlasfutures",
+      "category": "tools",
+      "summary": "dbt-skillz converts your dbt data project into a compact Claude Code skill \u2014 telling the agent which tables exist, what columns mean, how they relate, and the business logic behind transformations. SMBs with any data analysis workflow (e-commerce sales tracking, inventory forecasting, marketing ROI) can now have Claude Code agents give accurate answers without hallucinating on your data schema.",
+      "tags": [
+        "dbt",
+        "data-analytics",
+        "claude-code",
+        "skills",
+        "show-hn",
+        "business-intelligence"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-24-001",
+      "title": "Anthropic Launches Claude Tag \u2014 Teams Can Now 'Tag @Claude' in Slack to Delegate Tasks Automatically",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "source": "Anthropic News",
+      "sourceLabel": "@Anthropic",
+      "category": "tools",
+      "summary": "Claude Tag is a Slack-integrated feature letting teams tag @Claude in channels to delegate tasks \u2014 it builds context over time, takes initiative with ambient mode, and works asynchronously. Available today in beta for Claude Team customers, SMB owners on the $20/mo plan can now give Claude access to shared channels, tools, and data without buying Enterprise.",
+      "tags": [
+        "claude-tag",
+        "slack",
+        "team-collaboration",
+        "asynchronous",
+        "smb",
+        "anthropic"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-24-002",
+      "title": "Claude Skills vs Custom GPTs \u2014 Which One Actually Wins for SMB Workflows?",
+      "url": "https://www.enterpret.com/blog/claude-skills-vs-custom-gpts-for-product-managers",
+      "source": "Enterpret Blog",
+      "sourceLabel": "enterpret.com",
+      "category": "tools",
+      "summary": "A clear comparison: Claude Skills win on data depth, file access, MCP integrations, and portability (open standard at agentskills.io). Custom GPTs win only on easy sharing. SMB owners who need deep workflows that read real files and connect to tools via MCP should choose Skills over Custom GPTs.",
+      "tags": [
+        "claude-skills",
+        "custom-gpts",
+        "comparison",
+        "mcp",
+        "portability",
+        "smb"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-24-003",
+      "title": "Emergent MCP Tutorial \u2014 Build an App From Claude Without Writing Code",
+      "url": "https://emergent.sh/tutorials/how-to-build-an-app-from-claude-using-emergent-mcp",
+      "source": "Emergent",
+      "sourceLabel": "emergent.sh",
+      "category": "tools",
+      "summary": "A step-by-step tutorial on building an app using Claude + Emergent MCP, showing SMB owners how to connect Claude to external data and actions through the Model Context Protocol. No coding experience needed \u2014 the tutorial walks you through setting up MCP servers and running them in Claude.",
+      "tags": [
+        "mcp",
+        "tutorial",
+        "emergent",
+        "app-building",
+        "no-code",
+        "claude-code"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-22-001",
+      "title": "r/claudeskills: Skill Function \u2014 Move Claude Skills to Cloud Endpoints for Secure, Multi-Model Routing",
+      "url": "https://www.reddit.com/r/claudeskills/comments/1ucojvy/we_built_skill_function_a_new_primitive_that/",
+      "source": "Reddit",
+      "sourceLabel": "r/claudeskills",
+      "category": "tools",
+      "summary": "A developer proposes 'Skill Function' \u2014 skills that live as cloud endpoints instead of local files, each running in isolated contexts with its own dedicated model (7B for simple tasks, 70B for complex ones). SMB owners should watch this: it addresses the #1 concern with skills \u2014 security (42% of public skills have vulnerabilities) \u2014 while dramatically cutting costs by routing tasks to the right model size instead of burning flagship tokens on everything.",
+      "tags": [
+        "skills",
+        "security",
+        "cloud",
+        "multi-model",
+        "cost-savings",
+        "smb"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-22-002",
+      "title": "r/claudeskills: Open-Source Skill to Search and Reply on X \u2014 Automate Your SMB's Social Engagement",
+      "url": "https://www.reddit.com/r/claudeskills/comments/1uch85d/created_a_skill_to_search_and_reply_on_x/",
+      "source": "Reddit",
+      "sourceLabel": "r/claudeskills",
+      "category": "tools",
+      "summary": "A solo dev built an open-source Claude skill that searches X/Twitter by query and date, pulls post metrics (views, likes, comments), and lets you reply directly from the agent. SMBs can use this for social listening, competitor monitoring, and engagement automation \u2014 no LLM needed to run the skill itself. Works with Claude Code, Codex, and Claude Desktop.",
+      "tags": [
+        "free-skills",
+        "social-media",
+        "x-twitter",
+        "engagement",
+        "open-source"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-22-003",
+      "title": "Claude Code's 'Extended Thinking' Output Is Encrypted \u2014 You Can't Audit Your Agent's Reasoning",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "source": "Tech Blog",
+      "sourceLabel": "patrickmccanna.net",
+      "category": "news",
+      "summary": "Critical finding for SMBs using Claude Code: Anthropic encrypts the full reasoning process and only returns a summary. Local reasoning logs contain an encrypted signature, not actual thinking text. If your business needs audit trails, compliance documentation, or transparency around how your AI agent arrives at decisions, you cannot get the full reasoning without an enterprise agreement.",
+      "tags": [
+        "claude-code",
+        "transparency",
+        "audit",
+        "security",
+        "compliance",
+        "extended-thinking"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-21-001",
+      "title": "HN: Pulse \u2014 Local Dashboard for Claude Code Lets You Approve Tool Calls From Your Phone",
+      "url": "https://github.com/nikitadoudikov/claude-pulse",
+      "source": "Hacker News",
+      "sourceLabel": "HN / nikitadoudikov",
+      "category": "tools",
+      "summary": "Pulse is a zero-dependency local dashboard that reads Claude Code sessions from disk to show live token spend, recover lost sessions, and send phone push notifications with Allow/Deny buttons for tool call approvals. SMB owners using Claude Code remotely can approve critical actions from anywhere \u2014 even on cellular \u2014 with no Wi-Fi or open ports needed.",
+      "tags": [
+        "claude-code",
+        "dashboard",
+        "tool-calls",
+        "remote-approval",
+        "security",
+        "tokens"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-21-002",
+      "title": "Anthropic Rolling Out Identity Verification on Claude \u2014 What It Means for SMB Accounts",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "source": "Claude Support",
+      "sourceLabel": "support.claude.com",
+      "category": "news",
+      "summary": "Anthropic is rolling out government-ID verification via Persona for certain Claude capabilities. SMB owners using Claude for business should be prepared to verify accounts, and should note that failed verification will not allow simple account recreation \u2014 the system matches identities across accounts.",
+      "tags": [
+        "anthropic",
+        "identity-verification",
+        "account-policy",
+        "compliance",
+        "persona"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-007",
+      "title": "Forbes: Claude For SMB's 10-City Road Trip + 15 Built-In Workflows You Can Use Today",
+      "url": "https://www.forbes.com/sites/terdawn-deboe/2026/06/19/ai-slipped-into-your-business-tools-three-questions-take-it-back/",
+      "source": "Forbes",
+      "sourceLabel": "terdawn-deboe",
+      "category": "news",
+      "summary": "Anthropic's Claude For Small Business is running a 10-city road trip offering free half-day AI training to 100 small business leaders per city. The package embeds 15 workflow-based AI apps directly inside QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365 \u2014 no new software needed.",
+      "tags": [
+        "claude-for-small-business",
+        "road-trip",
+        "workflows",
+        "smb-automation",
+        "quickbooks",
+        "hubspot"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-008",
+      "title": "BBC: Claude Fable 5 Suspended Over Jailbreak Vulnerabilities \u2014 What SMBs Need to Know",
+      "url": "https://www.bbc.com/news/articles/c932g3v3e13o",
+      "source": "BBC News",
+      "sourceLabel": "bbc.com/news",
+      "category": "news",
+      "summary": "The US government issued an export control directive suspending Claude Fable 5 and Mythos 5 due to jailbreak bypass capabilities. SMBs using any Fable 5-based tools should pause deployments, audit for vulnerabilities, and wait for patched versions before trusting AI with sensitive business data.",
+      "tags": [
+        "security",
+        "fable-5",
+        "jailbreak",
+        "risk-management",
+        "compliance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-009",
+      "title": "Awesome Claude Skills Catalog Hits 10,384 Skills \u2014 New Business & Productivity Domain",
+      "url": "https://chat2anyllm.github.io/awesome-claude-skills/",
+      "source": "GitHub / Chat2AnyLLM",
+      "sourceLabel": "chat2anyllm.github.io",
+      "category": "community",
+      "summary": "The open-source Awesome Claude Skills catalog has surpassed 10,000 skills, now organized into 13 domains including a dedicated Business & Productivity section. SMB owners can browse by domain to find ready-made skills for finance, marketing, ops, and HR.",
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-001",
+      "title": "Anthropic Ships Enterprise-Managed MCP Auth \u2014 SMBs Can Now Set Up Connectors Once for All Employees",
+      "url": "https://claude.com/blog/enterprise-managed-auth",
+      "source": "Anthropic Blog",
+      "sourceLabel": "claude.com/blog",
+      "category": "tools",
+      "summary": "Claude now supports centralized MCP connector authorization via Okta \u2014 admins provision connectors once and every team member gets zero-touch access on first login. SMBs with a part-time tech person can set up QuickBooks, HubSpot, or Google Workspace integration for the whole team in one go.",
+      "tags": [
+        "mcp",
+        "enterprise-auth",
+        "smb-automation",
+        "cowork",
+        "claude-code",
+        "connector"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-002",
+      "title": "CSO Online: Security Considerations for Adopting Claude Code and Cowork as an SMB \u2014 Your Action Plan",
+      "url": "https://www.csoonline.com/article/4186872/security-considerations-for-adopting-claude-code-and-cowork-for-smbs.html",
+      "source": "CSO Online",
+      "sourceLabel": "csoonline.com",
+      "category": "vertical",
+      "summary": "A security leader shares hard-won lessons from deploying Claude at an SMB: phased feature enablement, risk-ranking MCPs vs. direct integrations, managing shadow AI (half of employees use unsanctioned tools), and provisioning by need rather than blanket access.",
+      "tags": [
+        "security",
+        "smb",
+        "cowork",
+        "claude-code",
+        "governance",
+        "shadow-ai"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-003",
+      "title": "Blotato: Free Claude Skills Pack \u2014 7 Skills to Go From Blank Page to Scheduled Social Post",
+      "url": "https://help.blotato.com/claude-skills/claude-skills",
+      "source": "Blotato",
+      "sourceLabel": "help.blotato.com",
+      "category": "tools",
+      "summary": "A ready-to-use skill pack with 7 skills for small-business social media automation: content-coach, brand-brief, post-writer, post-grader, post-scheduler, repurpose, and viral-hooks. Works in Claude Code, Desktop, and Cowork. One-time install, use forever.",
+      "tags": [
+        "free-skills",
+        "social-media",
+        "content-creation",
+        "blotato",
+        "mcp"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-004",
+      "title": "Medium: 5 AI Business Ideas I Personally Built \u2014 One Is a Claude MCP Server That Writes Blog Posts From YouTube Videos",
+      "url": "https://medium.com/@shubhthewriter/5-ai-business-ideas-i-personally-built-and-use-real-not-random-a502bf1087d0",
+      "source": "Medium",
+      "sourceLabel": "@shubhthewriter",
+      "category": "community",
+      "summary": "A practitioner shares five real businesses he's built with AI \u2014 the star is an MCP server that takes a YouTube link or keyword, generates blog posts with images and SEO, and publishes them live using Claude Code. SMB owners can replicate this exact pattern for their own content marketing.",
+      "tags": [
+        "mcp",
+        "content-automation",
+        "blogging",
+        "side-hustle",
+        "claude-code",
+        "seo"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-005",
+      "title": "Slite: Why Claude Code Needs a Company Brain \u2014 18 Workflows That Replace Stacking MCPs",
+      "url": "https://slite.com/learn/claude-code-company-brain",
+      "source": "Slite Learn",
+      "sourceLabel": "slite.com/learn",
+      "category": "tools",
+      "summary": "A deep-dive into why chaining MCPs for context retrieval burns through session limits and tokens fast. The solution: a dedicated 'company brain' (Slite Agent) that gives Claude Code instant access to your docs without flooding the context window. Setup takes ~10 minutes.",
+      "tags": [
+        "mcp",
+        "claude-code",
+        "context-management",
+        "productivity",
+        "slite"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-20-006",
+      "title": "StayHypd: Replace $6K/Month of Back-Office Work With Claude Max and 11 MCPs \u2014 75+ Skills, Full Breakdown",
+      "url": "https://www.stayhypd.com/blog/claude-max-back-office-8-roles",
+      "source": "StayHypd",
+      "sourceLabel": "stayhypd.com",
+      "category": "vertical",
+      "summary": "A complete recipe for replacing eight back-office roles with a single Claude Max subscription ($200/mo), 11 MCP servers, and 75+ skills. Includes exact install order and working prompts for each function. SMB owners currently paying $6K+/month for junior staff could potentially cut costs significantly.",
+      "tags": [
+        "claude-max",
+        "back-office",
+        "mcp",
+        "cost-savings",
+        "automation",
+        "small-business"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-004",
+      "title": "BuildFastWithAI: How to Create, Connect, Upload & Improve Claude Skills (2026 Guide)",
+      "url": "https://www.buildfastwithai.com/blogs/how-to-create-claude-skills",
+      "source": "BuildFastWithAI",
+      "sourceLabel": "buildfastwithai.com",
+      "category": "tools",
+      "summary": "A newly published guide walks SMB owners and freelancers through creating, uploading, and improving Claude skills step-by-step. If you have a repeatable business process (invoice processing, client onboarding, content repurposing), this tutorial shows you how to turn it into a reusable skill.",
+      "tags": [
+        "claude-skills",
+        "tutorial",
+        "how-to",
+        "smb-automation",
+        "skills-guide"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-005",
+      "title": "Taskade: What Are Claude Skills? A 2026 Beginner Guide for Non-Technical Users",
+      "url": "https://www.taskade.com/blog/claude-skills-explained",
+      "source": "Taskade",
+      "sourceLabel": "taskade.com",
+      "category": "tools",
+      "summary": "Taskade published a beginner-friendly explainer breaking down what Claude Skills are, how they differ from tools and MCP servers, and why they matter for SMBs. The best starting point to understand the concept before diving into your first automation.",
+      "tags": [
+        "claude-skills",
+        "beginner-guide",
+        "tutorial",
+        "non-technical",
+        "mcp"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2026-06-19-006",
+      "title": "MarkTechPost: Claude Code Guide 2026 \u2014 25 Features SMBs Can Leverage for Automation",
+      "url": "https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/",
+      "source": "MarkTechPost",
+      "sourceLabel": "marktechpost.com",
+      "category": "tools",
+      "summary": "A comprehensive breakdown of 25 Claude Code features \u2014 from CLAUDE.md memory files to plugins, hooks, subagents, and MCP integrations. SMBs with even a part-time developer can use this as a playbook: pick the features matching your highest-friction workflows and start automating today.",
+      "tags": [
+        "claude-code",
+        "features-guide",
+        "plugins",
+        "mcp",
+        "hooks",
+        "subagents"
+      ],
+      "featured": false
+    }
+  ]
 }
