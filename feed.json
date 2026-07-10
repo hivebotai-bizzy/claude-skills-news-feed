@@ -1,112 +1,178 @@
 {
-  "meta": {
-    "version": 1,
-    "feedName": "Claude Skills Daily",
-    "description": "Daily curated Claude AI skills news for small and medium businesses",
-    "siteUrl": "https://claudeskillsmarket.com",
-    "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-07-09T18:05:00-06:00",
-    "entryCount": 53
-  },
-  "entries": [
-    {
-      "id": "2026-07-09-001",
-      "title": "Anthropic Introduces GRAM: An 'Off Switch' for Dangerous Knowledge in AI Models — What It Means for SMBs Using Claude Skills",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use",
-      "source": "Anthropic Research",
-      "sourceLabel": "alignment.anthropic.com",
-      "category": "news",
-      "summary": "Anthropic's AE Studio collaborators unveiled GRAM (Gradient-Routed Auxiliary Modules), a breakthrough technique that lets developers add/remove categories of dual-use knowledge from AI models after training — like cybersecurity or virology — without retraining. For SMB owners: this means Claude skills handling sensitive data could benefit from future models where dangerous knowledge is surgically removable while keeping beneficial capabilities intact. Could also mean new compliance options for regulated industries (healthcare, finance) that need Claude but can't store certain types of information.",
-      "tags": ["anthropic-research", "security", "compliance", "GRAM", "dual-use"],
-      "featured": true
-    },
-    {
-      "id": "2026-07-09-002",
-      "title": "Anthropic Discovers 'J-Space': Claude Has an Internal Mental Workspace for Reasoning — Game Changer for Complex Business Skills",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "source": "Anthropic Research",
-      "sourceLabel": "interpretability.anthropic.com",
-      "category": "news",
-      "summary": "Anthropic's interpretability team discovered a 'J-space' — an internal neural workspace in Claude that holds thoughts not visible in its output. It can report on what it's thinking, modulate representations on request, and use J-space for multi-step reasoning even when silent. For SMBs: this means Claude skills doing complex analysis (financial modeling, legal review, multi-step workflows) are getting more reliable because the model has a dedicated 'thinking' layer that wasn't explicitly programmed. Expect better performance from advanced Claude Code skills as these capabilities mature.",
-      "tags": ["anthropic-research", "interpretability", "j-space", "reasoning", "claude-code"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-003",
-      "title": "Claude Fable 5 Returns Globally July 1 — New Jailbreak Scoring Framework Announced With Amazon, Microsoft, Google",
-      "url": "https://www.anthropic.com/news",
-      "source": "Anthropic News",
-      "sourceLabel": "anthropic.com/news",
-      "category": "news",
-      "summary": "Claude Fable 5 is now available globally again (as of July 1), following a period of limited regional availability. Anthropic also proposed an industry-wide framework for scoring jailbreak severity — developed together with Amazon, Microsoft, Google, and other Glasswing partners — that could standardize how models resist manipulation. For SMBs running Claude-powered skills in production: the model is now more robust against prompt injection attacks that could be used to break out of skill boundaries or access unauthorized functionality.",
-      "tags": ["fable-5", "security", "glasswing", "jailbreak-scoring", "model-availability"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-004",
-      "title": "Anthropic Agent SDK Usage Spiking 15-30x After June 15 Billing Change — SMBs Using Custom Claude Skills Hit Hardest",
-      "url": "https://clskillshub.com/blog/anthropic-agent-sdk-credit-june-15-2026",
-      "source": "Claude Skills Hub",
-      "sourceLabel": "clskillshub.com",
-      "category": "news",
-      "summary": "Deep dive into Anthropic's Agent SDK billing change that took effect June 15: third-party tool usage (custom Claude skills, CI workflows, GitHub Actions) jumped from ~$0 to $20-$200/month depending on tier. A single claude -p cron job can cost $10/month vs. $0 before. SMBs building custom Claude skills for business automation are seeing 15-30x price increases; heavy parallel workloads up to 175x. Key recommendation: move skill orchestration to the official interactive CLI path where possible, or budget for API-tier pricing if you need programmatic access.",
-      "tags": ["agent-sdk", "pricing", "cost-optimization", "billing", "smb-budgeting"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-005",
-      "title": "Upwork Sees Surge in Claude Business Analysis & Financial Tracking Skill Jobs — $100–$500 Gigs Available Now",
-      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Prompt-Engineer-for-Business-Analysis-Financial-Tracking_~022072314367296724143/",
-      "source": "Upwork",
-      "sourceLabel": "upwork.com/freelance-jobs",
-      "category": "job",
-      "summary": "Multiple SMBs are hiring on Upwork for Claude-powered business analysis skills — one posting asks for a $500 project to build AI agents that analyze P&L statements and create financial dashboards; another wants a prompt engineer to turn video content into reusable Claude skills. If you're an SMB owner, these are real templates you can adapt in-house or hire someone to build for you — proof the market is shifting toward Claude-specific business capabilities.",
-      "tags": ["upwork", "freelance", "financial-tracking", "business-analysis", "job-market"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-006",
-      "title": "Skills vs Rules in Claude Code: Reddit Community Guide That Could Save SMB Developers Hundreds of Dollars Monthly",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1upq56f/what_skills_are_even_good_nowadays/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "community",
-      "summary": "The community consensus: many SMBs are wasting tokens loading 'knowledge skills' when Claude Code Rules would be cheaper and more efficient — rules don't count against context unless triggered. For a small business running Claude Code, switching from broad skills to targeted rules can cut your token bill significantly while improving performance. The guide also notes that newer models (Opus 4.8, Fable 5) have absorbed many dedicated skill functions.",
-      "tags": ["claude-code", "cost-optimization", "skills-vs-rules", "reddit-discussion", "token-savings"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-007",
-      "title": "Meta-Skills Emerge: New Claude Skills That Monitor and Report on Your Other Skills' Performance",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqrh69/follow_up_to_my_pointless_skill_files_post_half/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "community",
-      "summary": "Community members are building 'meta-skills' — Claude skills that monitor and report on how well your other skills are performing. For SMBs running multiple Claude skills in production, this could mean automated dashboards showing which skills save the most time, which ones need updating, and usage patterns across your team. Think of it as quality assurance for your AI workforce.",
-      "tags": ["meta-skills", "monitoring", "reddit-discussion", "automation", "performance-tracking"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-008",
-      "title": "Claude Skills Marketplaces Compared: 6 Platforms Reviewed for SMBs and Freelancers (July 2026)",
-      "url": "https://clskillshub.com/blog/claude-skills-marketplace-compared-2026",
-      "source": "Claude Skills Hub",
-      "sourceLabel": "clskillshub.com",
-      "category": "tools",
-      "summary": "A hands-on comparison of 6 Claude skills marketplaces, from SkillsMP's 2M+ catalog to Anthropic's official directory. For SMB owners: look beyond raw skill counts and focus on verified quality — clskillshub recommends the $19 lifetime verified tier for production-ready skills, while free tiers work best for experimentation. Key takeaway: always check SKILL.md compliance before installing.",
-      "tags": ["marketplace", "comparison", "skillsmp", "verification", "smb-buying-guide"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-009",
-      "title": "Anthropic Launches Claude Code & Cowork Government Beta — FedRAMP High for Public Sector Teams",
-      "url": "https://letsdatascience.com/news/anthropic-brings-claude-code-and-cowork-to-government-06df8bbb",
-      "source": "Let's Data Science",
-      "sourceLabel": "letsdatascience.com",
-      "category": "news",
-      "summary": "Claude Code and Cowork are now in public beta for government desktop users with FedRAMP High authorization, including local conversation history, admin controls, spending limits, and audit logs. For SMBs serving government contracts or working with public sector clients: having a Claude-skilled team with compliant tools is becoming a competitive differentiator. The same toolset will likely expand to broader enterprise compliance (SOC2, HIPAA) in coming months.",
-      "tags": ["government", "fedramp", "claude-code", "compliance", "cowork"],
-      "featured": false
-    }
-  ]
+   "meta": {
+     "version": 1,
+     "feedName": "Claude Skills Daily",
+     "description": "Daily curated Claude AI skills news for small and medium businesses",
+     "siteUrl": "https://claudeskillsmarket.com",
+     "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
+     "lastUpdated": "2026-07-10T13:00:00-06:00",
+     "entryCount": 15
+   },
+   "entries": [
+     {
+       "id": "2026-07-10-001",
+       "title": "Anthropic Launches 'Reflect' — A Usage Dashboard That Could Transform How SMBs Measure Claude ROI",
+       "url": "https://www.anthropic.com/news/reflect-with-claude",
+       "source": "Anthropic News",
+       "sourceLabel": "anthropic.com/news",
+       "category": "news",
+       "summary": "Anthropic launched Reflect in beta: a built-in dashboard that tracks and visualizes how you use Claude, with breakdowns by topic, usage patterns, and task types. It also integrates the 4D AI Fluency Framework (Delegation, Description, Discernment, Diligence) to help users build skills that support original thinking. SMB owners can now set quiet hours, schedule nudges, and — crucially — see where time is actually spent with AI vs. manual work to justify further investment.",
+       "tags": ["anthropic", "reflect", "analytics", "roi", "smb-operations"],
+       "featured": true
+     },
+     {
+       "id": "2026-07-10-002",
+       "title": "Claude Sonnet 5 Now Available on AWS — Intro Pricing $2/M input, $10/M output Through August 31",
+       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+       "source": "AWS News",
+       "sourceLabel": "aws.amazon.com/blogs/aws",
+       "category": "news",
+       "summary": "Claude Sonnet 5 dropped June 30 and is now available on AWS. Introductory pricing runs $2/M input tokens and $10/M output tokens through August 31 — about one-third the cost of Opus 4.8. For SMBs building custom Claude skills or running automated workflows: this model matches Opus on agents, coding, and reasoning at a fraction of the price. Palantir AIP also added Sonnet 5 for government enrollments.",
+       "tags": ["sonnet-5", "aws", "pricing", "cost-savings", "agents"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-10-003",
+       "title": "Boutique Law Firm Runs on Claude: 'Feels Like I Have an Army of AI Agents' — Business Insider",
+       "url": "https://www.businessinsider.com/ai-claude-got-lawyer-away-from-his-desk-more-efficient-2026-6",
+       "source": "Business Insider",
+       "sourceLabel": "businessinsider.com",
+       "category": "vertical",
+       "summary": "Corporate attorney Zack Shapiro's 3-person VC/M&A firm uses Claude to automate all grunt work — drafting, document prep, research. He uses voice mode on walks for creative cognitive work and says the firm 'operates like a much bigger one.' SMB legal practices can replicate: set up Claude Code skills for document automation, use voice mode for strategy sessions, and let AI handle repetitive tasks while humans focus on client work.",
+       "tags": ["law-firm", "vertical", "voice-mode", "automation", "business-insider"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-10-004",
+       "title": "Agensi Publishes 'Claude Cowork for Small Business' Guide: 5 Use Cases That Save 15+ Hours/Week",
+       "url": "https://www.agensi.io/learn/claude-cowork-for-small-business",
+       "source": "Agensi",
+       "sourceLabel": "agensi.io",
+       "category": "tools",
+       "summary": "A practical setup guide for non-technical owners: install Claude Desktop + Cowork, create three folders (clients, finance, marketing), attach matching skills, and schedule recurring tasks. Specific use cases include client document production, bookkeeping prep, social media drafting, weekly reporting, and digital housekeeping — all running on Claude Pro at $20/month without hiring developers or engineers.",
+       "tags": ["cowork", "setup-guide", "time-savings", "non-technical", "small-business"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-10-005",
+       "title": "Real Estate Operators: Build AI Due Diligence on Claude vs. Buying a Vendor Tool — LinkedIn Deep Dive",
+       "url": "https://www.linkedin.com/posts/bharg_real-estate-operators-adopting-ai-for-due-activity-7479927410579259393-k6zF",
+       "source": "LinkedIn",
+       "sourceLabel": "r/real-estate / LinkedIn",
+       "category": "vertical",
+       "summary": "A detailed breakdown for real estate operators on when to buy off-the-shelf DD tools vs. building custom workflows on Claude or GPT. Covers lease abstraction, T-12 normalization, rent roll reconciliation, PCR parsing, and Phase I report analysis across multifamily, office, industrial, and retail properties. The key takeaway: most teams end up using both — use vendors for standardized analysis and Claude for custom patterns that off-the-shelf tools miss.",
+       "tags": ["real-estate", "due-diligence", "vendor-vs-build", "multi-family", "linkedin"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-10-006",
+       "title": "Reddit: Developer Built a Claude Skill From 8 Months of Personal Code Sessions — Community Reacts",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1urph4x/i_built_a_claude_skill_from_8_months_of_my_own/",
+       "source": "Reddit / r/ClaudeAI",
+       "sourceLabel": "r/ClaudeAI",
+       "category": "community",
+       "summary": "A developer shares building a Claude skill distilled from 8 months of their own Claude Code sessions — turning personal working patterns into a reusable skill file. The post sparked discussion on how SMB teams can reverse-engineer their own best practices into Claude skills. Takeaway: review your team's most successful workflows and codify them as skills rather than starting from scratch.",
+       "tags": ["reddit", "community", "skill-building", "code-sessions", "knowledge-capture"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-001",
+       "title": "Anthropic Introduces GRAM: An 'Off Switch' for Dangerous Knowledge in AI Models — What It Means for SMBs Using Claude Skills",
+       "url": "https://www.anthropic.com/research/off-switch-dual-use",
+       "source": "Anthropic Research",
+       "sourceLabel": "alignment.anthropic.com",
+       "category": "news",
+       "summary": "Anthropic's AE Studio collaborators unveiled GRAM (Gradient-Routed Auxiliary Modules), a breakthrough technique that lets developers add/remove categories of dual-use knowledge from AI models after training — like cybersecurity or virology — without retraining. For SMB owners: this means Claude skills handling sensitive data could benefit from future models where dangerous knowledge is surgically removable while keeping beneficial capabilities intact. Could also mean new compliance options for regulated industries (healthcare, finance) that need Claude but can't store certain types of information.",
+       "tags": ["anthropic-research", "security", "compliance", "GRAM", "dual-use"],
+       "featured": true
+     },
+     {
+       "id": "2026-07-09-002",
+       "title": "Anthropic Discovers 'J-Space': Claude Has an Internal Mental Workspace for Reasoning — Game Changer for Complex Business Skills",
+       "url": "https://www.anthropic.com/research/global-workspace",
+       "source": "Anthropic Research",
+       "sourceLabel": "interpretability.anthropic.com",
+       "category": "news",
+       "summary": "Anthropic's interpretability team discovered a 'J-space' — an internal neural workspace in Claude that holds thoughts not visible in its output. It can report on what it's thinking, modulate representations on request, and use J-space for multi-step reasoning even when silent. For SMBs: this means Claude skills doing complex analysis (financial modeling, legal review, multi-step workflows) are getting more reliable because the model has a dedicated 'thinking' layer that wasn't explicitly programmed. Expect better performance from advanced Claude Code skills as these capabilities mature.",
+       "tags": ["anthropic-research", "interpretability", "j-space", "reasoning", "claude-code"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-003",
+       "title": "Claude Fable 5 Returns Globally July 1 — New Jailbreak Scoring Framework Announced With Amazon, Microsoft, Google",
+       "url": "https://www.anthropic.com/news",
+       "source": "Anthropic News",
+       "sourceLabel": "anthropic.com/news",
+       "category": "news",
+       "summary": "Claude Fable 5 is now available globally again (as of July 1), following a period of limited regional availability. Anthropic also proposed an industry-wide framework for scoring jailbreak severity — developed together with Amazon, Microsoft, Google, and other Glasswing partners — that could standardize how models resist manipulation. For SMBs running Claude-powered skills in production: the model is now more robust against prompt injection attacks that could be used to break out of skill boundaries or access unauthorized functionality.",
+       "tags": ["fable-5", "security", "glasswing", "jailbreak-scoring", "model-availability"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-004",
+       "title": "Anthropic Agent SDK Usage Spiking 15-30x After June 15 Billing Change — SMBs Using Custom Claude Skills Hit Hardest",
+       "url": "https://clskillshub.com/blog/anthropic-agent-sdk-credit-june-15-2026",
+       "source": "Claude Skills Hub",
+       "sourceLabel": "clskillshub.com",
+       "category": "news",
+       "summary": "Deep dive into Anthropic's Agent SDK billing change that took effect June 15: third-party tool usage (custom Claude skills, CI workflows, GitHub Actions) jumped from ~$0 to $20-$200/month depending on tier. A single claude -p cron job can cost $10/month vs. $0 before. SMBs building custom Claude skills for business automation are seeing 15-30x price increases; heavy parallel workloads up to 175x. Key recommendation: move skill orchestration to the official interactive CLI path where possible, or budget for API-tier pricing if you need programmatic access.",
+       "tags": ["agent-sdk", "pricing", "cost-optimization", "billing", "smb-budgeting"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-005",
+       "title": "Upwork Sees Surge in Claude Business Analysis & Financial Tracking Skill Jobs — $100–$500 Gigs Available Now",
+       "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Prompt-Engineer-for-Business-Analysis-Financial-Tracking_~022072314367296724143/",
+       "source": "Upwork",
+       "sourceLabel": "upwork.com/freelance-jobs",
+       "category": "job",
+       "summary": "Multiple SMBs are hiring on Upwork for Claude-powered business analysis skills — one posting asks for a $500 project to build AI agents that analyze P&L statements and create financial dashboards; another wants a prompt engineer to turn video content into reusable Claude skills. If you're an SMB owner, these are real templates you can adapt in-house or hire someone to build for you — proof the market is shifting toward Claude-specific business capabilities.",
+       "tags": ["upwork", "freelance", "financial-tracking", "business-analysis", "job-market"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-006",
+       "title": "Skills vs Rules in Claude Code: Reddit Community Guide That Could Save SMB Developers Hundreds of Dollars Monthly",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1upq56f/what_skills_are_even_good_nowadays/",
+       "source": "Reddit / r/ClaudeAI",
+       "sourceLabel": "r/ClaudeAI",
+       "category": "community",
+       "summary": "The community consensus: many SMBs are wasting tokens loading 'knowledge skills' when Claude Code Rules would be cheaper and more efficient — rules don't count against context unless triggered. For a small business running Claude Code, switching from broad skills to targeted rules can cut your token bill significantly while improving performance. The guide also notes that newer models (Opus 4.8, Fable 5) have absorbed many dedicated skill functions.",
+       "tags": ["claude-code", "cost-optimization", "skills-vs-rules", "reddit-discussion", "token-savings"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-007",
+       "title": "Meta-Skills Emerge: New Claude Skills That Monitor and Report on Your Other Skills' Performance",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqrh69/follow_up_to_my_pointless_skill_files_post_half/",
+       "source": "Reddit / r/ClaudeAI",
+       "sourceLabel": "r/ClaudeAI",
+       "category": "community",
+       "summary": "Community members are building 'meta-skills' — Claude skills that monitor and report on how well your other skills are performing. For SMBs running multiple Claude skills in production, this could mean automated dashboards showing which skills save the most time, which ones need updating, and usage patterns across your team. Think of it as quality assurance for your AI workforce.",
+       "tags": ["meta-skills", "monitoring", "reddit-discussion", "automation", "performance-tracking"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-008",
+       "title": "Claude Skills Marketplaces Compared: 6 Platforms Reviewed for SMBs and Freelancers (July 2026)",
+       "url": "https://clskillshub.com/blog/claude-skills-marketplace-compared-2026",
+       "source": "Claude Skills Hub",
+       "sourceLabel": "clskillshub.com",
+       "category": "tools",
+       "summary": "A hands-on comparison of 6 Claude skills marketplaces, from SkillsMP's 2M+ catalog to Anthropic's official directory. For SMB owners: look beyond raw skill counts and focus on verified quality — clskillshub recommends the $19 lifetime verified tier for production-ready skills, while free tiers work best for experimentation. Key takeaway: always check SKILL.md compliance before installing.",
+       "tags": ["marketplace", "comparison", "skillsmp", "verification", "smb-buying-guide"],
+       "featured": false
+     },
+     {
+       "id": "2026-07-09-009",
+       "title": "Anthropic Launches Claude Code & Cowork Government Beta — FedRAMP High for Public Sector Teams",
+       "url": "https://letsdatascience.com/news/anthropic-brings-claude-code-and-cowork-to-government-06df8bbb",
+       "source": "Let's Data Science",
+       "sourceLabel": "letsdatascience.com",
+       "category": "news",
+       "summary": "Claude Code and Cowork are now in public beta for government desktop users with FedRAMP High authorization, including local conversation history, admin controls, spending limits, and audit logs. For SMBs serving government contracts or working with public sector clients: having a Claude-skilled team with compliant tools is becoming a competitive differentiator. The same toolset will likely expand to broader enterprise compliance (SOC2, HIPAA) in coming months.",
+       "tags": ["government", "fedramp", "claude-code", "compliance", "cowork"],
+       "featured": false
+     }
+   ]
 }
