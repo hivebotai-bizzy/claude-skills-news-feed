@@ -1,218 +1,305 @@
 {
-  "meta": {
-    "version": 1,
-    "feedName": "Claude Skills Daily",
-    "description": "Daily curated Claude AI skills news for small and medium businesses",
-    "siteUrl": "https://claudeskillsmarket.com",
-    "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
-    "lastUpdated": "2026-07-11T09:35:00-06:00",
-    "entryCount": 19
-  },
-  "entries": [
-    {
-      "id": "2026-07-11-001",
-      "title": "r/ClaudeAI Community Reacts: 'Claude for Small Business' Is Marketing, Not Magic — Pros Owners Already Doing This on Pro Plans",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tc4jwp/anthropic_releases_claude_for_small_business/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "community",
-      "summary": "The verdict from experienced Claude users: 'Claude for Small Business' is repackaged Pro, not a new product. Savvy SMB owners were already getting the same workflows using QuickBooks, HubSpot, and Canva integrations on individual Pro plans. One complaint: no team plan for under 5 users — a gap where true small businesses operate. Practical takeaway: skip the upsell if you're solo or 2-3 people with Pro; the skills and workflows are the same.",
-      "tags": ["reddit", "community", "pricing-strategy", "pro-vs-small-business", "team-plan"]
-    },
-    {
-      "id": "2026-07-11-002",
-      "title": "SMB Owner Shares: Sign Company Uses Claude to Auto-Update Pricing from 20+ Vendor Sites Into Estimating Software",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdr91y/what_are_the_use_cases_of_claude_cowork_for_small/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "vertical",
-      "summary": "A sign company owner built a practical Claude skill that regularly scrapes vendor websites for pricing updates and pushes them into their estimating software — eliminating hours of manual price-checking across 20+ suppliers. Key lesson: SMBs should start with skills that solve one painful, repetitive workflow rather than trying to automate everything at once.",
-      "tags": ["reddit", "vertical", "sign-industry", "vendor-pricing", "time-savings", "cowork"]
-    },
-    {
-      "id": "2026-07-11-003",
-      "title": "The Missing Integrations: SMBs Want Shopify, Stripe, ServiceTitan — Claude for Small Business Falls Short on Key Platforms",
-      "url": "https://www.reddit.com/r/smallbusinessowner/comments/1txsjce/claude_for_small_business/",
-      "source": "Reddit / r/smallbusinessowner",
-      "sourceLabel": "r/smallbusinessowner",
-      "category": "tools",
-      "summary": "After Claude for Small Business launched with 7 integrations (QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, MS365), SMB communities immediately highlighted what's missing. E-commerce operators want Shopify and Stripe; trades need ServiceTitan and Jobber. Anthropic acknowledged the gap but offered no timeline. Practical workaround: export data from unsupported tools to CSV and feed it to Claude for analysis — not ideal but functional.",
-      "tags": ["integrations", "shopify", "stripe", "trades", "missing-platforms", "workaround"]
-    },
-    {
-      "id": "2026-07-11-004",
-      "title": "r/ClaudeAI: 15 Pre-Built SMB Workflows Benchmarked — Month-End Close and Morning Brief Top the List",
-      "url": "https://www.reddit.com/r/AISEOInsider/comments/1tlbj6b/new_claude_for_small_business_update_just_changed/",
-      "source": "Reddit / r/AISEOInsider",
-      "sourceLabel": "r/AISEOInsider",
-      "category": "tools",
-      "summary": "Early benchmarking of Claude for Small Business's 15 pre-built workflows shows month-end close and morning brief generation as the highest-ROI features. Users report these two alone save 5-8 hours per week. Payroll planning and invoice follow-up are runners-up. Campaign planning scored lowest — users prefer building custom prompts over Claude's template approach.",
-      "tags": ["benchmark", "workflows", "month-end-close", "morning-brief", "roi", "reddit"]
-    },
-    {
-      "id": "2026-07-10-001",
-      "title": "Anthropic Launches 'Reflect' — A Usage Dashboard That Could Transform How SMBs Measure Claude ROI",
-      "url": "https://www.anthropic.com/news/reflect-with-claude",
-      "source": "Anthropic News",
-      "sourceLabel": "anthropic.com/news",
-      "category": "news",
-      "summary": "Anthropic launched Reflect in beta: a built-in dashboard that tracks and visualizes how you use Claude, with breakdowns by topic, usage patterns, and task types. It also integrates the 4D AI Fluency Framework (Delegation, Description, Discernment, Diligence) to help users build skills that support original thinking. SMB owners can now set quiet hours, schedule nudges, and — crucially — see where time is actually spent with AI vs. manual work to justify further investment.",
-      "tags": ["anthropic", "reflect", "analytics", "roi", "smb-operations"],
-      "featured": true
-    },
-    {
-      "id": "2026-07-10-002",
-      "title": "Claude Sonnet 5 Now Available on AWS — Intro Pricing $2/M input, $10/M output Through August 31",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
-      "source": "AWS News",
-      "sourceLabel": "aws.amazon.com/blogs/aws",
-      "category": "news",
-      "summary": "Claude Sonnet 5 dropped June 30 and is now available on AWS. Introductory pricing runs $2/M input tokens and $10/M output tokens through August 31 — about one-third the cost of Opus 4.8. For SMBs building custom Claude skills or running automated workflows: this model matches Opus on agents, coding, and reasoning at a fraction of the price. Palantir AIP also added Sonnet 5 for government enrollments.",
-      "tags": ["sonnet-5", "aws", "pricing", "cost-savings", "agents"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-10-003",
-      "title": "Boutique Law Firm Runs on Claude: 'Feels Like I Have an Army of AI Agents' — Business Insider",
-      "url": "https://www.businessinsider.com/ai-claude-got-lawyer-away-from-his-desk-more-efficient-2026-6",
-      "source": "Business Insider",
-      "sourceLabel": "businessinsider.com",
-      "category": "vertical",
-      "summary": "Corporate attorney Zack Shapiro's 3-person VC/M&A firm uses Claude to automate all grunt work — drafting, document prep, research. He uses voice mode on walks for creative cognitive work and says the firm 'operates like a much bigger one.' SMB legal practices can replicate: set up Claude Code skills for document automation, use voice mode for strategy sessions, and let AI handle repetitive tasks while humans focus on client work.",
-      "tags": ["law-firm", "vertical", "voice-mode", "automation", "business-insider"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-10-004",
-      "title": "Agensi Publishes 'Claude Cowork for Small Business' Guide: 5 Use Cases That Save 15+ Hours/Week",
-      "url": "https://www.agensi.io/learn/claude-cowork-for-small-business",
-      "source": "Agensi",
-      "sourceLabel": "agensi.io",
-      "category": "tools",
-      "summary": "A practical setup guide for non-technical owners: install Claude Desktop + Cowork, create three folders (clients, finance, marketing), attach matching skills, and schedule recurring tasks. Specific use cases include client document production, bookkeeping prep, social media drafting, weekly reporting, and digital housekeeping — all running on Claude Pro at $20/month without hiring developers or engineers.",
-      "tags": ["cowork", "setup-guide", "time-savings", "non-technical", "small-business"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-10-005",
-      "title": "Real Estate Operators: Build AI Due Diligence on Claude vs. Buying a Vendor Tool — LinkedIn Deep Dive",
-      "url": "https://www.linkedin.com/posts/bharg_real-estate-operators-adopting-ai-for-due-activity-7479927410579259393-k6zF",
-      "source": "LinkedIn",
-      "sourceLabel": "r/real-estate / LinkedIn",
-      "category": "vertical",
-      "summary": "A detailed breakdown for real estate operators on when to buy off-the-shelf DD tools vs. building custom workflows on Claude or GPT. Covers lease abstraction, T-12 normalization, rent roll reconciliation, PCR parsing, and Phase I report analysis across multifamily, office, industrial, and retail properties. The key takeaway: most teams end up using both — use vendors for standardized analysis and Claude for custom patterns that off-the-shelf tools miss.",
-      "tags": ["real-estate", "due-diligence", "vendor-vs-build", "multi-family", "linkedin"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-10-006",
-      "title": "Reddit: Developer Built a Claude Skill From 8 Months of Personal Code Sessions — Community Reacts",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1urph4x/i_built_a_claude_skill_from_8_months_of_my_own/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "community",
-      "summary": "A developer shares building a Claude skill distilled from 8 months of their own Claude Code sessions — turning personal working patterns into a reusable skill file. The post sparked discussion on how SMB teams can reverse-engineer their own best practices into Claude skills. Takeaway: review your team's most successful workflows and codify them as skills rather than starting from scratch.",
-      "tags": ["reddit", "community", "skill-building", "code-sessions", "knowledge-capture"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-001",
-      "title": "Anthropic Introduces GRAM: An 'Off Switch' for Dangerous Knowledge in AI Models — What It Means for SMBs Using Claude Skills",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use",
-      "source": "Anthropic Research",
-      "sourceLabel": "alignment.anthropic.com",
-      "category": "news",
-      "summary": "Anthropic's AE Studio collaborators unveiled GRAM (Gradient-Routed Auxiliary Modules), a breakthrough technique that lets developers add/remove categories of dual-use knowledge from AI models after training — like cybersecurity or virology — without retraining. For SMB owners: this means Claude skills handling sensitive data could benefit from future models where dangerous knowledge is surgically removable while keeping beneficial capabilities intact. Could also mean new compliance options for regulated industries (healthcare, finance) that need Claude but can't store certain types of information.",
-      "tags": ["anthropic-research", "security", "compliance", "GRAM", "dual-use"],
-      "featured": true
-    },
-    {
-      "id": "2026-07-09-002",
-      "title": "Anthropic Discovers 'J-Space': Claude Has an Internal Mental Workspace for Reasoning — Game Changer for Complex Business Skills",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "source": "Anthropic Research",
-      "sourceLabel": "interpretability.anthropic.com",
-      "category": "news",
-      "summary": "Anthropic's interpretability team discovered a 'J-space' — an internal neural workspace in Claude that holds thoughts not visible in its output. It can report on what it's thinking, modulate representations on request, and use J-space for multi-step reasoning even when silent. For SMBs: this means Claude skills doing complex analysis (financial modeling, legal review, multi-step workflows) are getting more reliable because the model has a dedicated 'thinking' layer that wasn't explicitly programmed. Expect better performance from advanced Claude Code skills as these capabilities mature.",
-      "tags": ["anthropic-research", "interpretability", "j-space", "reasoning", "claude-code"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-003",
-      "title": "Claude Fable 5 Returns Globally July 1 — New Jailbreak Scoring Framework Announced With Amazon, Microsoft, Google",
-      "url": "https://www.anthropic.com/news",
-      "source": "Anthropic News",
-      "sourceLabel": "anthropic.com/news",
-      "category": "news",
-      "summary": "Claude Fable 5 is now available globally again (as of July 1), following a period of limited regional availability. Anthropic also proposed an industry-wide framework for scoring jailbreak severity — developed together with Amazon, Microsoft, Google, and other Glasswing partners — that could standardize how models resist manipulation. For SMBs running Claude-powered skills in production: the model is now more robust against prompt injection attacks that could be used to break out of skill boundaries or access unauthorized functionality.",
-      "tags": ["fable-5", "security", "glasswing", "jailbreak-scoring", "model-availability"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-004",
-      "title": "Anthropic Agent SDK Usage Spiking 15-30x After June 15 Billing Change — SMBs Using Custom Claude Skills Hit Hardest",
-      "url": "https://clskillshub.com/blog/anthropic-agent-sdk-credit-june-15-2026",
-      "source": "Claude Skills Hub",
-      "sourceLabel": "clskillshub.com",
-      "category": "news",
-      "summary": "Deep dive into Anthropic's Agent SDK billing change that took effect June 15: third-party tool usage (custom Claude skills, CI workflows, GitHub Actions) jumped from ~$0 to $20-$200/month depending on tier. A single claude -p cron job can cost $10/month vs. $0 before. SMBs building custom Claude skills for business automation are seeing 15-30x price increases; heavy parallel workloads up to 175x. Key recommendation: move skill orchestration to the official interactive CLI path where possible, or budget for API-tier pricing if you need programmatic access.",
-      "tags": ["agent-sdk", "pricing", "cost-optimization", "billing", "smb-budgeting"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-005",
-      "title": "Upwork Sees Surge in Claude Business Analysis & Financial Tracking Skill Jobs — $100–$500 Gigs Available Now",
-      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Prompt-Engineer-for-Business-Analysis-Financial-Tracking_~022072314367296724143/",
-      "source": "Upwork",
-      "sourceLabel": "upwork.com/freelance-jobs",
-      "category": "job",
-      "summary": "Multiple SMBs are hiring on Upwork for Claude-powered business analysis skills — one posting asks for a $500 project to build AI agents that analyze P&L statements and create financial dashboards; another wants a prompt engineer to turn video content into reusable Claude skills. If you're an SMB owner, these are real templates you can adapt in-house or hire someone to build for you — proof the market is shifting toward Claude-specific business capabilities.",
-      "tags": ["upwork", "freelance", "financial-tracking", "business-analysis", "job-market"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-006",
-      "title": "Skills vs Rules in Claude Code: Reddit Community Guide That Could Save SMB Developers Hundreds of Dollars Monthly",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1upq56f/what_skills_are_even_good_nowadays/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "community",
-      "summary": "The community consensus: many SMBs are wasting tokens loading 'knowledge skills' when Claude Code Rules would be cheaper and more efficient — rules don't count against context unless triggered. For a small business running Claude Code, switching from broad skills to targeted rules can cut your token bill significantly while improving performance. The guide also notes that newer models (Opus 4.8, Fable 5) have absorbed many dedicated skill functions.",
-      "tags": ["claude-code", "cost-optimization", "skills-vs-rules", "reddit-discussion", "token-savings"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-007",
-      "title": "Meta-Skills Emerge: New Claude Skills That Monitor and Report on Your Other Skills' Performance",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uqrh69/follow_up_to_my_pointless_skill_files_post_half/",
-      "source": "Reddit / r/ClaudeAI",
-      "sourceLabel": "r/ClaudeAI",
-      "category": "community",
-      "summary": "Community members are building 'meta-skills' — Claude skills that monitor and report on how well your other skills are performing. For SMBs running multiple Claude skills in production, this could mean automated dashboards showing which skills save the most time, which ones need updating, and usage patterns across your team. Think of it as quality assurance for your AI workforce.",
-      "tags": ["meta-skills", "monitoring", "reddit-discussion", "automation", "performance-tracking"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-008",
-      "title": "Claude Skills Marketplaces Compared: 6 Platforms Reviewed for SMBs and Freelancers (July 2026)",
-      "url": "https://clskillshub.com/blog/claude-skills-marketplace-compared-2026",
-      "source": "Claude Skills Hub",
-      "sourceLabel": "clskillshub.com",
-      "category": "tools",
-      "summary": "A hands-on comparison of 6 Claude skills marketplaces, from SkillsMP's 2M+ catalog to Anthropic's official directory. For SMB owners: look beyond raw skill counts and focus on verified quality — clskillshub recommends the $19 lifetime verified tier for production-ready skills, while free tiers work best for experimentation. Key takeaway: always check SKILL.md compliance before installing.",
-      "tags": ["marketplace", "comparison", "skillsmp", "verification", "smb-buying-guide"],
-      "featured": false
-    },
-    {
-      "id": "2026-07-09-009",
-      "title": "Anthropic Launches Claude Code & Cowork Government Beta — FedRAMP High for Public Sector Teams",
-      "url": "https://letsdatascience.com/news/anthropic-brings-claude-code-and-cowork-to-government-06df8bbb",
-      "source": "Let's Data Science",
-      "sourceLabel": "letsdatascience.com",
-      "category": "news",
-      "summary": "Claude Code and Cowork are now in public beta for government desktop users with FedRAMP High authorization, including local conversation history, admin controls, spending limits, and audit logs. For SMBs serving government contracts or working with public sector clients: having a Claude-skilled team with compliant tools is becoming a competitive differentiator. The same toolset will likely expand to broader enterprise compliance (SOC2, HIPAA) in coming months.",
-      "tags": ["government", "fedramp", "claude-code", "compliance", "cowork"],
-      "featured": false
-    }
-  ]
+     "meta": {
+         "version": 1,
+         "feedName": "Claude Skills Daily",
+         "description": "Daily curated Claude AI skills news for small and medium businesses",
+         "siteUrl": "https://claudeskillsmarket.com",
+         "feedUrl": "https://raw.githubusercontent.com/hivebotai-bizzy/claude-skills-news-feed/main/feed.json",
+         "lastUpdated": "2026-07-23T00:00:00-06:00",
+         "entryCount": 18
+     },
+     "entries": [
+         {
+             "id": "2026-07-22-001",
+             "title": "Claude Cowork 'Record a Skill': Screen-Record Any Task, Claude Turns It Into a Reusable Automation",
+             "url": "https://explainx.ai/blog/claude-cowork-record-a-skill-screen-recording-july-2026",
+             "source": "ExplainX",
+             "sourceLabel": "explainx.ai",
+             "category": "tools",
+             "summary": "Launched July 21, Record a Skill lets Pro, Max, and Team users screen-record themselves doing a workflow — filing expenses, sending emails, updating CRM fields — and Claude converts that recording into a reusable, rerunnable skill. No prompt engineering needed. Claude also suggests native connectors (QuickBooks, HubSpot, etc.) when they exist for steps in the recording. Early use cases include trading alerts, LinkedIn outreach, email replies, and expense filing. This is huge for SMBs: record your best employee's process once, rerun it forever.",
+             "tags": [
+                 "cowork",
+                 "record-a-skill",
+                 "automation",
+                 "no-code",
+                 "skills"
+             ],
+             "featured": true
+         },
+         {
+             "id": "2026-07-21-001",
+             "title": "Judge Approves $1.5B Anthropic Copyright Settlement \u2014 Authors Get ~$3K/Book for Pirated Training Data",
+             "url": "https://www.wsls.com/business/2026/07/21/judge-approves-a-15b-anthropic-settlement-over-pirated-books-used-to-train-the-claude-chatbot/",
+             "source": "WSLS / AP",
+             "sourceLabel": "wsls.com",
+             "category": "news",
+             "summary": "A federal judge approved a $1.5 billion settlement where Anthropic pays ~$3,000 per book to thousands of authors whose pirated works were used to train Claude. 91% of 482K+ covered books have been claimed. While not a direct product update, this settles the first major AI copyright lawsuit and signals legal stability for businesses building on Anthropic's platform. The underlying ruling also confirmed that training on copyrighted books is fair use \u2014 a precedent that benefits the entire Claude ecosystem.",
+             "tags": [
+                 "anthropic",
+                 "copyright",
+                 "legal",
+                 "fair-use",
+                 "settlement"
+             ]
+         },
+         {
+             "id": "2026-07-21-002",
+             "title": "FCA Supercharged Sandbox Brings Claude Code & Cowork to UK Fintechs \u2014 Automated Compliance, Fraud Detection, Agent Commerce",
+             "url": "https://www.fintechfutures.com/ai-in-fintech/anthropic-claude-fca-supercharged-sandbox",
+             "source": "Fintech Futures",
+             "sourceLabel": "fintechfutures.com",
+             "category": "news",
+             "summary": "Anthropic extended Claude Code and Cowork access to the second cohort of firms in the UK's Financial Conduct Authority Supercharged Sandbox, running through December 31. Firms will test automated compliance, fraud detection, and agent-led commerce using Claude skills. For SMBs in financial services (accounting firms, payment processors, lending operations): this signals that regulated industries are actively building production Claude workflows, with a clear regulatory pathway emerging.",
+             "tags": [
+                 "fca",
+                 "fintech",
+                 "compliance",
+                 "uk",
+                 "fraud-detection"
+             ]
+         },
+         {
+             "id": "2026-07-21-003",
+             "title": "What Made Claude Your Primary AI? Reddit Deep Dive \u2014 Coherence, Multi-Step Reasoning, and 'Pushing Back' Lead the Vote",
+             "url": "https://www.reddit.com/r/ClaudeAI/comments/1v45373/what_made_claude_become_your_primary_ai/",
+             "source": "Reddit / r/ClaudeAI",
+             "sourceLabel": "r/ClaudeAI",
+             "category": "community",
+             "summary": "A new thread explores why users chose Claude over competitors for daily use. Top factors: coherence on long multi-step tasks, transparent reasoning in coding, and the habit of 'pushing back' when asked to do something suboptimal. Some found this trait useful; a minority called it 'uppity.' Trust in Anthropic's ethics was frequently cited. For SMBs evaluating Claude for business-critical workflows: the community's #1 reason is reliability on complex, multi-step operations \u2014 exactly what automated skills depend on.",
+             "tags": [
+                 "reddit",
+                 "community",
+                 "primary-ai",
+                 "reliability",
+                 "multi-step"
+             ]
+         },
+         {
+             "id": "2026-07-20-001",
+             "title": "Claude Team Plan Minimum Slashed to 2 Seats \u2014 Finally Realistic for Micro-Teams",
+             "url": "https://claude.com/pricing",
+             "source": "Anthropic News",
+             "sourceLabel": "claude.com",
+             "category": "news",
+             "summary": "Effective July 20, the Claude Team plan minimum dropped from 5 to 2 seats, making it viable for real small businesses. Shared projects, admin controls, centralized billing, SSO, and enterprise search now accessible at half the previous minimum headcount. One SMB owner can bring in a part-time colleague without paying for three unused licenses. The $200/month Team Premium tier (with Fable 5 access) is now genuinely within reach of micro-consultancies and freelancer collectives.",
+             "tags": [
+                 "team-plan",
+                 "pricing",
+                 "smb",
+                 "micro-teams",
+                 "enterprise-features"
+             ]
+         },
+         {
+             "id": "2026-07-18-001",
+             "title": "Anthropic Makes Claude Fable 5 Permanent on Paid Plans After GPT-5.6 Backlash",
+             "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/",
+             "source": "Simon Willison's Weblog",
+             "sourceLabel": "simonwillison.net",
+             "category": "news",
+             "summary": "Beginning July 20, Claude Fable 5 is permanently included in all Max ($100/$200/mo) and Team Premium plans at 50% usage limits \u2014 a reversal driven by user backlash over Anthropic's earlier plan to remove it from subscriptions. Pro and Team Standard users keep access via credits plus a one-time $100 credit. The competition from GPT-5.6 Sol made Fable-only-API pricing untenable. SMB teams paying for Max or Team Premium now get the best model as standard, leveling up what they can automate with Claude Code skills.",
+             "tags": [
+                 "fable-5",
+                 "pricing",
+                 "anthropic",
+                 "subscription",
+                 "gpt-5-6"
+             ],
+             "featured": true
+         },
+         {
+             "id": "2026-07-14-001",
+             "title": "Anthropic Makes HIPAA Configuration Self-Serve for Claude Enterprise and API \u2014 Click-to-Activate",
+             "url": "https://claude.com/hipaa-self-serve",
+             "source": "Anthropic Support",
+             "sourceLabel": "claude.com/support",
+             "category": "news",
+             "summary": "Starting July 14, eligible Enterprise administrators can enable HIPAA compliance self-serve: review and accept the Business Associate Agreement (BAA), download an implementation guide, and toggle compliance in one workflow \u2014 no sales or legal cycle required. Available for both Claude Enterprise and Claude Platform (API). One caveat: it's irreversible, and certain features like Cowork and beta tools are excluded from BAA coverage. For SMBs in healthcare, dental, therapy, and med-tech, this removes a major deployment barrier.",
+             "tags": [
+                 "hipaa",
+                 "compliance",
+                 "healthcare",
+                 "enterprise",
+                 "self-serve"
+             ]
+         },
+         {
+             "id": "2026-07-11-004",
+             "title": "r/ClaudeAI: 15 Pre-Built SMB Workflows Benchmarked \u2014 Month-End Close and Morning Brief Top the List",
+             "url": "https://www.reddit.com/r/AISEOInsider/comments/1tlbj6b/new_claude_for_small_business_update_just_changed/",
+             "source": "Reddit / r/AISEOInsider",
+             "sourceLabel": "r/AISEOInsider",
+             "category": "tools",
+             "summary": "Early benchmarking of Claude for Small Business's 15 pre-built workflows shows month-end close and morning brief generation as the highest-ROI features. Users report these two alone save 5-8 hours per week. Payroll planning and invoice follow-up are runners-up. Campaign planning scored lowest \u2014 users prefer building custom prompts over Claude's template approach.",
+             "tags": [
+                 "benchmark",
+                 "workflows",
+                 "month-end-close",
+                 "morning-brief",
+                 "roi",
+                 "reddit"
+             ]
+         },
+         {
+             "id": "2026-07-11-003",
+             "title": "The Missing Integrations: SMBs Want Shopify, Stripe, ServiceTitan \u2014 Claude for Small Business Falls Short on Key Platforms",
+             "url": "https://www.reddit.com/r/smallbusinessowner/comments/1txsjce/claude_for_small_business/",
+             "source": "Reddit / r/smallbusinessowner",
+             "sourceLabel": "r/smallbusinessowner",
+             "category": "tools",
+             "summary": "After Claude for Small Business launched with 7 integrations (QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, MS365), SMB communities immediately highlighted what's missing. E-commerce operators want Shopify and Stripe; trades need ServiceTitan and Jobber. Anthropic acknowledged the gap but offered no timeline. Practical workaround: export data from unsupported tools to CSV and feed it to Claude for analysis \u2014 not ideal but functional.",
+             "tags": [
+                 "integrations",
+                 "shopify",
+                 "stripe",
+                 "trades",
+                 "missing-platforms",
+                 "workaround"
+             ]
+         },
+         {
+             "id": "2026-07-11-002",
+             "title": "SMB Owner Shares: Sign Company Uses Claude to Auto-Update Pricing from 20+ Vendor Sites Into Estimating Software",
+             "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdr91y/what_are_the_use_cases_of_claude_cowork_for_small/",
+             "source": "Reddit / r/ClaudeAI",
+             "sourceLabel": "r/ClaudeAI",
+             "category": "vertical",
+             "summary": "A sign company owner built a practical Claude skill that regularly scrapes vendor websites for pricing updates and pushes them into their estimating software \u2014 eliminating hours of manual price-checking across 20+ suppliers. Key lesson: SMBs should start with skills that solve one painful, repetitive workflow rather than trying to automate everything at once.",
+             "tags": [
+                 "reddit",
+                 "vertical",
+                 "sign-industry",
+                 "vendor-pricing",
+                 "time-savings",
+                 "cowork"
+             ]
+         },
+         {
+             "id": "2026-07-11-001",
+             "title": "r/ClaudeAI Community Reacts: 'Claude for Small Business' Is Marketing, Not Magic \u2014 Pros Owners Already Doing This on Pro Plans",
+             "url": "https://www.reddit.com/r/ClaudeAI/comments/1tc4jwp/anthropic_releases_claude_for_small_business/",
+             "source": "Reddit / r/ClaudeAI",
+             "sourceLabel": "r/ClaudeAI",
+             "category": "community",
+             "summary": "The verdict from experienced Claude users: 'Claude for Small Business' is repackaged Pro, not a new product. Savvy SMB owners were already getting the same workflows using QuickBooks, HubSpot, and Canva integrations on individual Pro plans. One complaint: no team plan for under 5 users \u2014 a gap where true small businesses operate. Practical takeaway: skip the upsell if you're solo or 2-3 people with Pro; the skills and workflows are the same.",
+             "tags": [
+                 "reddit",
+                 "community",
+                 "pricing-strategy",
+                 "pro-vs-small-business",
+                 "team-plan"
+             ]
+         },
+         {
+             "id": "2026-07-10-007",
+             "title": "Reddit: Developer Built a Claude Skill From 8 Months of Personal Code Sessions \u2014 Community Reacts",
+             "url": "https://www.reddit.com/r/ClaudeAI/comments/1urph4x/i_built_a_claude_skill_from_8_months_of_my_own/",
+             "source": "Reddit / r/ClaudeAI",
+             "sourceLabel": "r/ClaudeAI",
+             "category": "community",
+             "summary": "A developer shares building a Claude skill distilled from 8 months of their own Claude Code sessions \u2014 turning personal working patterns into a reusable skill file. The post sparked discussion on how SMB teams can reverse-engineer their own best practices into Claude skills. Takeaway: review your team's most successful workflows and codify them as skills rather than starting from scratch.",
+             "tags": [
+                 "reddit",
+                 "community",
+                 "skill-building",
+                 "code-sessions",
+                 "knowledge-capture"
+             ]
+         },
+         {
+             "id": "2026-07-10-004",
+             "title": "Boutique Law Firm Runs on Claude: 'Feels Like I Have an Army of AI Agents' \u2014 Business Insider",
+             "url": "https://www.businessinsider.com/ai-claude-got-lawyer-away-from-his-desk-more-efficient-2026-6",
+             "source": "Business Insider",
+             "sourceLabel": "businessinsider.com",
+             "category": "vertical",
+             "summary": "Corporate attorney Zack Shapiro's 3-person VC/M&A firm uses Claude to automate all grunt work \u2014 drafting, document prep, research. He uses voice mode on walks for creative cognitive work and says the firm 'operates like a much bigger one.' SMB legal practices can replicate: set up Claude Code skills for document automation, use voice mode for strategy sessions, and let AI handle repetitive tasks while humans focus on client work.",
+             "tags": [
+                 "law-firm",
+                 "vertical",
+                 "voice-mode",
+                 "automation",
+                 "business-insider"
+             ]
+         },
+         {
+             "id": "2026-07-10-003",
+             "title": "Claude Sonnet 5 Now Available on AWS \u2014 Intro Pricing $2/M input, $10/M output Through August 31",
+             "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+             "source": "AWS News",
+             "sourceLabel": "aws.amazon.com/blogs/aws",
+             "category": "news",
+             "summary": "Claude Sonnet 5 dropped June 30 and is now available on AWS. Introductory pricing runs $2/M input tokens and $10/M output tokens through August 31 \u2014 about one-third the cost of Opus 4.8. For SMBs building custom Claude skills or running automated workflows: this model matches Opus on agents, coding, and reasoning at a fraction of the price.",
+             "tags": [
+                 "sonnet-5",
+                 "aws",
+                 "pricing",
+                 "cost-savings",
+                 "agents"
+             ]
+         },
+         {
+             "id": "2026-07-10-001",
+             "title": "Claude Memory Overhaul: Individual Categorized Entries Replace Daily Summaries \u2014 Richer Context for Every Conversation",
+             "url": "https://claude.com/memory-update-july-2026",
+             "source": "ReleaseBot / Anthropic",
+             "sourceLabel": "releasebot.io",
+             "category": "news",
+             "summary": "Claude's memory system was updated to use individual, categorized entries instead of the previous daily memory summaries. Claude now reads and updates these structured entries during conversations for much richer context. SMB teams can organize memories by project, client, or function \u2014 turning Claude into a more reliable institutional memory that remembers past decisions without dumping walls of dated notes.",
+             "tags": [
+                 "memory",
+                 "anthropic",
+                 "feature-update",
+                 "smb-knowledge-management"
+             ]
+         },
+         {
+             "id": "2026-07-10-005",
+             "title": "Agensi Publishes 'Claude Cowork for Small Business' Guide: 5 Use Cases That Save 15+ Hours/Week",
+             "url": "https://www.agensi.io/learn/claude-cowork-for-small-business",
+             "source": "Agensi",
+             "sourceLabel": "agensi.io",
+             "category": "tools",
+             "summary": "A practical setup guide for non-technical owners: install Claude Desktop + Cowork, create three folders (clients, finance, marketing), attach matching skills, and schedule recurring tasks. Specific use cases include client document production, bookkeeping prep, social media drafting, weekly reporting, and digital housekeeping \u2014 all running on Claude Pro at $20/month without hiring developers or engineers.",
+             "tags": [
+                 "cowork",
+                 "setup-guide",
+                 "time-savings",
+                 "non-technical",
+                 "small-business"
+             ]
+         },
+         {
+             "id": "2026-07-10-006",
+             "title": "Real Estate Operators: Build AI Due Diligence on Claude vs. Buying a Vendor Tool \u2014 LinkedIn Deep Dive",
+             "url": "https://www.linkedin.com/posts/bharg_real-estate-operators-adopting-ai-for-due-activity-7479927410579259393-k6zF",
+             "source": "LinkedIn",
+             "sourceLabel": "r/real-estate / LinkedIn",
+             "category": "vertical",
+             "summary": "A detailed breakdown for real estate operators on when to buy off-the-shelf DD tools vs. building custom workflows on Claude or GPT. Covers lease abstraction, T-12 normalization, rent roll reconciliation, PCR parsing, and Phase I report analysis across multifamily, office, industrial, and retail properties. The key takeaway: most teams end up using both \u2014 use vendors for standardized analysis and Claude for custom patterns that off-the-shelf tools miss.",
+             "tags": [
+                 "real-estate",
+                 "due-diligence",
+                 "vendor-vs-build",
+                 "multi-family",
+                 "linkedin"
+             ]
+         },
+         {
+             "id": "2026-07-10-002",
+             "title": "Claude for Teachers Update: Educational Data Use Clarified by District and State Policy",
+             "url": "https://claude.com/teachers",
+             "source": "Anthropic News",
+             "sourceLabel": "claude.com",
+             "category": "news",
+             "summary": "An update to Claude for Teachers clarified that the use of educational data within the platform is governed by district and state policies, not Anthropic's default terms. For school admin staff and private tutoring businesses building Claude skills for education: this means data governance follows your institution's existing rules rather than a one-size-fits-all AI policy.",
+             "tags": [
+                 "education",
+                 "data-governance",
+                 "privacy",
+                 "teachers",
+                 "policy"
+             ]
+         }
+     ]
 }
